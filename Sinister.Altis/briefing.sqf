@@ -4,7 +4,7 @@ if(player diarySubjectExists "rules")exitwith{};
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["farms","Precos dos farms"];
 player createDiarySubject ["serverrules","Regras"];
-//player createDiarySubject ["recruitments","Recrutamentos"];
+player createDiarySubject ["recruitments","Recrutamentos"];
 //player createDiarySubject ["safezones","Safe Zones (No Killing)"];
 //player createDiarySubject ["civrules","Civilian Rules"];
 //player createDiarySubject ["illegalitems","Illegal Activity"];
