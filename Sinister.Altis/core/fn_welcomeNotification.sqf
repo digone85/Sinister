@@ -27,7 +27,7 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\placas\welcome.jpg' /></t><br /><br />";
 _message = _message + "<a href='https://www.facebook.com/groups/107843866273991/' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Facebook.<br /><br />";
-_message = _message + "<a href='http://hostgamesmafia.forumeiros.com/forum' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Fórum.<br /><br />";
+_message = _message + "<a href='http://sinisteraltislife.forumeiros.com/' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Fórum.<br /><br />";
 _message = _message + "Teamspeak 3: mafiaaltisbrasil.meuts3.com.br   <br /><br />";
 _message = _message + "Use a tecla windows para minerar/farmar   <br /><br />";
 _message = _message + "Use a tecla TAB para se render   <br /><br />";
