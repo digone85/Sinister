@@ -151,13 +151,27 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"3.Banimentos",
 				"
-				Itens nesta lista podem resultar em seu afastamento do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
-
-				1. Em zonas seguras, e estritamente proibido, assaltos, tiroteios, e hueragem, Rebeldes que fugirem, para uma safe, poderá ser abordado pela policia, sem poder reagir. Obs:Não poderáo ser revistados, caso não tenham sido perseguidos.<br/>
-				2. Será entendido como ordem de parada, qualquer viatura, com giroflex ligado, caso não pare, ou não demostre, reação, de que vá parar, será permitido o uso da força, para forçar a abordagem, Mesmo sendo civil, priorizando os pneus.<br/>
-				3. Rebeldes, e policiais, poderão, se matar, caso veja o outro a vista, exceto, em safe zones,  o policial, será obrigado a aborda, caso o rebelde, esteja desarmado.<br/>
-				4. E proibido, civis com armas civis, ou armas rebeldes (Sem roupa), atacar policiais, aleatoriamente, (Caso não tenha nada  a esconder, e atirar por que quer).<br/>
-				5. Impedir propositalmente os policiais de realizar suas atividades será considerada infração e poderá ser preso. Ocorrendo de forma constante, resultará na sua remoção do servidor.<br/><br/>
+				1. Atirar em um jogador sem dar um tempo razoável para ele seguir suas ordens é considerado Anti roleplay - AntiRP - Banimento por 1 dia.<br/>
+				2. Atropelamento Proposital COM PRINT DO DENUNCIANTE - RDM - BANIMENTOS 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
+				3. Hack/Dup/Bugs/Glich/Exploits - /3dias e reset /permanente.<br/>
+				4. Deslogar/Desconectar Algemado, Rendido, durante o pvp; - 200k multa /BANIMENTO 2 DIAS.<br/>
+				5. Matar em SAFEZONE ou RESPAWN - 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
+				6. Desrespeito (Com o servidor ou com Players) - BANIMENTO 5 HORAS.<br/>
+				7. SPAM em CHAT/CELULAR - 1dia/3dias/7dias/permanente.<br/>
+				8. Utilizar veículo armado sem ser no assalto a reserva federal ARMADO/BLINDADO - BANIMENTO 1 DIA.<br/>
+				9. Iniciar o Assalto a player a mais de 30 mts sem digitar no SIDE CHANNEL (CANAL AZUL) - BANIMENTO DE 5 HORAS.<br/>
+				10. Concluir o Assalto a player a mais de 30 mts sem estar no chão, mesmo anunciando - BANIMENTO DE 5 HORAS.<br/>
+				11. Falar/colocar músicas/gritar, etc no SIDE CHANNEL - BANIMENTO 2 DIAS.<br/>
+				12. Matar SAMU propositalmente sendo denunciado pelo comandante da SAMU - BANIMENTO 2 DIAS.<br/>
+				13. Retornar ao local de sua morte antes de 15 minutos - BANIMENTO 5 HORAS.<br/>
+				14. Aproximar-se a menos de 300mt do local de sua morte durante 15 minutos, -BANIMENTO 5 HORAS.<br/>
+				15. Matar player algemado sendo levado pela polícia para não ser preso, mesmo por acidente - BANIMENTO 1 DIAS.<br/>
+				16. Matar Players em qualquer hospital após ser ressuscitado - BANIMENTO 1 DIAS.<br/>
+				17. Matar Players por vingança em nova vida- BANIMENTO 1 DIA.<br/>
+				18. Matar cops ou samu dentro de HQ's ou hospitais, por qualquer razão - BANIMENTO 2 DIAS.<br/>
+				19. Ao morrer pressionar ALT+F4, retirar o cabo da internet, etc. e -500k na conta. - BANIMENTO 2 DIAS.<br/>
+				20. Ficar na cancela de qualquer local fechando ou abrindo cancelas para estragar veículos é considerado antiRP - BANIMENTO 1 DIA.<br/>
+				21. Em toda a situação que ficar comprovado ou decidido pelo conselho do servidor que o player realizou RDM o mesmo será BANIDO por 5 dias do Servidor<br/><br/>
 				"
 		]
 	];
