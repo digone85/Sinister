@@ -84,12 +84,12 @@ player createDiarySubject ["controles","Controles"];
 				5. Denunciar players que sejam suspeitos de hack/dupe/glichts.<br/>
 				6. Denunciar a presença de players já banidos anteriormente do servidor.<br/>
 				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos<br/><br/>
-				==============================================================================<br/><br/>
-				CIVIL<br/>
+				===================================================================<br/>
+				CIVIL<br/><br/>
 				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
 				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/><br/>
-				==============================================================================<br/><br/>
-				REBELDE<br/>
+				===================================================================<br/>
+				REBELDE<br/><br/>
 				1. REBELDE tem o direito de agir como achar melhor em relação a abordagem policial ou a outros rebeldes, mas atente-se ao tratar com civis, respeite as regras.<br/>
 				2. O REBELDE que for ressuscitado terá que obrigatoriamente, guardar as armas e acompanhar o médico até o hospital, onde iniciará sua nova vida.<br/>
 				3. O REBELDE que for visto pela polícia e estiver em cidades principais (safezones), poderá ser TEZADO pela polícia sem aviso prévio.<br/>
@@ -97,8 +97,8 @@ player createDiarySubject ["controles","Controles"];
 				5. O REBELDE que for abordado e não cooperar, ou for desrespeitoso, ou estiver em alguma área considerada civil, será abordado, algemado e obrigado a entregar seus itens rebeldes, roupa rebelde, colete rebelde e armas rebeldes ALÉM DE SER MULTADO em R$ 50,000 (Cinquenta Mil), e liberado caso não tenha nenhuma pendência com a polícia (não esteja na lista de procurados), CASO SE RECUSE A PAGAR A MULTA, SERÁ ENCAMINHADO A PRISÃO.<br/>
 				6. O REBELDE a ser abordado em qualquer local e fugir durante a perseguição para qualquer local com SAFEZONE poderá ser preso dentro da mesma.<br/>
 				7. Atente-se, MERCADO NEGRO É LOCAL DE TRÁFICO<br/><br/>
-				==============================================================================<br/><br/>
-				POLICIAL/SAMU<br/>
+				===================================================================<br/>
+				POLICIAL/SAMU<br/><br/>
 				1. Nenhum cop está autorizado a logar como civil, salvo autorizado pelos ADMs.<br/>
 				2. Respeitar todos os players, agir cordialmente e educadamente respeitando as abordagens conforme orientado por seu superiores.<br/>
 				3. Após a morte em confronto de PvP contra rebeldes  o policial somente poderá voltar após 15 MINUTOS.<br/>
@@ -129,13 +129,13 @@ player createDiarySubject ["controles","Controles"];
 				2. Você não pode prender alguém se já lhe aplicou uma multa e esta foi paga.<br/>
 				3. Você deve falar para o suspeito o motivo dele estar sendo preso, antes de prendê-lo.<br/>
 				4. Se um civil é procurado você deve prendê-lo. Não pode matá-lo, a menos que a situação necessite o uso de força letal.<br/><br/>
-				==============================================================================<br/><br/>
+				===================================================================<br/>
 				MULTAS<br/><br/>
 				1. A multa é considerada um aviso para o civil. Se ele quebra uma lei, mas não representa uma ameaça para ninguém, você pode multá-lo.<br/>
 				2. Multas devem ter um preço razoável.<br/>
 				3. A recusa do pagamento de uma multa, é um motivo legítimo para a prisão.<br/>
 				4. Multar um civil em um valor que fere o bom senso (100k por excesso de velocidade) não é permitido e resultará em sanção e possibilita a remoção do agente da polícia.<br/><br/>
-				==============================================================================<br/><br/>
+				===================================================================<br/>
 				EXEMPLO DE MULTAS:<br/><br/>
 				1. Perturbação da ordem pública: 20000<br/>
 				2. Desacato: 15000<br/>
