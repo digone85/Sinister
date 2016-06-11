@@ -34,6 +34,8 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["farms",
 		[
+			"Preco dos Farms",
+			
 				"
 				Farms Legais<br/><br/>
 				1. Petroleo e oleo: 4100<br/>
@@ -42,6 +44,7 @@ player createDiarySubject ["controles","Controles"];
 				4. Sal: 1850<br/>
 				5. Vidro: 1850<br/>
 				6. Cimento: 2350<br/><br/>
+			
 				Farms Ilegais<br/><br/>
 				1.Heroina: 5000<br/>
 				2.Maconha: 5200<br/>
@@ -55,7 +58,7 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Regras Gerais",
+			"1.Regras Gerais",
 				"
 				
 				1. Safezones: São consideradas Safezones todas as areas demarcadas com um circulo.<br/>
@@ -71,7 +74,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord["serverrules",
 		[
-			"Regras Especificas",
+			"2.Regras Especificas",
 				"
 				
 				1. Policiais e civis podem trocar tiros se houver razão para tal. Como alguém ter cometido algum crime.<br/>
@@ -81,11 +84,11 @@ player createDiarySubject ["controles","Controles"];
 				5. Denunciar players que sejam suspeitos de hack/dupe/glichts.<br/>
 				6. Denunciar a presença de players já banidos anteriormente do servidor.<br/>
 				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos<br/><br/>
-				
+				==============================================================================<br/><br/>
 				CIVIL<br/>
 				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
 				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/><br/>
-				
+				==============================================================================<br/><br/>
 				REBELDE<br/>
 				1. REBELDE tem o direito de agir como achar melhor em relação a abordagem policial ou a outros rebeldes, mas atente-se ao tratar com civis, respeite as regras.<br/>
 				2. O REBELDE que for ressuscitado terá que obrigatoriamente, guardar as armas e acompanhar o médico até o hospital, onde iniciará sua nova vida.<br/>
@@ -94,7 +97,7 @@ player createDiarySubject ["controles","Controles"];
 				5. O REBELDE que for abordado e não cooperar, ou for desrespeitoso, ou estiver em alguma área considerada civil, será abordado, algemado e obrigado a entregar seus itens rebeldes, roupa rebelde, colete rebelde e armas rebeldes ALÉM DE SER MULTADO em R$ 50,000 (Cinquenta Mil), e liberado caso não tenha nenhuma pendência com a polícia (não esteja na lista de procurados), CASO SE RECUSE A PAGAR A MULTA, SERÁ ENCAMINHADO A PRISÃO.<br/>
 				6. O REBELDE a ser abordado em qualquer local e fugir durante a perseguição para qualquer local com SAFEZONE poderá ser preso dentro da mesma.<br/>
 				7. Atente-se, MERCADO NEGRO É LOCAL DE TRÁFICO<br/><br/>
-				
+				==============================================================================<br/><br/>
 				POLICIAL/SAMU<br/>
 				1. Nenhum cop está autorizado a logar como civil, salvo autorizado pelos ADMs.<br/>
 				2. Respeitar todos os players, agir cordialmente e educadamente respeitando as abordagens conforme orientado por seu superiores.<br/>
@@ -103,13 +106,15 @@ player createDiarySubject ["controles","Controles"];
 				5. Apenas 2 aeronaves policiais no ar é permitido. 1 Helicóptero já é o suficiente, subir outro apenas com autorização do superior.<br/>
 				6. Cada Policial pode carregar no máximo 4 granadas de luz (Flashbang) e usa-las sempre que for realmente necessário.<br/>
 				7. Ao capturar um criminoso, o policial deverá leva-lo imediatamente sem demora para a HQ - Delegacia mais próxima onde será explicado tudo e ao indivíduo preso, para evitar emboscadas e resgate do mesmo no local onde foi capturado, principalmente quando faz parte de uma Gangue.<br/>
-				8.<br/>
-				9.<br/>
-				10.<br/>
-				11.<br/>
-				12.<br/>
-				13.<br/><br/>
-				
+				8. Em casos de PvP, tiroteio onde os Policiais ficam sozinhos com risco de vida sem possibilidades de levar alguém preso, eles podem matar qualquer um que estiverem perto se não obedecerem a Ordem de se retirar<br/>
+				9. Em caso de ausência, o policial pode ficar no máximo 2 semanas fora (com aviso da ausência e motivo ), caso contrário, poderá ser demitido e/ou trocado por outro, porém, no próximo recrutamento estará sendo o número 1 na lista para entrar na polícia novamente e deverá voltar na mesma patente que era para seus esforços não terem ido em vão. Isto vale apenas para patentes inferiores a Tenente<br/>
+				10. SAMU somente poderá transportar players ressuscitados no trajeto do local do salvamento e o hospital.<br/>
+				11. SAMU não poderá transportar nenhum item em seu helicóptero.<br/>
+				12. Enquanto não houverem chamados O SAMU deverá permanecer nos hospitais.<br/>
+				13. SAMU não está autorizada a reviver ninguém nas imediações da reserva federal durante PVP de roubo a reserva.<br/>
+				14. A SAMU, ao reviver alguém em uma situação de risco, a prioridade de reviver é da policia.<br/>
+				15. A SAMU poderá ser desautorizada pela polícia a ressuscitar players durante PVP, bem como permanecer sobrevoando a área.<br/>
+				16. O POLICIAL que for ressuscitado após morrer em acidente terá o direito de escolher se quer ou não ser levado ao hospital.<br/><br/>
 				"
 		]
 	];
@@ -117,21 +122,34 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"Ofensas que serão banidas",
+			"3.Prisões e Multas",
 				"
-				Considere este seu primeiro e único aviso.<br/><br/>
-
-				1. Matar sem RolePlay.<br/>
-				2. Matar sem Esperar o cumprimento das ordens.<br/>
-				3. Se aproveitar de bugs, sem avisar a administração.<br/>
-				4. Ban de 1 mês, poderá pagar o valor de 30 reias, para retirar o Ban (Segunda vez, com 1 mês de ban, Ban eterno.<br/><br/>
+				PRISÕES<br/><br/>
+				1. A prisão deve ser realizada para criminosos que são considerados um perigo para si ou outrem.<br/>
+				2. Você não pode prender alguém se já lhe aplicou uma multa e esta foi paga.<br/>
+				3. Você deve falar para o suspeito o motivo dele estar sendo preso, antes de prendê-lo.<br/>
+				4. Se um civil é procurado você deve prendê-lo. Não pode matá-lo, a menos que a situação necessite o uso de força letal.<br/><br/>
+				==============================================================================<br/><br/>
+				MULTAS<br/><br/>
+				1. A multa é considerada um aviso para o civil. Se ele quebra uma lei, mas não representa uma ameaça para ninguém, você pode multá-lo.<br/>
+				2. Multas devem ter um preço razoável.<br/>
+				3. A recusa do pagamento de uma multa, é um motivo legítimo para a prisão.<br/>
+				4. Multar um civil em um valor que fere o bom senso (100k por excesso de velocidade) não é permitido e resultará em sanção e possibilita a remoção do agente da polícia.<br/><br/>
+				==============================================================================<br/><br/>
+				EXEMPLO DE MULTAS:<br/><br/>
+				1. Perturbação da ordem pública: 20000<br/>
+				2. Desacato: 15000<br/>
+				3. Fuga da Polícia (sem argumento): 20000<br/>
+				4. Porte de Arma Ilegal: 30000<br/>
+				5. Porte de Item Ilegal: 25000<br/>
+				6. Demais situações serão analisadas caso a caso.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"Interação Policial",
+			"3.Banimentos",
 				"
 				Itens nesta lista podem resultar em seu afastamento do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
