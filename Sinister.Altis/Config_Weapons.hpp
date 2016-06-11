@@ -22,11 +22,11 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500 },
-            { "hgun_Pistol_heavy_01_F", "", 9850 },
+            { "hgun_Rook40_F", "", 6500, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 9850, -1 },
             { "SMG_01_F", "", 70000, -1 },
             { "SMG_02_F", "", 80000, -1 },
-			{ "hgun_PDW2000_F", "", 20000 }
+	    { "hgun_PDW2000_F", "", 20000, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "", 25 },
@@ -36,7 +36,7 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500 },
+            { "optic_ACO_grn_smg", "", 2500, -1 },
         };
     };
 
@@ -53,11 +53,11 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_AMS", "", 90000 },
-            { "optic_Hamr", "", 10500 },
-            { "bipod_01_F_blk", "", 4000 },
-            { "bipod_01_F_mtp", "", 4000 },
-            { "bipod_01_F_snd", "", 4000 },
+            { "optic_AMS", "", 90000, -1 },
+            { "optic_Hamr", "", 10500, -1 },
+            { "bipod_01_F_blk", "", 4000, -1 },
+            { "bipod_01_F_mtp", "", 4000, -1 },
+            { "bipod_01_F_snd", "", 4000, -1 },
             
             { "hgun_Rook40_F", "", 30000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
@@ -85,11 +85,12 @@ class WeaponShops {
             { "10Rnd_338_Mag", "", 2500 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 9500 },
-            { "optic_SOS", "", 15000 },
-            { "optic_DMS", "", 18000 },
-            { "optic_Arco", "", 20000 },
-            { "optic_Holosight_smg", "", 15000 }
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
         };
     };
     
@@ -106,11 +107,18 @@ class WeaponShops {
             { "FirstAidKit", "", 75, -1 },
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 1000, -1 },
-            { "optic_AMS", "", 45000 },
-            { "optic_Hamr", "", 5250 },
-            { "bipod_01_F_blk", "", 2000 },
-            { "bipod_01_F_mtp", "", 2000 },
-            { "bipod_01_F_snd", "", 2000 },
+            { "optic_AMS", "", 45000, -1 },
+            { "optic_Hamr", "", 5250, -1 },
+            { "bipod_01_F_blk", "", 2000, -1 },
+            { "bipod_01_F_mtp", "", 2000, -1 },
+            { "bipod_01_F_snd", "", 2000, -1 },
+            { "muzzle_snds_H", "", 2000, -1 },
+            { "muzzle_snds_L", "", 2000, -1 },
+            { "muzzle_snds_M", "", 2000, -1 },
+            { "muzzle_snds_B", "", 2000, -1 },
+            { "muzzle_snds_H_MG", "", 2000, -1 },
+            { "muzzle_snds_93mmg", "", 2000, -1 },
+            { "muzzle_snds_338_sand", "", 2000, -1 },
             
             { "hgun_Rook40_F", "", 15000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 20000, -1 },
@@ -154,11 +162,12 @@ class WeaponShops {
             { "10Rnd_93x64_DMR_05_Mag", "", 1500 }
         };
         accs[] = {
-             { "optic_ACO_grn_smg", "", 4750 },
-            { "optic_SOS", "", 7500 },
-            { "optic_DMS", "", 9000 },
-            { "optic_Arco", "", 10000 },
-            { "optic_Holosight_smg", "", 7500 }
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
         };
     };
             
@@ -187,7 +196,7 @@ class WeaponShops {
             { "10Rnd_762x54_Mag", "", 130 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 }
+            { "optic_ACO_grn_smg", "", 950, -1 }
         };
     };
 
@@ -259,10 +268,10 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_Hamr", "", 5000 },
-            { "bipod_01_F_blk", "", 4000 },
-            { "bipod_01_F_mtp", "", 4000 },
-            { "bipod_01_F_snd", "", 4000 }
+            { "optic_Hamr", "", 5000, -1 },
+            { "bipod_01_F_blk", "", 4000, -1 },
+            { "bipod_01_F_mtp", "", 4000, -1 },
+            { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -270,14 +279,12 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 150 },
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 },
-            { "optic_SOS", "", 1500 },
-            { "optic_DMS", "", 1800 },
-            { "optic_Arco", "", 2000 },
-            { "optic_Holosight_smg", "", 1500 },
-            { "bipod_01_F_blk", "", 800 },
-            { "bipod_01_F_mtp", "", 800 },
-            { "bipod_01_F_snd", "", 800 }
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
         };
     };
 
@@ -305,11 +312,11 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_AMS", "", 45000 },
-            { "optic_Hamr", "", 10500 },
-            { "bipod_01_F_blk", "", 4000 },
-            { "bipod_01_F_mtp", "", 4000 },
-            { "bipod_01_F_snd", "", 4000 }
+            { "optic_AMS", "", 45000, -1 },
+            { "optic_Hamr", "", 10500, -1 },
+            { "bipod_01_F_blk", "", 4000, -1 },
+            { "bipod_01_F_mtp", "", 4000, -1 },
+            { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -322,11 +329,12 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag_Tracer", "", 130 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 },
-            { "optic_SOS", "", 1500 },
-            { "optic_DMS", "", 1800 },
-            { "optic_Arco", "", 2000 },
-            { "optic_Holosight_smg", "", 1500 }
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
         };
     };
 
@@ -358,9 +366,9 @@ class WeaponShops {
             { "NVGoggles", "", 2000, -1 },
             { "optic_AMS", "", 45000 },
             { "optic_Hamr", "", 5000 },
-            { "bipod_01_F_blk", "", 4000 },
-            { "bipod_01_F_mtp", "", 4000 },
-            { "bipod_01_F_snd", "", 4000 }
+            { "bipod_01_F_blk", "", 4000, -1 },
+            { "bipod_01_F_mtp", "", 4000, -1 },
+            { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 20 },
@@ -374,11 +382,12 @@ class WeaponShops {
             { "10Rnd_127x54_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 },
-            { "optic_SOS", "", 1500 },
-            { "optic_DMS", "", 1800 },
-            { "optic_Arco", "", 2000 },
-            { "optic_Holosight_smg", "", 1500 }
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
         };
     };
 
@@ -423,7 +432,7 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 2000 }
         };
         accs[] = {
-            { "optic_Arco", "", 4000 }
+            { "optic_Arco", "", 4000, -1 }
         };
     };
 };
