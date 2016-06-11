@@ -3,11 +3,11 @@ if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["farms","Precos dos farms"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
+player createDiarySubject ["serverrules","Regras"];
+//player createDiarySubject ["policerules","Police Procedures/Rules"];
+//player createDiarySubject ["safezones","Safe Zones (No Killing)"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
+//player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controles","Controles"];
@@ -34,7 +34,6 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["farms",
 		[
-			"Preco dos farms",
 				"
 				Farms Legais<br/><br/>
 				1. Petroleo e oleo: 4100<br/>
@@ -42,45 +41,75 @@ player createDiarySubject ["controles","Controles"];
 				3. Ferro: 4100<br/>
 				4. Sal: 1850<br/>
 				5. Vidro: 1850<br/>
-				6. Cimento: 2350<br/>
+				6. Cimento: 2350<br/><br/>
 				Farms Ilegais<br/><br/>
 				1.Heroina: 5000<br/>
 				2.Maconha: 5200<br/>
 				3.Cocaina: 5500<br/>
-				4.Diamante: 6800<br/>
-				5.Tartaruga: <br/><br/>
+				4.Diamante: 6800<br/><br/>
 				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
 				Barra de Ouro: 95000<br/><br/>
-				NEWS: O MERCADO DE DIAMANTE ESTÁ EM ALTA. APROVEITEM!<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Levar vantagem",
+			"Regras Gerais",
 				"
-				Os uso dos artifícios abaixo são considerados “levar vantagem” e você será banido.<br/><br/>
-
-				1. Proibido utilizar  Anti-VDM a recuperar a saúde total.<br/>
-				2. Não será permitido, prayers usarem cheating, hacking, exploiting e ataques DDOS qualquer programa cheating.<br/>
-				3. Bullying não e aceitavel em nosso servidor. <br/>
-				4. Proibido assedio sexual.<br/>
-				5. Proibido o combate log no jogo, em qualquer ponto onde você esteja no Role-Play.<br/><br/>
+				
+				1. Safezones: São consideradas Safezones todas as areas demarcadas com um circulo.<br/>
+				2. RDM: É considerado RDM matar sem motivo qualquer player que não tenha chance de se defender ou não souber a razão do dano. O player que relatar tal ato deverá apresentar printscreens.<br/>
+				3. Bullying e assédio não são aceitaveis em nosso servidor.<br/>
+				4. Printscreens: É IMPORTANTE TIRAR PRINTSCREENS (F12) para provar que esta cumprindo as regras, caso contrário, não haverá como reportar.<br/>
+				5. Ressarcimentos: Todo e qualquer tipo de ressarcimento só será dado a players no ts.<br/>
+				6. Prejuízos causados por ataques DDos: Nosso servidor possui proteção anti DDos, mas em caso de quedas relacionadas a isso todo e qualquer prejuízo será ressarcido, desde que comprovado.<br/>
+				7. O OBJETIVO PRINCIPAL DA POLÍCIA: Antes de mais nada, o objetivo da polícia é prender players, apreender veículos, mas em muitos casos haverá necessidade de ser utilizada força letal, fique esperto<br/><br/>
 				"
 		]
 	];
 
-	player createDiaryRecord["safezones",
+	player createDiaryRecord["serverrules",
 		[
-			"Safe Zones",
+			"Regras Especificas",
 				"
-					Se bombardear (bombardear pode ser explodir um veículo intencionalmente), roubar, ficar atropelando, ou atirando nessas áreas, será punido com banimento.<br/><br/>
-
-					Qualquer spawn de veículo (loja ou garagem)<br/>
-					Todos batalhões policiais<br/>
-					Postos avançados Rebeldes<br/>
-					Lojas vip<br/><br/>
+				
+				1. Policiais e civis podem trocar tiros se houver razão para tal. Como alguém ter cometido algum crime.<br/>
+				2. Se você morrer em um fogo cruzado, isso não é considerado RDM.<br/>
+				3. Matar alguém para se proteger ou proteger terceiros sob clara ameaça não é RDM.<br/>
+				4. Não existe vingança após a morte, MORREU E FOI RESSUSCITADO é NOVA VIDA.<br/>
+				5. Denunciar players que sejam suspeitos de hack/dupe/glichts.<br/>
+				6. Denunciar a presença de players já banidos anteriormente do servidor.<br/>
+				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos<br/><br/>
+				
+				CIVIL<br/>
+				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
+				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/><br/>
+				
+				REBELDE<br/>
+				1. REBELDE tem o direito de agir como achar melhor em relação a abordagem policial ou a outros rebeldes, mas atente-se ao tratar com civis, respeite as regras.<br/>
+				2. O REBELDE que for ressuscitado terá que obrigatoriamente, guardar as armas e acompanhar o médico até o hospital, onde iniciará sua nova vida.<br/>
+				3. O REBELDE que for visto pela polícia e estiver em cidades principais (safezones), poderá ser TEZADO pela polícia sem aviso prévio.<br/>
+				4. O CIVIL que estiver TRAJANDO roupa REBELDE, mesmo sem licença rebelde e portando equipamento rebelde será considerado PERIGOSO, não importando o local onde esteja, será algemado e averiguado, caso resista o policial está autorizado a utilizar força letal, sempre objetivando realizar a prisão.<br/>
+				5. O REBELDE que for abordado e não cooperar, ou for desrespeitoso, ou estiver em alguma área considerada civil, será abordado, algemado e obrigado a entregar seus itens rebeldes, roupa rebelde, colete rebelde e armas rebeldes ALÉM DE SER MULTADO em R$ 50,000 (Cinquenta Mil), e liberado caso não tenha nenhuma pendência com a polícia (não esteja na lista de procurados), CASO SE RECUSE A PAGAR A MULTA, SERÁ ENCAMINHADO A PRISÃO.<br/>
+				6. O REBELDE a ser abordado em qualquer local e fugir durante a perseguição para qualquer local com SAFEZONE poderá ser preso dentro da mesma.<br/>
+				7. Atente-se, MERCADO NEGRO É LOCAL DE TRÁFICO<br/><br/>
+				
+				POLICIAL/SAMU<br/>
+				1. Nenhum cop está autorizado a logar como civil, salvo autorizado pelos ADMs.<br/>
+				2. Respeitar todos os players, agir cordialmente e educadamente respeitando as abordagens conforme orientado por seu superiores.<br/>
+				3. Após a morte em confronto de PvP contra rebeldes  o policial somente poderá voltar após 15 MINUTOS.<br/>
+				4. Os Blindados e Offroad armada .50, poderá somente ser utilizado durante assalto a reserva federal e sob comando de oficial superior com patente mínima de Tenente.<br/>
+				5. Apenas 2 aeronaves policiais no ar é permitido. 1 Helicóptero já é o suficiente, subir outro apenas com autorização do superior.<br/>
+				6. Cada Policial pode carregar no máximo 4 granadas de luz (Flashbang) e usa-las sempre que for realmente necessário.<br/>
+				7. Ao capturar um criminoso, o policial deverá leva-lo imediatamente sem demora para a HQ - Delegacia mais próxima onde será explicado tudo e ao indivíduo preso, para evitar emboscadas e resgate do mesmo no local onde foi capturado, principalmente quando faz parte de uma Gangue.<br/>
+				8.<br/>
+				9.<br/>
+				10.<br/>
+				11.<br/>
+				12.<br/>
+				13.<br/><br/>
+				
 				"
 		]
 	];
