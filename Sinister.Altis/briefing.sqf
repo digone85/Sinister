@@ -245,6 +245,4 @@ player createDiarySubject ["controles","Controles"];
 				"
 		]
 	];
-		[
-	TODAS AS REGRAS PODERÃO SER ALTERADAS SEM AVISOS PRÉVIOS !!!
-		];
+	
