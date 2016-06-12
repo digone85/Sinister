@@ -414,7 +414,7 @@ class WeaponShops {
     };
     
     class cop_vip {
-        name = "Loja do Cop VIP";
+        name = "Loja de armas VIP";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 8, "Voce precisar ser VIP para Acessar!" };
