@@ -254,13 +254,12 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, -1 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
-            { "arifle_MX_F", "", 35000, -1 },
-            { "hgun_P07_F", "", 7500, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
+            { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
+            { "arifle_TRG21_F", "", 30000, -1 },
+            { "arifle_Katiba_F", "", 35000, -1 },
+            { "arifle_MX_F", "", 7500, -1 },
             
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, -1 },
@@ -268,15 +267,24 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_Hamr", "", 5000, -1 },
+            { "B_UavTerminal", "", 2000, -1 },
+            { "muzzle_snds_H", "", 2000, -1 },
+            { "muzzle_snds_L", "", 2000, -1 },
+            { "muzzle_snds_M", "", 2000, -1 },
+            { "muzzle_snds_B", "", 2000, -1 },
+            { "muzzle_snds_H_MG", "", 2000, -1 },
+            { "muzzle_snds_93mmg", "", 2000, -1 },
+            { "muzzle_snds_338_sand", "", 2000, -1 },
             { "bipod_01_F_blk", "", 4000, -1 },
             { "bipod_01_F_mtp", "", 4000, -1 },
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_9x21_Mag", "", 25 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-            { "30Rnd_65x39_caseless_mag", "", 150 },
+            { "30Rnd_556x45_Stanag", "", 150 },
+            { "30Rnd_65x39_caseless_green", "", 150 },
+            { "30Rnd_65x39_caseless_mag", "", 150 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -294,17 +302,15 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-             { "arifle_sdar_F", "Taser Rifle", 20000, -1 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
-            { "hgun_P07_F", "", 7500, -1 },
-            { "arifle_MXC_Black_F", "", 10000, -1 },
-            { "arifle_MXM_Black_F", "", 12000, -1 },
-            { "arifle_MX_SW_Black_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "MineDetector", "", 1000, -1 },
+	    { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
+            { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
+            { "arifle_TRG21_F", "", 30000, -1 },
+            { "arifle_Katiba_F", "", 35000, -1 },
+            { "arifle_MX_F", "", 7500, -1 },
+            { "arifle_MXM_Black_F", 20000, -1 },
+            { "arifle_MX_SW_Black_F", 2000, -1 },
+            { "LMG_Mk200_F", "", 30000, -1 },
             
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, -1 },
@@ -312,21 +318,28 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_AMS", "", 45000, -1 },
-            { "optic_Hamr", "", 10500, -1 },
+            { "B_UavTerminal", "", 2000, -1 },
+            { "muzzle_snds_H", "", 2000, -1 },
+            { "muzzle_snds_L", "", 2000, -1 },
+            { "muzzle_snds_M", "", 2000, -1 },
+            { "muzzle_snds_B", "", 2000, -1 },
+            { "muzzle_snds_H_MG", "", 2000, -1 },
+            { "muzzle_snds_93mmg", "", 2000, -1 },
+            { "muzzle_snds_338_sand", "", 2000, -1 },
             { "bipod_01_F_blk", "", 4000, -1 },
             { "bipod_01_F_mtp", "", 4000, -1 },
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_9x21_Mag", "", 25 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
+            { "30Rnd_556x45_Stanag", "", 150 },
+            { "30Rnd_65x39_caseless_green", "", 150 },
             { "30Rnd_65x39_caseless_mag", "", 150 },
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 150 },
-            { "100Rnd_65x39_caseless_mag", "", 150 },
-            { "200Rnd_65x39_cased_Box", "", 300 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 300 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 130 }
+            { "30Rnd_65x39_caseless_mag", "", 25 },
+            { "100Rnd_65x39_caseless_mag", 45 },
+            { "200Rnd_65x39_cased_Box", 45 }
+            
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -344,19 +357,19 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 5000, -1 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
-            { "SMG_02_ACO_F", "", 6000, -1 },
-            { "hgun_P07_F", "", 7500, -1 },
-            { "srifle_EBR_F", "", 8500, -1 },
-            { "srifle_DMR_03_F", "", 10000, -1 },
-            { "srifle_DMR_04_ACO_F", "", 10000, -1 },
-            { "srifle_DMR_05_blk_F", "", 12000, -1 },
-            { "srifle_DMR_06_camo_F", "", 14000, -1 },
-            { "srifle_DMR_02_F", "", 14000, -1 },
-            { "LMG_Zafir_F", "", 20000, -1 },
-             
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
+            { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
+            { "arifle_TRG21_F", "", 30000, -1 },
+            { "arifle_Katiba_F", "", 35000, -1 },
+            { "arifle_MX_F", "", 7500, -1 },
+            { "arifle_MXM_Black_F", 20000, -1 },
+            { "arifle_MX_SW_Black_F", 2000, -1 },
+            { "LMG_Mk200_F", "", 30000, -1 },
+            { "srifle_DMR_01_F", 20000, -1 },
+            { "srifle_EBR_F", 2000, -1 },
+            { "srifle_DMR_06_olive_F", "", 30000, -1 },
+            { "srifle_DMR_02_F", "", 35000, -1 },
+            
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, -1 },
@@ -364,22 +377,31 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 2000, -1 },
-            { "optic_AMS", "", 45000 },
-            { "optic_Hamr", "", 5000 },
+            { "B_UavTerminal", "", 2000, -1 },
+            { "muzzle_snds_H", "", 2000, -1 },
+            { "muzzle_snds_L", "", 2000, -1 },
+            { "muzzle_snds_M", "", 2000, -1 },
+            { "muzzle_snds_B", "", 2000, -1 },
+            { "muzzle_snds_H_MG", "", 2000, -1 },
+            { "muzzle_snds_93mmg", "", 2000, -1 },
+            { "muzzle_snds_338_sand", "", 2000, -1 },
             { "bipod_01_F_blk", "", 4000, -1 },
             { "bipod_01_F_mtp", "", 4000, -1 },
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 20 },
-            { "30Rnd_9x21_Mag", "", 60 },
-            { "30Rnd_65x39_caseless_mag", "", 100 },
-            { "20Rnd_762x51_Mag", "", 100 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 100 },
-            { "10Rnd_338_Mag", "", 300 },
-            { "150Rnd_762x54_Box", "", 600 },
-            { "150Rnd_762x54_Box_Tracer", "", 600 },
-            { "10Rnd_127x54_Mag", "", 100 }
+            { "30Rnd_9x21_Mag", "", 25 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
+            { "30Rnd_556x45_Stanag", "", 150 },
+            { "30Rnd_65x39_caseless_green", "", 150 },
+            { "30Rnd_65x39_caseless_mag", "", 150 },
+            { "30Rnd_65x39_caseless_mag", "", 25 },
+            { "100Rnd_65x39_caseless_mag", 45 },
+            { "200Rnd_65x39_cased_Box", 45 }
+            { "10Rnd_762x54_Mag", "", 25 },
+            { "20Rnd_762x51_Mag", 45 },
+            { "20Rnd_762x51_Mag", "", 150 },
+            { "10Rnd_338_Mag", "", 150 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -395,19 +417,71 @@ class WeaponShops {
         name = "Cop VIP";
         side = "cop";
         license = "";
-        level[] = { "", "", -1, "" };
+        level[] = { "life_coplevel", "SCALAR", 8, "Voce precisar ser VIP para Acessar!" };
         items[] = {
-            { "ItemGPS", "", 100, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
+            { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
+            { "arifle_TRG21_F", "", 30000, -1 },
+            { "arifle_Katiba_F", "", 35000, -1 },
+            { "arifle_MX_F", "", 7500, -1 },
+            { "arifle_MXM_Black_F", 20000, -1 },
+            { "arifle_MX_SW_Black_F", 2000, -1 },
+            { "LMG_Mk200_F", "", 30000, -1 },
+            { "srifle_DMR_01_F", 20000, -1 },
+            { "srifle_EBR_F", 2000, -1 },
+            { "srifle_DMR_06_olive_F", "", 30000, -1 },
+            { "srifle_DMR_02_F", "", 35000, -1 },
+            { "srifle_DMR_03_F", 2000, -1 },
+            { "srifle_DMR_04_F", "", 30000, -1 },
+            { "LMG_Zafir_F", "", 35000, -1 },
+            { "srifle_DMR_05_blk_F", "", 35000, -1 },
+            
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
+            { "ItemGPS", "", 100, -1 },
             { "ToolKit", "", 250, -1 },
             { "FirstAidKit", "", 150, -1 },
-            { "Medikit", "", 500, -1 },
-            { "NVGoggles", "", 1200, -1 }
+            { "Medikit", "", 1000, -1 },
+            { "NVGoggles", "", 2000, -1 },
+            { "B_UavTerminal", "", 2000, -1 },
+            { "muzzle_snds_H", "", 2000, -1 },
+            { "muzzle_snds_L", "", 2000, -1 },
+            { "muzzle_snds_M", "", 2000, -1 },
+            { "muzzle_snds_B", "", 2000, -1 },
+            { "muzzle_snds_H_MG", "", 2000, -1 },
+            { "muzzle_snds_93mmg", "", 2000, -1 },
+            { "muzzle_snds_338_sand", "", 2000, -1 },
+            { "bipod_01_F_blk", "", 4000, -1 },
+            { "bipod_01_F_mtp", "", 4000, -1 },
+            { "bipod_01_F_snd", "", 4000, -1 }
         };
-        mags[] = {};
-        accs[] = {};
-    };
-
+        mags[] = {
+            { "30Rnd_9x21_Mag", "", 25 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
+            { "30Rnd_556x45_Stanag", "", 150 },
+            { "30Rnd_65x39_caseless_green", "", 150 },
+            { "30Rnd_65x39_caseless_mag", "", 150 },
+            { "30Rnd_65x39_caseless_mag", "", 25 },
+            { "100Rnd_65x39_caseless_mag", 45 },
+            { "200Rnd_65x39_cased_Box", 45 }
+            { "10Rnd_762x54_Mag", "", 25 },
+            { "20Rnd_762x51_Mag", 45 },
+            { "20Rnd_762x51_Mag", "", 150 },
+            { "10Rnd_338_Mag", "", 150 },
+            { "20Rnd_762x51_Mag", 45 },
+            { "10Rnd_127x54_Mag", "", 150 },
+            { "150Rnd_762x54_Box", "", 150 },
+            { "10Rnd_93x64_DMR_05_Mag", "", 150 }
+        };
+        accs[] = {
+            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_Holosight", "", 7500, -1 },
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 7500, -1 },
+            { "optic_LRPS", "", 7500, -1 }
+        };
+       
     //Medic Shops
     class med_basic {
         name = "store";
