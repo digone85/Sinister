@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["farms","Precos dos farms"];
+player createDiarySubject ["farms","Preço dos farms"];
 player createDiarySubject ["serverrules","Regras"];
 player createDiarySubject ["recruitments","Recrutamentos"];
 //player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -34,7 +34,7 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["farms",
 		[
-			"Preco dos Farms",
+			"Preço dos Farms",
 			
 				"
 				Farms Legais<br/><br/>
@@ -58,23 +58,23 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"1.Regras Gerais",
+			"Regras Gerais",
 				"
 				
 				1. Safezones: São consideradas Safezones todas as areas demarcadas com um circulo.<br/>
 				2. RDM: É considerado RDM matar sem motivo qualquer player que não tenha chance de se defender ou não souber a razão do dano. O player que relatar tal ato deverá apresentar printscreens.<br/>
 				3. Bullying e assédio não são aceitaveis em nosso servidor.<br/>
-				4. Printscreens: É IMPORTANTE TIRAR PRINTSCREENS (F12) para provar que esta cumprindo as regras, caso contrário, não haverá como reportar.<br/>
+				4. Printscreens: Éimportante tirar printscreens (F12) para provar que esta cumprindo as regras, caso contrário, não haverá como reportar.<br/>
 				5. Ressarcimentos: Todo e qualquer tipo de ressarcimento só será dado a players no ts.<br/>
 				6. Prejuízos causados por ataques DDos: Nosso servidor possui proteção anti DDos, mas em caso de quedas relacionadas a isso todo e qualquer prejuízo será ressarcido, desde que comprovado.<br/>
-				7. O OBJETIVO PRINCIPAL DA POLÍCIA: Antes de mais nada, o objetivo da polícia é prender players, apreender veículos, mas em muitos casos haverá necessidade de ser utilizada força letal, fique esperto<br/><br/>
+				7. O Objetivo da Polícia: Antes de mais nada, o objetivo da polícia é prender players, apreender veículos, mas em muitos casos haverá necessidade de ser utilizada força letal, fique esperto<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord["serverrules",
 		[
-			"2.Regras Especificas",
+			"Regras Especificas",
 				"
 				
 				1. Policiais e civis podem trocar tiros se houver razão para tal. Como alguém ter cometido algum crime.<br/>
@@ -83,11 +83,11 @@ player createDiarySubject ["controles","Controles"];
 				4. Não existe vingança após a morte, MORREU E FOI RESSUSCITADO é NOVA VIDA.<br/>
 				5. Denunciar players que sejam suspeitos de hack/dupe/glichts.<br/>
 				6. Denunciar a presença de players já banidos anteriormente do servidor.<br/>
-				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos<br/><br/>
+				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos.<br/>
 				===================================================================<br/>
 				CIVIL<br/><br/>
 				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
-				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/><br/>
+				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/>
 				===================================================================<br/>
 				REBELDE<br/><br/>
 				1. REBELDE tem o direito de agir como achar melhor em relação a abordagem policial ou a outros rebeldes, mas atente-se ao tratar com civis, respeite as regras.<br/>
@@ -96,7 +96,7 @@ player createDiarySubject ["controles","Controles"];
 				4. O CIVIL que estiver TRAJANDO roupa REBELDE, mesmo sem licença rebelde e portando equipamento rebelde será considerado PERIGOSO, não importando o local onde esteja, será algemado e averiguado, caso resista o policial está autorizado a utilizar força letal, sempre objetivando realizar a prisão.<br/>
 				5. O REBELDE que for abordado e não cooperar, ou for desrespeitoso, ou estiver em alguma área considerada civil, será abordado, algemado e obrigado a entregar seus itens rebeldes, roupa rebelde, colete rebelde e armas rebeldes ALÉM DE SER MULTADO em R$ 50,000 (Cinquenta Mil), e liberado caso não tenha nenhuma pendência com a polícia (não esteja na lista de procurados), CASO SE RECUSE A PAGAR A MULTA, SERÁ ENCAMINHADO A PRISÃO.<br/>
 				6. O REBELDE a ser abordado em qualquer local e fugir durante a perseguição para qualquer local com SAFEZONE poderá ser preso dentro da mesma.<br/>
-				7. Atente-se, MERCADO NEGRO É LOCAL DE TRÁFICO<br/><br/>
+				7. Atente-se, MERCADO NEGRO É LOCAL DE TRÁFICO.<br/>
 				===================================================================<br/>
 				POLICIAL/SAMU<br/><br/>
 				1. Nenhum cop está autorizado a logar como civil, salvo autorizado pelos ADMs.<br/>
@@ -122,19 +122,19 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"3.Prisões e Multas",
+			"Prisões e Multas",
 				"
 				PRISÕES<br/><br/>
 				1. A prisão deve ser realizada para criminosos que são considerados um perigo para si ou outrem.<br/>
 				2. Você não pode prender alguém se já lhe aplicou uma multa e esta foi paga.<br/>
 				3. Você deve falar para o suspeito o motivo dele estar sendo preso, antes de prendê-lo.<br/>
-				4. Se um civil é procurado você deve prendê-lo. Não pode matá-lo, a menos que a situação necessite o uso de força letal.<br/><br/>
+				4. Se um civil é procurado você deve prendê-lo. Não pode matá-lo, a menos que a situação necessite o uso de força letal.<br/>
 				===================================================================<br/>
 				MULTAS<br/><br/>
 				1. A multa é considerada um aviso para o civil. Se ele quebra uma lei, mas não representa uma ameaça para ninguém, você pode multá-lo.<br/>
 				2. Multas devem ter um preço razoável.<br/>
 				3. A recusa do pagamento de uma multa, é um motivo legítimo para a prisão.<br/>
-				4. Multar um civil em um valor que fere o bom senso (100k por excesso de velocidade) não é permitido e resultará em sanção e possibilita a remoção do agente da polícia.<br/><br/>
+				4. Multar um civil em um valor que fere o bom senso (100k por excesso de velocidade) não é permitido e resultará em sanção e possibilita a remoção do agente da polícia.<br/>
 				===================================================================<br/>
 				EXEMPLO DE MULTAS:<br/><br/>
 				1. Perturbação da ordem pública: 20000<br/>
@@ -149,7 +149,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"4.Banimentos",
+			"Banimentos",
 				"
 				1. Atirar em um jogador sem dar um tempo razoável para ele seguir suas ordens é considerado Anti roleplay - AntiRP - Banimento por 1 dia.<br/>
 				2. Atropelamento Proposital COM PRINT DO DENUNCIANTE - RDM - BANIMENTOS 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
@@ -157,7 +157,7 @@ player createDiarySubject ["controles","Controles"];
 				4. Deslogar/Desconectar Algemado, Rendido, durante o pvp; - 200k multa /BANIMENTO 2 DIAS.<br/>
 				5. Matar em SAFEZONE ou RESPAWN - 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
 				6. Desrespeito (Com o servidor ou com Players) - BANIMENTO 5 HORAS.<br/>
-				7. SPAM em CHAT/CELULAR - 1dia/3dias/7dias/permanente.<br/>
+				7. SPAM em CHAT/CELULAR - 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
 				8. Utilizar veículo armado sem ser no assalto a reserva federal ARMADO/BLINDADO - BANIMENTO 1 DIA.<br/>
 				9. Iniciar o Assalto a player a mais de 30 mts sem digitar no SIDE CHANNEL (CANAL AZUL) - BANIMENTO DE 5 HORAS.<br/>
 				10. Concluir o Assalto a player a mais de 30 mts sem estar no chão, mesmo anunciando - BANIMENTO DE 5 HORAS.<br/>
@@ -178,21 +178,21 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"RELAÇÃO ENTRE PLAYERS",
+			"Relações Entre Players",
 				"
 				PLAYERS VIPS/GANGUE VIPS<br/><br/>
 
-				1. PLAYER/GANGUE VIP será abordado conforme item 2.2.3, e o procedimento de abordagem se dará conforme itens 2.2.4 ou 2.2.5, dependendo da postura do PLAYER/GANGUE VIP.<br/>
-				2. PLAYERS/GANGUE VIP deverão RESPEITAR todos os outros players, ACIMA DE TUDO os médicos e policiais do servidor, OFENDER, DENEGRIR, HUMILHAR, XINGAR cops ou samu, será motivo de banimento do servidor e do teamspeak sem aviso prévio e sem devolução do valor doado ao servidor, mesmo sendo vip, então saiba que isso não será tolerado ou admitido.<br/><br/>
+				1. PLAYER/GANGUE VIP será abordado conforme item 4 de REBELDES (Regras Específicas), e o procedimento de abordagem se dará conforme itens 2.2.4 ou 2.2.5, dependendo da postura do PLAYER/GANGUE VIP.<br/>
+				2. PLAYERS/GANGUE VIP deverão RESPEITAR todos os outros players, ACIMA DE TUDO os médicos e policiais do servidor, OFENDER, DENEGRIR, HUMILHAR, XINGAR cops ou samu, será motivo de banimento do servidor e do teamspeak sem aviso prévio e sem devolução do valor doado ao servidor, mesmo sendo vip, então saiba que isso não será tolerado ou admitido.<br/>
 				===================================================================<br/>
 				RELAÇÕES REBELDES X CIVIS<br/><br/>
 				
 				1. Durante um assalto, o player rebelde deverá seguir as regras descritas.<br/>
-				2. O Civil, deverá estar ciente de que poderá ser assaltado por REBELDES ou outro CIVIL seguindo os itens citados acima.<br/><br/>
+				2. O Civil, deverá estar ciente de que poderá ser assaltado por REBELDES ou outro CIVIL seguindo os itens citados acima.<br/>
 				===================================================================<br/>
 				RELAÇÕES REBELDES X REBELDES<br/><br/>
 				1. Um Player REBELDE pode abordar, ASSALTAR, ALGEMAR, SEQUESTRAR qualquer player REBELDE, desde que esteja seguindo as REGRAS.<br/>
-				2. Rebeldes estão sujeitos a serem mortos por outros rebeldes sem a necessidade de aviso prévio.<br/><br/>
+				2. Rebeldes estão sujeitos a serem mortos por outros rebeldes sem a necessidade de aviso prévio.<br/>
 				===================================================================<br/>
 				MERCADO NEGRO<br/><br/>
 				1. A zona do mercado negro é considerada zona sem lei, ou seja, poderá ser morto sem aviso previo. esteja pronto para qualquer coisa.<br/><br/>
