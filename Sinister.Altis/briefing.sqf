@@ -183,7 +183,7 @@ player createDiarySubject ["controles","Controles"];
 				PLAYERS VIPS/GANGUE VIPS<br/><br/>
 
 				1. PLAYER/GANGUE VIP será abordado conforme item 2.2.3, e o procedimento de abordagem se dará conforme itens 2.2.4 ou 2.2.5, dependendo da postura do PLAYER/GANGUE VIP.<br/>
-				2. PLAYERS/GANGUE VIP deverão RESPEITAR todos os outros players, ACIMA DE TUDO os médicos e policiais do servidor, OFENDER, DENEGRIR, HUMILHAR, XINGAR cops ou samu, será motivo de banimento do servidor e do teamspeak sem aviso prévio e sem devolução do valor doado ao servidor, mesmo sendo vip, então saiba que isso não será tolerado ou admitido.<br/>
+				2. PLAYERS/GANGUE VIP deverão RESPEITAR todos os outros players, ACIMA DE TUDO os médicos e policiais do servidor, OFENDER, DENEGRIR, HUMILHAR, XINGAR cops ou samu, será motivo de banimento do servidor e do teamspeak sem aviso prévio e sem devolução do valor doado ao servidor, mesmo sendo vip, então saiba que isso não será tolerado ou admitido.<br/><br/>
 				===================================================================<br/>
 				RELAÇÕES REBELDES X CIVIS<br/><br/>
 				
@@ -192,7 +192,7 @@ player createDiarySubject ["controles","Controles"];
 				===================================================================<br/>
 				RELAÇÕES REBELDES X REBELDES<br/><br/>
 				1. Um Player REBELDE pode abordar, ASSALTAR, ALGEMAR, SEQUESTRAR qualquer player REBELDE, desde que esteja seguindo as REGRAS.<br/>
-				2. Rebeldes estão sujeitos a serem mortos por outros rebeldes sem a necessidade de aviso prévio.<br/>
+				2. Rebeldes estão sujeitos a serem mortos por outros rebeldes sem a necessidade de aviso prévio.<br/><br/>
 				===================================================================<br/>
 				MERCADO NEGRO<br/><br/>
 				1. A zona do mercado negro é considerada zona sem lei, ou seja, poderá ser morto sem aviso previo. esteja pronto para qualquer coisa.<br/><br/>
