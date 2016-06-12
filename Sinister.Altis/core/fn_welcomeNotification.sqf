@@ -26,7 +26,7 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\placas\welcome.jpg' /></t><br /><br />";
-_message = _message + "<a href='https://www.facebook.com/groups/107843866273991/' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Facebook.<br /><br />";
+_message = _message + "<a href='https://www.facebook.com/groups/1023172297797103/' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Facebook.<br /><br />";
 _message = _message + "<a href='http://sinisteraltislife.forumeiros.com/' color='#56BDD6'>Clique Aqui</a> para acessar o nosso Fórum.<br /><br />";
 _message = _message + "Teamspeak 3: mafiaaltisbrasil.meuts3.com.br   <br /><br />";
 _message = _message + "Use a tecla windows para minerar/farmar   <br /><br />";
@@ -34,7 +34,7 @@ _message = _message + "Use a tecla TAB para se render   <br /><br />";
 _message = _message + "O jogador precisa estar nocauteado para sequestrá-lo.  <br /><br />";
 _message = _message + "O servidor está salvando a localização dos jogadores.   <br /><br />";
 _message = _message + "O Mercado Negro compra diamantes e vende alguns equipamentos ilegais.   <br /><br />";
-_message = _message + "RESPEITE A FAMÍLIA E SERÁ RESPEITADO!   <br /><br />";
+_message = _message + "Respeite as regras e tenha um otimo jogo! !   <br /><br />";
 
 //Fill only the first text
 _text1 ctrlSetStructuredText (parseText _message);
