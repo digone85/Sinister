@@ -481,6 +481,7 @@ class WeaponShops {
             { "optic_AMS", "", 7500, -1 },
             { "optic_LRPS", "", 7500, -1 }
         };
+    };
        
     //Medic Shops
     class med_basic {
