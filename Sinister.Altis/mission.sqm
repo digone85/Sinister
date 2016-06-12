@@ -4164,7 +4164,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="h1_3_4";
-					init="this enableSimulation false;  this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[localize""STR_MAR_Cop_Clothing_Shop"",life_fnc_clothingMenu,""cop""];  this addAction[localize""STR_MAR_Cop_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[localize""STR_MAR_Patrol_Officer_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[localize""STR_MAR_Sergeant_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this setObjectTextureGlobal [0,""textures\cop_uniform.paa""];";
+					init="removeBackpack this; removeAllWeapons this; this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""]; this allowDamage false; this addAction[localize""STR_MAR_Cop_Clothing_Shop"",life_fnc_clothingMenu,""cop""]; this addAction[localize""Loja do Cop VIP"",life_fnc_weaponShopMenu,""cop_vip""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this setObjectTextureGlobal [0,""textures\cop_uniform.paa""];";
 					syncId=2;
 					synchronizations[]={0};
 				};
@@ -93937,7 +93937,7 @@ class Mission
 		{
 			position[]={3108.5505,2.0599999,12571.791};
 			name="SCO19 Base";
-			text="Base da GOE";
+			text="QG Policial VIP";
 			type="mil_warning";
 			colorName="ColorWEST";
 		};
@@ -95355,11 +95355,12 @@ class Mission
 		};
 		class Item380
 		{
-			position[]={14903.338,0,10698.304};
+			position[]={14890.398,0.94925535,10711.05};
 			name="civ_ship_3_1";
 			text="@STR_MAR_Boat_Spawn";
 			type="loc_Quay";
 			colorName="ColorOrange";
+			angle=-100.11559;
 		};
 	};
 	class Sensors
