@@ -7,7 +7,7 @@ Creates an intro on the bottom-right hand corner of the screen.
 */
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
 _role1 = "Bem-vindo ao servidor Sinister"; //In Gelb
-_role1names = ["Equipe Sinister"]; //In Weiß
+_role1names = ["Duvidas estamos a disposição!"]; //In Weiß
 _role2 = "Respeite as Regras";
 _role2names = ["Equipe Sinister"]; 
 _role3 = "Digone e Adrianu";
