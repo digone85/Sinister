@@ -390,6 +390,23 @@ class WeaponShops {
             { "optic_LRPS", "", 7500, -1 }
         };
     };
+    
+    class cop_vip {
+        name = "Cop VIP";
+        side = "cop";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "ItemGPS", "", 100, -1 },
+            { "Binocular", "", 150, -1 },
+            { "ToolKit", "", 250, -1 },
+            { "FirstAidKit", "", 150, -1 },
+            { "Medikit", "", 500, -1 },
+            { "NVGoggles", "", 1200, -1 }
+        };
+        mags[] = {};
+        accs[] = {};
+    };
 
     //Medic Shops
     class med_basic {
