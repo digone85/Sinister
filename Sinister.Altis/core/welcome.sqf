@@ -6,18 +6,18 @@ Description:
 Creates an intro on the bottom-right hand corner of the screen.
 */
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
-_role1 = "Bem-vindo ao servidor Máfia"; //In Gelb
-_role1names = ["Equipe Mafia"]; //In Weiß
-_role2 = "RESPEITE A FAMÍLIA E SERÁ RESPEITADO!";
-_role2names = ["Equipe Mafia"]; 
+_role1 = "Bem-vindo ao servidor Sinister"; //In Gelb
+_role1names = ["Equipe Sinister"]; //In Weiß
+_role2 = "Respeite as Regras";
+_role2names = ["Equipe Sinister"]; 
 _role3 = "Digone e Adrianu";
-_role3names = ["Projetistas'"];
+_role3names = ["CEO'"];
 _role4 = "Digone e Adrianu";
 _role4names = ["Design"];
 _role5 = "mafiaaltisbrasil.meuts3.com.br";
 _role5names = ["Ts Endereco"];
-_role6 = "http://hostgamesmafia.forumeiros.com/forum";
-_role6names = ["Forum"];
+_role6 = "Tenha um ótimo jogo!";
+_role6names = ["Obrigado por nos escolher!!"];
 {
 sleep 2;
 _memberFunction = _x select 0;
