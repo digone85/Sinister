@@ -397,7 +397,7 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 150 },
             { "30Rnd_65x39_caseless_mag", "", 25 },
             { "100Rnd_65x39_caseless_mag", 45 },
-            { "200Rnd_65x39_cased_Box", 45 }
+            { "200Rnd_65x39_cased_Box", 45 },
             { "10Rnd_762x54_Mag", "", 25 },
             { "20Rnd_762x51_Mag", 45 },
             { "20Rnd_762x51_Mag", "", 150 },
