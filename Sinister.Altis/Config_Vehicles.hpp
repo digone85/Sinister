@@ -183,7 +183,14 @@ class LifeCfgVehicles {
         textures[] = { };
     };
     
-	 class I_Heli_light_03_unarmed_F {
+	 class I_MRAP_03_F {
+        vItemSpace = 58;
+        licenses[] = { {"donator"}, {""}, {""}, {""} };
+        rentalprice[] = { 1000, -1, -1, -1 };
+        textures[] = { };
+    };
+    
+    	 class I_Heli_light_03_unarmed_F {
         vItemSpace = 350;
         licenses[] = { {"rebel"}, {"cAir"}, {"mAir"}, {""} };
         rentalprice[] = { 5000000, 400000, -1, -1 };
