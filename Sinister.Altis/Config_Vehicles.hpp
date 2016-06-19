@@ -176,14 +176,14 @@ class LifeCfgVehicles {
 
 	 class I_MRAP_03_F {
         vItemSpace = 58;
-        licenses[] = { {"rebel"}, {"cAir"}, {""}, {""} };
-        rentalprice[] = { 1875000, -1, -1, -1 };
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        rentalprice[] = { 1875000, 75000, -1, -1 };
         textures[] = {
         	{ "Policia", "cop", {
                 "textures\Cop\strider_cinza.paa"
             } },
         	{ "Verde", "reb", {
-                "textures\Civ\strider-verde.paa"
+                "textures\Civ\strider_verde.paa"
             } }       	
         };
     };
@@ -612,7 +612,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
         licenses[] = { {""}, {"mAir"}, {"reb"}, {""} };
-        rentalprice[] = { 325000, -1, -1, -1 };
+        rentalprice[] = { 325000, -1, 1500000, -1 };
         textures[] = {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
