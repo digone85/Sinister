@@ -55,7 +55,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "B_Heli_Light_01_stripped_F", { "", "", -1 } }
         };
     };
 
@@ -73,13 +73,12 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "B_G_Offroad_01_F", { "", "", -1 } },
 	    { "B_G_Offroad_01_armed_F", { "", "", -1 } },
-	    { "O_MRAP_02_F", { "", "", -1 } },
 	    { "I_MRAP_03_F",{ "", "", -1 } },
 	    
 	    //Helis
 	    
 	    { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
         };
     };
 
@@ -98,13 +97,12 @@ class reb_car1 {
             { "B_Truck_01_transport_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
             { "O_Truck_03_device_F", { "", "", -1 } },
-            { "O_MRAP_02_F", { "", "", -1 } },			
 	    { "I_MRAP_03_F", { "", "", -1 } },
 			
 			//Helis
             
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
         };
     };
     
@@ -130,7 +128,7 @@ class reb_car1 {
             { "C_Offroad_01_F", { "", "OffroadPM", -1 } },
             { "C_SUV_01_F", { "", "SuvPM", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "HatchPM", -1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "", -1 } },
+            { "I_MRAP_03_F", { "life_coplevel", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "OffroadPM", -1 } }
         };
     };
@@ -139,7 +137,7 @@ class reb_car1 {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "LittleBirdPM", -1 } },
-            { "O_Heli_Light_02_unarmed_F",{ "", "orca_PM", -1 } },
+            { "B_Heli_Light_01_stripped_F",{ "", "LittleBirdPM", -1 } },
         };
     };
 
@@ -178,9 +176,16 @@ class LifeCfgVehicles {
 
 	 class I_MRAP_03_F {
         vItemSpace = 58;
-        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        licenses[] = { {"rebel"}, {"cAir"}, {""}, {""} };
         rentalprice[] = { 1875000, -1, -1, -1 };
-        textures[] = { };
+        textures[] = {
+        	{ "Policia", "cop", {
+                "textures\Cop\strider_cinza.paa"
+            } },
+        	{ "Verde", "reb", {
+                "textures\Civ\strider-verde.paa"
+            } }       	
+        };
     };
     
     	 class I_Heli_light_03_unarmed_F {
@@ -606,11 +611,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {""}, {"mAir"}, {"reb"}, {""} };
         rentalprice[] = { 325000, -1, -1, -1 };
         textures[] = {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
+            } },
+            { "Policia", "cop", {
+                "textures\cop\LittleBirdPM.paa"
             } }
         };
     };
