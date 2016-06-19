@@ -12,6 +12,10 @@ civ_spawn_2 = nearestObjects[getMarkerPos  "civ_spawn_2", ["Land_i_Shop_01_V1_F"
 civ_spawn_3 = nearestObjects[getMarkerPos  "civ_spawn_3", ["Land_i_Shop_01_V1_F","Land_i_Shop_01_V2_F","Land_i_Shop_01_V3_F","Land_i_Shop_02_V1_F","Land_i_Shop_02_V2_F","Land_i_Shop_02_V3_F"],250];
 civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", ["Land_i_Shop_01_V1_F","Land_i_Shop_01_V2_F","Land_i_Shop_01_V3_F","Land_i_Shop_02_V1_F","Land_i_Shop_02_V2_F","Land_i_Shop_02_V3_F"],250];
 waitUntil {!(isNull (findDisplay 46))};
+if ((FETCH_CONST(life_donator) > 0) && (FETCH_CONST(life_donator) < 6)) then
+{
+	life_paycheck = life_paycheck + 1000 + (FETCH_CONST(life_donator)*1000);
+};
 if(life_is_alive && !life_is_arrested) then {
 	/* Spawn at our last position */
 	player setPosWorld life_civ_position;
