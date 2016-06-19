@@ -15,6 +15,11 @@ if((FETCH_CONST(life_medicLevel)) < 1 && (FETCH_CONST(life_adminlevel) == 0)) ex
 	sleep 35;
 };
 
+if ((FETCH_CONST(life_medicLevel) > 0) && (FETCH_CONST(life_medicLevel) < 6)) then
+{
+	life_paycheck = life_paycheck + 1000 + (FETCH_CONST(life_medicLevel)*1000);
+};
+
 if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_weapons"),0)) then
 {
 	[] spawn
