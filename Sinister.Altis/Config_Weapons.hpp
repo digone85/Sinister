@@ -29,11 +29,11 @@ class WeaponShops {
 	    { "hgun_PDW2000_F", "", 20000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "11Rnd_45ACP_Mag", "", 50 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 },
-            { "30Rnd_9x21_Mag", "", 100 }
+            { "30Rnd_9x21_Mag", "", 25, -1 },
+            { "11Rnd_45ACP_Mag", "", 50, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 45, -1 },
+            { "30Rnd_9x21_Mag", "", 75, -1 },
+            { "30Rnd_9x21_Mag", "", 100, -1 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 2500, -1 },
@@ -71,17 +71,17 @@ class WeaponShops {
             { "srifle_DMR_02_camo_F", "", 380000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 500 },
-            { "11Rnd_45ACP_Mag", "", 500 },
-            { "30Rnd_556x45_Stanag", "", 700 },
-            { "30Rnd_556x45_Stanag", "", 800 },
-            { "30Rnd_65x39_caseless_mag", "", 1000 },
-            { "100Rnd_65x39_caseless_mag", "", 1200 },
-            { "200Rnd_65x39_cased_Box", "", 1200 },
-            { "10Rnd_762x54_Mag", "", 1000 },
-            { "20Rnd_762x51_Mag", "", 1000 },
-            { "20Rnd_762x51_Mag", "", 2500 },
-            { "10Rnd_338_Mag", "", 2500 }
+            { "30Rnd_9x21_Mag", "", 500, -1 },
+            { "11Rnd_45ACP_Mag", "", 500, -1 },
+            { "30Rnd_556x45_Stanag", "", 700, -1 },
+            { "30Rnd_556x45_Stanag", "", 800, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 1000, -1 },
+            { "100Rnd_65x39_caseless_mag", "", 1200, -1 },
+            { "200Rnd_65x39_cased_Box", "", 1200, -1 },
+            { "10Rnd_762x54_Mag", "", 1000, -1 },
+            { "20Rnd_762x51_Mag", "", 1000, -1 },
+            { "20Rnd_762x51_Mag", "", 2500, -1, -1 },
+            { "10Rnd_338_Mag", "", 2500, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -139,25 +139,25 @@ class WeaponShops {
             { "srifle_DMR_05_hex_F", "", 265000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 500 },
-            { "11Rnd_45ACP_Mag", "", 500 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 700 },
-            { "30Rnd_9x21_Mag", "", 800 },
-            { "30Rnd_9x21_Mag", "", 1000 },
-            { "30Rnd_556x45_Stanag", "", 1200 },
-            { "30Rnd_556x45_Stanag", "", 1200 },
-            { "30Rnd_65x39_caseless_green", "", 1000 },
-            { "30Rnd_65x39_caseless_mag", "", 1000 },
-            { "100Rnd_65x39_caseless_mag", "", 2500 },
-            { "200Rnd_65x39_cased_Box", "", 2500 },
-            { "10Rnd_762x54_Mag", "", 2000 },
-            { "20Rnd_762x51_Mag", "", 2000 },
-            { "20Rnd_762x51_Mag", "", 2000 },
-            { "20Rnd_762x51_Mag", "", 2000 },
-            { "10Rnd_127x54_Mag", "", 2000 },
-            { "150Rnd_762x54_Box", "", 2300 },
-            { "10Rnd_338_Mag", "", 2300 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 1500 }
+            { "30Rnd_9x21_Mag", "", 500, -1 },
+            { "11Rnd_45ACP_Mag", "", 500, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 700, -1 },
+            { "30Rnd_9x21_Mag", "", 800, -1 },
+            { "30Rnd_9x21_Mag", "", 1000, -1 },
+            { "30Rnd_556x45_Stanag", "", 1200, -1 },
+            { "30Rnd_556x45_Stanag", "", 1200, -1 },
+            { "30Rnd_65x39_caseless_green", "", 1000, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 1000, -1 },
+            { "100Rnd_65x39_caseless_mag", "", 2500, -1 },
+            { "200Rnd_65x39_cased_Box", "", 2500, -1 },
+            { "10Rnd_762x54_Mag", "", 2000, -1 },
+            { "20Rnd_762x51_Mag", "", 2000, -1 },
+            { "20Rnd_762x51_Mag", "", 2000, -1 },
+            { "20Rnd_762x51_Mag", "", 2000, -1 },
+            { "10Rnd_127x54_Mag", "", 2000, -1 },
+            { "150Rnd_762x54_Box", "", 2300, -1 },
+            { "10Rnd_338_Mag", "", 2300, -1 },
+            { "10Rnd_93x64_DMR_05_Mag", "", 1500, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -184,14 +184,14 @@ class WeaponShops {
             { "SMG_02_F", "", 80000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 100 },
-            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 },
-            { "30Rnd_9x21_Mag", "", 110 },
-            { "10Rnd_762x54_Mag", "", 130 }
+            { "16Rnd_9x21_Mag", "", 25, -1 },
+            { "6Rnd_45ACP_Cylinder", "", 50, -1 },
+            { "9Rnd_45ACP_Mag", "", 45, -1 },
+            { "30Rnd_9x21_Mag", "", 75, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100, -1 },
+            { "30Rnd_9x21_Mag", "", 110, -1 },
+            { "10Rnd_762x54_Mag", "", 130, -1 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 950, -1 }
@@ -278,11 +278,11 @@ class WeaponShops {
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag", "", 150 },
-            { "30Rnd_65x39_caseless_green", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 150 }
+            { "30Rnd_9x21_Mag", "", 25, -1 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45, -1 },
+            { "30Rnd_556x45_Stanag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_green", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 150, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -298,7 +298,7 @@ class WeaponShops {
         name = "Altis Patrol Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Voce precisa ser da Patrulha!!" };
         items[] = {
 	    { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
             { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
@@ -329,14 +329,14 @@ class WeaponShops {
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag", "", 150 },
-            { "30Rnd_65x39_caseless_green", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 25 },
-            { "100Rnd_65x39_caseless_mag", 45 },
-            { "200Rnd_65x39_cased_Box", 45 }
+            { "30Rnd_9x21_Mag", "", 25, -1 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45, -1 },
+            { "30Rnd_556x45_Stanag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_green", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 25, -1 },
+            { "100Rnd_65x39_caseless_mag", 45, -1 },
+            { "200Rnd_65x39_cased_Box", 45, -1 }
             
         };
         accs[] = {
@@ -353,7 +353,7 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Voce precisar ser Sargento!!" };
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
             { "arifle_sdar_F", "Taser Rifle", 2000, -1 },
@@ -388,18 +388,18 @@ class WeaponShops {
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag", "", 150 },
-            { "30Rnd_65x39_caseless_green", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 25 },
-            { "100Rnd_65x39_caseless_mag", 45 },
-            { "200Rnd_65x39_cased_Box", 45 },
-            { "10Rnd_762x54_Mag", "", 25 },
-            { "20Rnd_762x51_Mag", 45 },
-            { "20Rnd_762x51_Mag", "", 150 },
-            { "10Rnd_338_Mag", "", 150 }
+            { "30Rnd_9x21_Mag", "", 25, -1 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45, -1 },
+            { "30Rnd_556x45_Stanag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_green", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 25, -1 },
+            { "100Rnd_65x39_caseless_mag", 45, -1 },
+            { "200Rnd_65x39_cased_Box", 45, -1 },
+            { "10Rnd_762x54_Mag", "", 25, -1 },
+            { "20Rnd_762x51_Mag", 45, -1 },
+            { "20Rnd_762x51_Mag", "", 150, -1 },
+            { "10Rnd_338_Mag", "", 150, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -454,22 +454,22 @@ class WeaponShops {
             { "bipod_01_F_snd", "", 4000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag", "", 150 },
-            { "30Rnd_65x39_caseless_green", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 150 },
-            { "30Rnd_65x39_caseless_mag", "", 25 },
-            { "100Rnd_65x39_caseless_mag", 45 },
-            { "200Rnd_65x39_cased_Box", 45 },
-            { "10Rnd_762x54_Mag", "", 25 },
-            { "20Rnd_762x51_Mag", 45 },
-            { "20Rnd_762x51_Mag", "", 150 },
-            { "10Rnd_338_Mag", "", 150 },
-            { "20Rnd_762x51_Mag", 45 },
-            { "10Rnd_127x54_Mag", "", 150 },
-            { "150Rnd_762x54_Box", "", 150 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 150 }
+            { "30Rnd_9x21_Mag", "", 25, -1 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45, -1 },
+            { "30Rnd_556x45_Stanag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_green", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 150, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 25, -1 },
+            { "100Rnd_65x39_caseless_mag", 45, -1 },
+            { "200Rnd_65x39_cased_Box", 45, -1 },
+            { "10Rnd_762x54_Mag", "", 25, -1 },
+            { "20Rnd_762x51_Mag", 45, -1 },
+            { "20Rnd_762x51_Mag", "", 150, -1 },
+            { "10Rnd_338_Mag", "", 150, -1 },
+            { "20Rnd_762x51_Mag", 45, -1 },
+            { "10Rnd_127x54_Mag", "", 150, -1 },
+            { "150Rnd_762x54_Box", "", 150, -1 },
+            { "10Rnd_93x64_DMR_05_Mag", "", 150, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
@@ -516,10 +516,10 @@ class WeaponShops {
             { "arifle_Katiba_C_F", "", 350000, -1 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 2000 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 2000 },
-            { "30Rnd_65x39_caseless_green", "", 2000 },
-            { "30Rnd_65x39_caseless_green_mag_Tracer", "", 2000 }
+            { "30Rnd_65x39_caseless_mag", "", 2000, -1 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 2000, -1 },
+            { "30Rnd_65x39_caseless_green", "", 2000, -1 },
+            { "30Rnd_65x39_caseless_green_mag_Tracer", "", 2000, -1 }
         };
         accs[] = {
             { "optic_Arco", "", 4000, -1 }
