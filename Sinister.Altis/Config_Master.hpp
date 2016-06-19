@@ -47,9 +47,9 @@ class Life_Settings {
     paycheck_period = 10; //Scaled in minutes
 
     /* Impound Variables */
-    impound_car = 1350; //Price for impounding cars
+    impound_car = 1000; //Price for impounding cars
     impound_boat = 2250; //Price for impounding boats
-    impound_air = 5850; //Price for impounding helicopters / planes
+    impound_air = 1800; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
     bank_cop = 150000; //Amount of cash on bank for new cops
@@ -57,7 +57,7 @@ class Life_Settings {
     bank_med = 150000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 25000; //Payment for cops
+    paycheck_cop = 15000; //Payment for cops
     paycheck_civ = 5000; //Payment for civillians
     paycheck_med = 10000; //Payment for medics
 
