@@ -77,7 +77,7 @@ class Licenses {
         variable = "diamond";
         displayName = "STR_License_Diamond";
         price = 35000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
 
