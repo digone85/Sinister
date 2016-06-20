@@ -26,4 +26,4 @@ if (playerSide == civilian) then {
 			[[_x],"life_fnc_pulloutVeh",_x,false] spawn life_fnc_MP;
 		};
 	} foreach _crew;
-	};
+};
