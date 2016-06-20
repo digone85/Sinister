@@ -36,7 +36,7 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 600, -1 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500, -1 },
+            { "optic_ACO_grn_smg", "", 5000, -1 },
         };
     };
 
@@ -85,7 +85,7 @@ class WeaponShops {
             { "10Rnd_338_Mag", "", 3200, -1 }
         };
         accs[] = {
-            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
             { "optic_Hamr", "", 9000, -1 },
@@ -100,17 +100,18 @@ class WeaponShops {
         license = "donator";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 75, -1 },
-            { "Rangefinder", "", 150, -1 },
-            { "ItemGPS", "", 50, -1 },
-            { "ToolKit", "", 125, -1 },
-            { "FirstAidKit", "", 75, -1 },
-            { "NVGoggles", "", 1000, -1 },
-            { "optic_AMS", "", 45000, -1 },
-            { "optic_Hamr", "", 5250, -1 },
-            { "bipod_01_F_blk", "", 2000, -1 },
-            { "bipod_01_F_mtp", "", 2000, -1 },
-            { "bipod_01_F_snd", "", 2000, -1 },
+            { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 500, -1 },
+            { "ItemGPS", "", 100, -1 },
+            { "ToolKit", "", 500, -1 },
+            { "FirstAidKit", "", 150, -1 },
+            { "Medikit", "", 500, -1 },
+            { "NVGoggles", "", 500, -1 },
+            { "optic_AMS", "", 14000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "bipod_01_F_blk", "", 300, -1 },
+            { "bipod_01_F_mtp", "", 300, -1 },
+            { "bipod_01_F_snd", "", 300, -1 },
             { "muzzle_snds_H", "", 2000, -1 },
             { "muzzle_snds_L", "", 2000, -1 },
             { "muzzle_snds_M", "", 2000, -1 },
@@ -119,25 +120,25 @@ class WeaponShops {
             { "muzzle_snds_93mmg", "", 2000, -1 },
             { "muzzle_snds_338_sand", "", 2000, -1 },
             
-            { "hgun_Rook40_F", "", 15000, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 20000, -1 },
-            { "SMG_01_F", "", 25000, -1 },
-            { "SMG_02_F", "", 30000, -1 },
-            { "hgun_PDW2000_F", "", 35000, -1 },
-            { "arifle_TRG21_F", "", 40000, -1 },
-            { "arifle_Mk20_F", "", 125000, -1 },
-            { "arifle_Katiba_F", "", 130000, -1 },
-            { "arifle_MX_F", "", 170000, -1 },
-            { "arifle_MX_SW_pointer_F", "", 175000, -1 },
-            { "LMG_Mk200_F", "", 190000, -1 },
-            { "srifle_DMR_01_F", "", 200000, -1 },
-            { "srifle_EBR_F", "", 200000, -1 },
-            { "srifle_DMR_03_woodland_F", "", 220000, -1 },
-            { "srifle_DMR_06_camo_F", "", 240000, -1 },
-            { "srifle_DMR_04_F", "", 250000, -1 },
-            { "LMG_Zafir_F", "", 265000, -1 },
-            { "srifle_DMR_02_camo_F", "", 265000, -1 },
-            { "srifle_DMR_05_hex_F", "", 265000, -1 }
+            { "hgun_Rook40_F", "", 25500, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 34000, -1 },
+            { "SMG_01_F", "", 59500, -1 },
+            { "SMG_02_F", "", 59500, -1 },
+            { "hgun_PDW2000_F", "", 51000, -1 },
+            { "arifle_TRG21_F", "", 59500, -1 },
+            { "arifle_Mk20_F", "", 59500, -1 },
+            { "arifle_Katiba_F", "", 212500, -1 },
+            { "arifle_MX_F", "", 187000, -1 },
+            { "arifle_MX_SW_pointer_F", "", 178500, -1 },
+            { "LMG_Mk200_F", "", 255000, -1 },
+            { "srifle_DMR_01_F", "", 272000, -1 },
+            { "srifle_EBR_F", "", 289000, -1 },
+            { "srifle_DMR_03_woodland_F", "", 297500, -1 },
+            { "srifle_DMR_06_camo_F", "", 340000, -1 },
+            { "srifle_DMR_04_F", "", 255000, -1 },
+            { "LMG_Zafir_F", "", 365500, -1 },
+            { "srifle_DMR_02_camo_F", "", 595000, -1 },
+            { "srifle_DMR_05_hex_F", "", 680000, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "", 500, -1 },
