@@ -61,3 +61,4 @@ if(life_firstSpawn) then {
 };
 [] call life_fnc_playerSkins;
 [] call life_fnc_hudSetup;
+[] spawn life_fnc_IntroCam;
