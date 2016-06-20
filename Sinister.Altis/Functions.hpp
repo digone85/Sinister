@@ -396,4 +396,9 @@ class Life_Client_Core
 		class wireTransfer {};
 		class gangWithdraw {};
 	};
+	class Cam
+	{
+		file ="core";
+		class IntroCam {};
+	};
 };
