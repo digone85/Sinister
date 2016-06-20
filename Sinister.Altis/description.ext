@@ -106,6 +106,18 @@ class CfgSounds
 		sound[] = {"\sounds\harvest.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class fpolice
+	{
+		name = "fpolice";
+		sound[] = {"\sounds\fpolice.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class swed
+	{
+		name = "swed";
+		sound[] = {"/sounds/swed.ogg", 1.0, 1};
+	        titles[] = {};
+	};
 };
 
 class CfgDebriefing
