@@ -19,6 +19,8 @@ switch (playerSide) do {
 		//FOR SURRENDER USERS//PLACE IN THIS FORM//Kidnapping KNOCKOUT
         	life_actions = [player addAction["<t color='#00FF00'>Sequestrar</t>",life_fnc_restrainAction,cursorTarget,9999999,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 5 && isPlayer cursorTarget && animationState cursorTarget == "Surrender" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 ']]; //Kidnapping SURRENDER
+		1life_actions = [player addAction["<t color='#297ACC'>F*ck the Police Horn</t>",{player say3d "fpolice"},"",0,false,false,"",'(vehicle player isKindOf "LandVehicle") ']];
+		2life_actions = [player addAction["<t color='#297ACC'>SWED Horn</t>",{player say3d "swed"},"",0,false,false,"",'(vehicle player isKindOf "LandVehicle") ']];
 		};
 	case west: {
 		//CopEnter - Driver Seat
