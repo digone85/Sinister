@@ -22,18 +22,18 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 9850, -1 },
+            { "hgun_Rook40_F", "", 30000, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
             { "SMG_01_F", "", 70000, -1 },
-            { "SMG_02_F", "", 80000, -1 },
-	    { "hgun_PDW2000_F", "", 20000, -1 }
+            { "SMG_02_F", "", 70000, -1 },
+	    { "hgun_PDW2000_F", "", 60000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 25, -1 },
-            { "11Rnd_45ACP_Mag", "", 50, -1 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 45, -1 },
-            { "30Rnd_9x21_Mag", "", 75, -1 },
-            { "30Rnd_9x21_Mag", "", 100, -1 }
+            { "30Rnd_9x21_Mag", "", 200, -1 },
+            { "11Rnd_45ACP_Mag", "", 200, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
+            { "30Rnd_9x21_Mag", "", 600, -1 },
+            { "30Rnd_9x21_Mag", "", 600, -1 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 2500, -1 },
@@ -47,49 +47,50 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
-            { "Rangefinder", "", 300, -1 },
+            { "Rangefinder", "", 500, -1 },
             { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "", 250, -1 },
+            { "ToolKit", "", 500, -1 },
             { "FirstAidKit", "", 150, -1 },
-            { "NVGoggles", "", 2000, -1 },
-            { "optic_AMS", "", 90000, -1 },
-            { "optic_Hamr", "", 10500, -1 },
-            { "bipod_01_F_blk", "", 4000, -1 },
-            { "bipod_01_F_mtp", "", 4000, -1 },
-            { "bipod_01_F_snd", "", 4000, -1 },
+            { "Medikit", "", 500, -1 },
+            { "NVGoggles", "", 500, -1 },
+            { "optic_AMS", "", 14000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "bipod_01_F_blk", "", 300, -1 },
+            { "bipod_01_F_mtp", "", 300, -1 },
+            { "bipod_01_F_snd", "", 300, -1 },
             
             { "hgun_Rook40_F", "", 30000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
-            { "arifle_TRG21_F", "", 50000, -1 },
-            { "arifle_Mk20_F", "", 60000, -1 },
-            { "arifle_MX_F", "", 70000, -1 },
-            { "arifle_MX_SW_pointer_F", "", 80000, -1 },
-            { "LMG_Mk200_F", "", 250000, -1 },
-            { "srifle_DMR_01_F", "", 260000, -1 },
+            { "arifle_TRG21_F", "", 70000, -1 },
+            { "arifle_Mk20_F", "", 70000, -1 },
+            { "arifle_MX_F", "", 220000, -1 },
+            { "arifle_MX_SW_pointer_F", "", 210000, -1 },
+            { "LMG_Mk200_F", "", 300000, -1 },
+            { "srifle_DMR_01_F", "", 320000, -1 },
             { "srifle_EBR_F", "", 340000, -1 },
-            { "srifle_DMR_06_camo_F", "", 350000, -1 },
-            { "srifle_DMR_02_camo_F", "", 380000, -1 }
+            { "srifle_DMR_06_camo_F", "", 400000, -1 },
+            { "srifle_DMR_02_camo_F", "", 700000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 500, -1 },
-            { "11Rnd_45ACP_Mag", "", 500, -1 },
+            { "30Rnd_9x21_Mag", "", 200, -1 },
+            { "11Rnd_45ACP_Mag", "", 200, -1 },
             { "30Rnd_556x45_Stanag", "", 700, -1 },
-            { "30Rnd_556x45_Stanag", "", 800, -1 },
+            { "30Rnd_556x45_Stanag", "", 700, -1 },
             { "30Rnd_65x39_caseless_mag", "", 1000, -1 },
-            { "100Rnd_65x39_caseless_mag", "", 1200, -1 },
-            { "200Rnd_65x39_cased_Box", "", 1200, -1 },
-            { "10Rnd_762x54_Mag", "", 1000, -1 },
-            { "20Rnd_762x51_Mag", "", 1000, -1 },
-            { "20Rnd_762x51_Mag", "", 2500, -1, -1 },
-            { "10Rnd_338_Mag", "", 2500, -1 }
+            { "100Rnd_65x39_caseless_mag", "", 1300, -1 },
+            { "200Rnd_65x39_cased_Box", "", 1800, -1 },
+            { "10Rnd_762x54_Mag", "", 1800, -1 },
+            { "20Rnd_762x51_Mag", "", 2200, -1 },
+            { "20Rnd_762x51_Mag", "", 2200, -1, -1 },
+            { "10Rnd_338_Mag", "", 3200, -1 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 4750, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 10000, -1 },
-            { "optic_AMS", "", 7500, -1 },
-            { "optic_LRPS", "", 7500, -1 }
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
+            { "optic_LRPS", "", 25000, -1 }
         };
     };
     
