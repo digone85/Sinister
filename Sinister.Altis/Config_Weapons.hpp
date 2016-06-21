@@ -55,8 +55,6 @@ class WeaponShops {
             { "NVGoggles", "", 500, -1 },
             { "optic_AMS", "", 14000, -1 },
             { "optic_Hamr", "", 9000, -1 },
-            { "bipod_01_F_blk", "", 300, -1 },
-            { "bipod_01_F_mtp", "", 300, -1 },
             { "bipod_01_F_snd", "", 300, -1 },
             
             { "hgun_Rook40_F", "", 30000, -1 },
@@ -109,8 +107,6 @@ class WeaponShops {
             { "NVGoggles", "", 500, -1 },
             { "optic_AMS", "", 14000, -1 },
             { "optic_Hamr", "", 9000, -1 },
-            { "bipod_01_F_blk", "", 300, -1 },
-            { "bipod_01_F_mtp", "", 300, -1 },
             { "bipod_01_F_snd", "", 300, -1 },
             { "muzzle_snds_H", "", 2000, -1 },
             { "muzzle_snds_L", "", 2000, -1 },
@@ -496,7 +492,8 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 1000, -1 }
         };
         accs[] = {
-            { "optic_Arco", "", 9000, -1 }
+            { "optic_Arco", "", 9000, -1 },
+            { "optic_Hamr", "", 9000, -1 }
         };
     };
 };
