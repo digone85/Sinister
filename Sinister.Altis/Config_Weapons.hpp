@@ -311,16 +311,7 @@ class WeaponShops {
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
             { "B_UavTerminal", "", 4000, -1 },
-            { "muzzle_snds_H", "", 2000, -1 },
-            { "muzzle_snds_L", "", 2000, -1 },
-            { "muzzle_snds_M", "", 2000, -1 },
-            { "muzzle_snds_B", "", 2000, -1 },
-            { "muzzle_snds_H_MG", "", 2000, -1 },
-            { "muzzle_snds_93mmg", "", 2000, -1 },
-            { "muzzle_snds_338_sand", "", 2000, -1 },
-            { "bipod_01_F_blk", "", 300, -1 },
-            { "bipod_01_F_mtp", "", 300, -1 },
-            { "bipod_01_F_snd", "", 300, -1 }
+            { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "", 150, -1 },
@@ -370,16 +361,7 @@ class WeaponShops {
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
             { "B_UavTerminal", "", 4000, -1 },
-            { "muzzle_snds_H", "", 2000, -1 },
-            { "muzzle_snds_L", "", 2000, -1 },
-            { "muzzle_snds_M", "", 2000, -1 },
-            { "muzzle_snds_B", "", 2000, -1 },
-            { "muzzle_snds_H_MG", "", 2000, -1 },
-            { "muzzle_snds_93mmg", "", 2000, -1 },
-            { "muzzle_snds_338_sand", "", 2000, -1 },
-            { "bipod_01_F_blk", "", 300, -1 },
-            { "bipod_01_F_mtp", "", 300, -1 },
-            { "bipod_01_F_snd", "", 300, -1 }
+            { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "", 150, -1 },
@@ -443,9 +425,7 @@ class WeaponShops {
             { "muzzle_snds_H_MG", "", 2000, -1 },
             { "muzzle_snds_93mmg", "", 2000, -1 },
             { "muzzle_snds_338_sand", "", 2000, -1 },
-            { "bipod_01_F_blk", "", 300, -1 },
-            { "bipod_01_F_mtp", "", 300, -1 },
-            { "bipod_01_F_snd", "", 300, -1 }
+            { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "", 150, -1 },
