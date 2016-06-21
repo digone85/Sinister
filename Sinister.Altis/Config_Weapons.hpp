@@ -162,12 +162,12 @@ class WeaponShops {
             { "10Rnd_93x64_DMR_05_Mag", "", 3200, -1 }
         };
         accs[] = {
-            { "optic_ACO_grn", "", 4750, -1 },
+            { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 10000, -1 },
-            { "optic_AMS", "", 7500, -1 },
-            { "optic_LRPS", "", 7500, -1 }
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
+            { "optic_LRPS", "", 25000, -1 }
         };
     };
             
@@ -178,25 +178,25 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, -1 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 },
-            { "SMG_01_F", "", 70000, -1 },
-            { "SMG_02_F", "", 80000, -1 }
+            { "hgun_Rook40_F", "", 27000, -1 },
+            { "hgun_Pistol_heavy_02_F", "", 36000, -1 },
+            { "hgun_ACPC2_F", "", 40000, -1 },
+            { "hgun_PDW2000_F", "", 56000, -1 },
+            { "SMG_01_F", "", 65000, -1 },
+            { "SMG_02_F", "", 65000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25, -1 },
-            { "6Rnd_45ACP_Cylinder", "", 50, -1 },
-            { "9Rnd_45ACP_Mag", "", 45, -1 },
-            { "30Rnd_9x21_Mag", "", 75, -1 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 100, -1 },
-            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100, -1 },
-            { "30Rnd_9x21_Mag", "", 110, -1 },
-            { "10Rnd_762x54_Mag", "", 130, -1 }
+            { "16Rnd_9x21_Mag", "", 200, -1 },
+            { "6Rnd_45ACP_Cylinder", "", 200, -1 },
+            { "9Rnd_45ACP_Mag", "", 200, -1 },
+            { "30Rnd_9x21_Mag", "", 200, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 600, -1 },
+            { "30Rnd_9x21_Mag", "", 600, -1 },
+            { "10Rnd_762x54_Mag", "", 1800, -1 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950, -1 }
+            { "optic_ACO_grn_smg", "", 5000, -1 }
         };
     };
 
