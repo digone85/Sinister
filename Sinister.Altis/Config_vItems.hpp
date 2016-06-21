@@ -173,7 +173,7 @@ class VirtualItems {
         variable = "pickaxe";
         displayName = "STR_Item_Pickaxe";
         weight = 2;
-        buyPrice = 750;
+        buyPrice = 500;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -217,7 +217,7 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 5000;
+        buyPrice = 10000;
         sellPrice = -1;
         illegal = true;
         edible = -1;
@@ -250,7 +250,7 @@ class VirtualItems {
         variable = "boltCutter";
         displayName = "STR_Item_BCutter";
         weight = 5;
-        buyPrice = 7500;
+        buyPrice = 10000;
         sellPrice = -1;
         illegal = true;
         edible = -1;
@@ -520,7 +520,7 @@ class VirtualItems {
         variable = "redgull";
         displayName = "STR_Item_RedGull";
         weight = 1;
-        buyPrice = 2000;
+        buyPrice = 1000;
         sellPrice = -1;
         illegal = false;
         edible = 100;
@@ -576,7 +576,7 @@ class VirtualItems {
         variable = "tbacon";
         displayName = "STR_Item_TBacon";
         weight = 1;
-        buyPrice = 500;
+        buyPrice = 150;
         sellPrice = -1;
         illegal = false;
         edible = 60;
@@ -587,7 +587,7 @@ class VirtualItems {
         variable = "donuts";
         displayName = "STR_Item_Donuts";
         weight = 1;
-        buyPrice = 200;
+        buyPrice = 50;
         sellPrice = -1;
         illegal = false;
         edible = 30;
@@ -598,7 +598,7 @@ class VirtualItems {
         variable = "rabbitRaw";
         displayName = "STR_Item_RabbitRaw";
         weight = 2;
-        buyPrice = 800;
+        buyPrice = 75;
         sellPrice = -1;
         illegal = false;
         edible = -1;
