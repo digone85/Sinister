@@ -249,8 +249,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_P07_snds_F", "Stun Pistol", 15000, -1 },
-            { "arifle_sdar_F", "Taser Rifle", 200, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 20000, -1 },
+            { "arifle_sdar_F", "Taser Rifle", 22000, -1 },
             { "arifle_TRG21_F", "", 23000, -1 },
             { "arifle_Katiba_F", "", 25000, -1 },
             { "arifle_MX_F", "", 25000, -1 },
