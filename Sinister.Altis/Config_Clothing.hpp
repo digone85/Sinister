@@ -269,7 +269,7 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Bandanna_camo", "", 1000, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_BandMask_blk", "Hat & Bandanna", 2200, { "", "", -1 } }
+            { "H_BandMask_blk", "Hat & Bandanna", 2200, { "", "", -1 } },
             { "H_ShemagOpen_tan", "", 3000, { "", "", -1 } },
             { "H_Shemag_olive", "", 3000, { "", "", -1 } },
             { "H_ShemagOpen_khk", "", 3000, { "", "", -1 } },
