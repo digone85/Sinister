@@ -609,7 +609,7 @@ class VirtualItems {
         variable = "rabbit";
         displayName = "STR_Item_Rabbit";
         weight = 1;
-        buyPrice = 200;
+        buyPrice = 75;
         sellPrice = -1;
         illegal = false;
         edible = 20;
