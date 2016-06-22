@@ -86,8 +86,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -115,6 +113,8 @@ class WeaponShops {
             { "muzzle_snds_H_MG", "", 2000, -1 },
             { "muzzle_snds_93mmg", "", 2000, -1 },
             { "muzzle_snds_338_sand", "", 2000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
             
             { "hgun_Rook40_F", "", 25500, -1 },
             { "hgun_Pistol_heavy_01_F", "", 34000, -1 },
@@ -160,8 +160,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -263,6 +261,8 @@ class WeaponShops {
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
             { "B_UavTerminal", "", 4000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
             { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
@@ -276,8 +276,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -305,6 +303,8 @@ class WeaponShops {
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
             { "B_UavTerminal", "", 4000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
             { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
@@ -321,8 +321,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -354,6 +352,8 @@ class WeaponShops {
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
             { "B_UavTerminal", "", 4000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
             { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
@@ -371,8 +371,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -415,6 +413,8 @@ class WeaponShops {
             { "muzzle_snds_H_MG", "", 2000, -1 },
             { "muzzle_snds_93mmg", "", 2000, -1 },
             { "muzzle_snds_338_sand", "", 2000, -1 },
+            { "optic_Hamr", "", 9000, -1 },
+            { "optic_AMS", "", 14000, -1 },
             { "bipod_01_F_blk", "", 300, -1 }
         };
         mags[] = {
@@ -435,8 +435,6 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
-            { "optic_AMS", "", 14000, -1 },
             { "optic_LRPS", "", 25000, -1 }
         };
     };
@@ -470,6 +468,7 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
+            { "optic_Hamr", "", 9000, -1 },
             
             { "arifle_MX_Black_F", "", 220000, -1 },
             { "arifle_Katiba_F", "", 250000, -1 },
@@ -482,8 +481,7 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 1000, -1 }
         };
         accs[] = {
-            { "optic_Arco", "", 9000, -1 },
-            { "optic_Hamr", "", 9000, -1 }
+            { "optic_Arco", "", 9000, -1 }
         };
     };
 };
