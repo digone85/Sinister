@@ -29,11 +29,10 @@ class WeaponShops {
 	    { "hgun_PDW2000_F", "", 60000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 200, -1 },
-            { "11Rnd_45ACP_Mag", "", 200, -1 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
+            { "16Rnd_9x21_Mag", "", 200, -1 },
             { "30Rnd_9x21_Mag", "", 600, -1 },
-            { "30Rnd_9x21_Mag", "", 600, -1 }
+            { "11Rnd_45ACP_Mag", "", 200, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 5000, -1 },
@@ -70,7 +69,8 @@ class WeaponShops {
             { "srifle_DMR_02_camo_F", "", 700000, -1 }
         };
         mags[] = {
-            { "30Rnd_9x21_Mag", "", 200, -1 },
+            { "16Rnd_9x21_Mag", "", 200, -1 },
+            { "30Rnd_9x21_Mag", "", 600, -1 },
             { "11Rnd_45ACP_Mag", "", 200, -1 },
             { "30Rnd_556x45_Stanag", "", 700, -1 },
             { "30Rnd_556x45_Stanag", "", 700, -1 },
@@ -137,11 +137,10 @@ class WeaponShops {
             { "srifle_DMR_05_hex_F", "", 680000, -1 }
         };
         mags[] = {
+            { "16Rnd_9x21_Mag", "", 200, -1 },
             { "30Rnd_9x21_Mag", "", 200, -1 },
             { "11Rnd_45ACP_Mag", "", 200, -1 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
-            { "30Rnd_9x21_Mag", "", 600, -1 },
-            { "30Rnd_9x21_Mag", "", 600, -1 },
             { "30Rnd_556x45_Stanag", "", 700, -1 },
             { "30Rnd_556x45_Stanag", "", 700, -1 },
             { "30Rnd_65x39_caseless_green", "", 1000, -1 },
@@ -185,7 +184,6 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 200, -1 },
             { "6Rnd_45ACP_Cylinder", "", 200, -1 },
             { "9Rnd_45ACP_Mag", "", 200, -1 },
-            { "30Rnd_9x21_Mag", "", 200, -1 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
             { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 600, -1 },
             { "30Rnd_9x21_Mag", "", 600, -1 },
