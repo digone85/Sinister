@@ -295,8 +295,8 @@ class WeaponShops {
             { "arifle_TRG21_F", "", 23000, -1 },
             { "arifle_Katiba_F", "", 25000, -1 },
             { "arifle_MX_F", "", 25000, -1 },
-            { "arifle_MXM_Black_F", 30000, -1 },
-            { "arifle_MX_SW_Black_F", 34000, -1 },
+            { "arifle_MXM_Black_F", "", 30000, -1 },
+            { "arifle_MX_SW_Black_F", "", 34000, -1 },
             { "LMG_Mk200_F", "", 35000, -1 },
             
             { "Binocular", "", 150, -1 },
@@ -315,9 +315,8 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 150, -1 },
             { "30Rnd_65x39_caseless_green", "", 150, -1 },
             { "30Rnd_65x39_caseless_mag", "", 150, -1 },
-            { "30Rnd_65x39_caseless_mag", "", 150, -1 },
-            { "100Rnd_65x39_caseless_mag", 150, -1 },
-            { "200Rnd_65x39_cased_Box", 150, -1 }
+            { "100Rnd_65x39_caseless_mag", "", 150, -1 },
+            { "200Rnd_65x39_cased_Box", "", 150, -1 }
             
         };
         accs[] = {
@@ -341,11 +340,11 @@ class WeaponShops {
             { "arifle_TRG21_F", "", 23000, -1 },
             { "arifle_Katiba_F", "", 25000, -1 },
             { "arifle_MX_F", "", 25000, -1 },
-            { "arifle_MXM_Black_F", 30000, -1 },
-            { "arifle_MX_SW_Black_F", 34000, -1 },
+            { "arifle_MXM_Black_F", "", 30000, -1 },
+            { "arifle_MX_SW_Black_F", "", 34000, -1 },
             { "LMG_Mk200_F", "", 35000, -1 },
-            { "srifle_DMR_01_F", 32000, -1 },
-            { "srifle_EBR_F", 37000, -1 },
+            { "srifle_DMR_01_F", "", 32000, -1 },
+            { "srifle_EBR_F", "", 37000, -1 },
             { "srifle_DMR_06_olive_F", "", 37000, -1 },
             { "srifle_DMR_02_F", "", 45000, -1 },
             
