@@ -359,14 +359,11 @@ class WeaponShops {
         mags[] = {
             { "30Rnd_9x21_Mag", "", 150, -1 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 150, -1 },
-            { "30Rnd_556x45_Stanag", "", 150, -1 },
             { "30Rnd_65x39_caseless_green", "", 150, -1 },
-            { "30Rnd_65x39_caseless_mag", "", 150, -1 },
             { "30Rnd_65x39_caseless_mag", "", 150, -1 },
             { "100Rnd_65x39_caseless_mag", "", 150, -1 },
             { "200Rnd_65x39_cased_Box", "", 150, -1 },
             { "10Rnd_762x54_Mag", "", 150, -1 },
-            { "20Rnd_762x51_Mag", "", 150, -1 },
             { "20Rnd_762x51_Mag", "", 150, -1 },
             { "10Rnd_338_Mag", "", 150, -1 }
         };
