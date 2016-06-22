@@ -785,6 +785,15 @@ class Life_RscMapControl
 	colorGridMap[] = {0.1,0.1,0.1,0.6};
 	stickX[] = {0.2,{"Gamma",1,1.5}};
 	stickY[] = {0.2,{"Gamma",1,1.5}};
+	
+class LineMarker
+{
+	lineDistanceMin = 3e-005;
+	lineLengthMin = 5;
+	lineWidthThick = 0.014;
+	lineWidthThin = 0.008;
+	textureComboBoxColor = "#(argb,8,8,3)color(1,1,1,1)";
+};
 	class Legend
 	{
 		colorBackground[] = {1,1,1,0.5};
