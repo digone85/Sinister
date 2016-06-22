@@ -44,7 +44,7 @@ class Clothing {
             { "H_Hat_brown", "", 350, { "", "", -1 } },
             { "H_Hat_checker", "", 350, { "", "", -1 } },
             { "H_Hat_grey", "", 350, { "", "", -1 } },
-            { "H_Hat_tan", "", 350, { "", "", -1 } },
+            { "H_Hat_tan", "", 350, { "", "", -1 } }
             
         };
         goggles[] = {
@@ -207,7 +207,7 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Chestrig_khk", "Chest Rig (Khaki)", 30000, { "", "", -1 } },
-            { "V_TacVest_khk", "Tactical Vest (Khaki)", 70000, { "", "", -1 } },
+            { "V_TacVest_khk", "Tactical Vest (Khaki)", 70000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -317,8 +317,7 @@ class Clothing {
             { "V_PlateCarrierGL_mtp", "Carrier GL Rig (MTP)", 55000, { "", "", -1 } },
             { "V_PlateCarrier3_rgr", "Carrier Rig (Green)", 70000, { "", "", -1 } },
             { "V_PlateCarrierSpec_rgr", "Carrier Special Rig (Green)", 80000, { "", "", -1 } },
-            { "V_PlateCarrierSpec_mtp", "Carrier Special Rig (MTP)", 80000, { "", "", -1 } },
-            
+            { "V_PlateCarrierSpec_mtp", "Carrier Special Rig (MTP)", 80000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
