@@ -73,7 +73,7 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "B_G_Offroad_01_F", { "", "", -1 } },
 	    { "B_G_Offroad_01_armed_F", { "", "", -1 } },
-	    { "I_MRAP_03_F",{ "", "", -1 } },
+	    { "I_MRAP_03_F",{ "", "strider_verde", -1 } },
 	    
 	    //Helis
 	    
@@ -97,7 +97,7 @@ class reb_car1 {
             { "B_Truck_01_transport_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
             { "O_Truck_03_device_F", { "", "", -1 } },
-	    { "I_MRAP_03_F", { "", "", -1 } },
+	    { "I_MRAP_03_F", { "", "strider_verde", -1 } },
 			
 			//Helis
             
@@ -136,8 +136,7 @@ class reb_car1 {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "", "LittleBirdPM", -1 } },
-            { "B_Heli_Light_01_stripped_F",{ "", "LittleBirdPM", -1 } },
+            { "B_Heli_Light_01_stripped_F",{ "", "LittleBirdPM", -1 } }
         };
     };
 
@@ -612,7 +611,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
         licenses[] = { {""}, {"mAir"}, {"reb"}, {""} };
-        rentalprice[] = { 325000, -1, 1500000, -1 };
+        rentalprice[] = { 1200000, -1, -1, -1 };
         textures[] = {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
@@ -624,9 +623,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 210;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 1200000, 75000, 50000, -1 };
+        rentalprice[] = { 2010000, -1, 50000, -1 };
         textures[] = {
             { "Policia", "cop", {
                 "textures\cop\LittleBirdPM.paa"
@@ -680,9 +679,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
+        vItemSpace = 30;
         licenses[] = { {"rebel" }, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 2750000, 150000, 75000, -1 };
+        rentalprice[] = { -1, -1, 75000, -1 };
         textures[] = {
             { "Policia", "cop", {
                 "textures\cop\orca_PM.paa"
