@@ -52,7 +52,7 @@ class WeaponShops {
             { "FirstAidKit", "", 150, -1 },
             { "Medikit", "", 500, -1 },
             { "NVGoggles", "", 500, -1 },
-            { "optic_AMS", "", 14000, -1 },
+            { "optic_AMS", "", 30000, -1 },
             { "optic_Hamr", "", 9000, -1 },
             { "bipod_01_F_snd", "", 300, -1 },
             
@@ -84,7 +84,7 @@ class WeaponShops {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
             { "optic_Arco", "", 9000, -1 },
-            { "optic_LRPS", "", 25000, -1 }
+            { "optic_LRPS", "", 45000, -1 }
         };
     };
     
