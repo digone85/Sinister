@@ -206,7 +206,7 @@ class VirtualItems {
         variable = "spikeStrip";
         displayName = "STR_Item_SpikeStrip";
         weight = 10;
-        buyPrice = 1500;
+        buyPrice = 1800;
         sellPrice = -1;
         illegal = true;
         edible = -1;
