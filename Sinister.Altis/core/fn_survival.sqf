@@ -61,14 +61,20 @@ while {true} do {
 	if((time - _foodTime) > 850) then {[] call _fnc_food; _foodTime = time;};
 	
 	/* Adjustment of carrying capacity based on backpack changes */
-	if(EQUAL(backpack player,"")) then {
-		life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
-		_bp = backpack player;
-	} else {
-		if(!(EQUAL(backpack player,"")) && {!(EQUAL(backpack player,_bp))}) then {
-			_bp = backpack player;
-			life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,_bp,"maximumload") / 4);
-		};
+	[] spawn{
+	private["_bp","_load","_cfg"];
+	while{true} do	{
+	waitUntil {backpack player != ""};
+	_bp = backpack player;
+	_cfg = getNumber(configFile >> "CfgVehicles" >> (backpack player) >> "maximumload");
+	_load = round(_cfg / 8);
+	if (backpack player == "B_FieldPack_blk") then { _load = 320; };	//add this line as many times as you want until you've covered all the desired backpacks
+	life_maxWeight = life_maxWeightT + _load;
+	waitUntil {backpack player != _bp};
+	if(backpack player == "") then 		{
+	life_maxWeight = life_maxWeightT; 	
+	};
+	};
 	};
 	
 	/* Check if the player's state changed? */
