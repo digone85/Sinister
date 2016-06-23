@@ -71,8 +71,8 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
-            { "B_G_Offroad_01_F", { "", "", -1 } },
-	    { "B_G_Offroad_01_armed_F", { "", "", -1 } },
+            { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
+	    { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
 	    { "I_MRAP_03_F",{ "", "strider_verde", -1 } },
 	    
 	    //Helis
@@ -86,8 +86,8 @@ class reb_car1 {
          side = "civ";
          vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
-            { "B_G_Offroad_01_F", { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", { "", "", -1 } },
+            { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
+            { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
              
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
@@ -181,7 +181,7 @@ class LifeCfgVehicles {
         	{ "Policia", "cop", {
                 "textures\Cop\strider_cinza.paa"
             } },
-        	{ "Verde", "reb", {
+        	{ "Camuflado", "civ", {
                 "textures\Civ\strider_verde.paa"
             } }       	
         };
@@ -309,8 +309,10 @@ class LifeCfgVehicles {
         textures[] = {
         	 { "Policia", "cop", {
                 "textures\cop\OffroadPM.paa"
+            } },
+               	 { "Camuflado", "civ", {
+                "textures\Civ\Civ_offroad_reb.paa"
             } }
-        	
         };
     };
 
