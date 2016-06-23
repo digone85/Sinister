@@ -44,7 +44,6 @@ class CarShops {
             { "O_Truck_03_transport_F", { "", "", -1 } },
             { "O_Truck_03_covered_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
-            { "O_Truck_03_device_F", { "", "", -1 } },
             { "C_Van_01_fuel_F", { "", "", -1 } },
             { "I_Truck_02_fuel_F", { "", "", -1 } },
             { "B_Truck_01_fuel_F", { "", "", -1 } }
@@ -96,7 +95,6 @@ class reb_car1 {
             { "O_Truck_03_covered_F", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
-            { "O_Truck_03_device_F", { "", "", -1 } },
 	    { "I_MRAP_03_F", { "", "strider_verde", -1 } },
 			
 			//Helis
@@ -270,7 +268,7 @@ class LifeCfgVehicles {
     class O_Truck_03_device_F {
         vItemSpace = 350;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 15000000, -1, -1, -1 };
+        rentalprice[] = { -1, -1, -1, -1 };
         textures[] = { };
     };
 
