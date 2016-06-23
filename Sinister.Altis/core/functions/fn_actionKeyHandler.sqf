@@ -86,12 +86,9 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && !(_curTarget GVAR["Revive
 
 //If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
-	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == west) then {
+	 if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == west) then {
 	[_curTarget] call life_fnc_copInteractionMenu;
-	};
-    if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == civilian) then {
-	[_curTarget] call life_fnc_civInteractionMenu;
-	};
+    };
 } else {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money","_list"];
