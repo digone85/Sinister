@@ -613,7 +613,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
         licenses[] = { {""}, {"mAir"}, {"reb"}, {""} };
-        rentalprice[] = { 1200000, -1, -1, -1 };
+        rentalprice[] = { 1200000, 75000, -1, -1 };
         textures[] = {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
