@@ -610,7 +610,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
-        licenses[] = { {""}, {"mAir"}, {"reb"}, {""} };
+        licenses[] = { {""}, {"cAir"}, {"reb"}, {""} };
         rentalprice[] = { 1200000, 75000, -1, -1 };
         textures[] = {
             { "Rebel Digital", "reb", {
