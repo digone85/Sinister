@@ -19,6 +19,8 @@ player addItem "ItemWatch";
 player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
+player addItem "B_FieldPack_oucamo";
+player assignItem "B_FieldPack_oucamo";
 
 [[player,0,"textures\medic_uniform.paa],"life_fnc_setTexture",true,false] call life_fnc_MP;
 
