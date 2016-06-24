@@ -241,7 +241,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_AssaultPack_mcamo", "EMS Backpack", 3000, { "", "", -1 } }
+            { "B_FieldPack_oucamo", "EMS Backpack", 3000, { "", "", -1 } }
         };
     };
 
