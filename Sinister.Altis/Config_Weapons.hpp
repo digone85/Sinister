@@ -489,4 +489,5 @@ class WeaponShops {
             { "ItemMap", "", 150, -1 },
             { "ItemCompass", "", 150, -1 },
             { "ItemWatch", "", 150, -1 },
-};
+	};
+    };
