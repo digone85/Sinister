@@ -479,4 +479,14 @@ class WeaponShops {
             { "optic_Arco", "", 9000, -1 }
         };
     };
+    class centro_turistico {
+        name = "centro_turistico";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "ItemGPS", "", 300, -1 },
+            { "ItemMap", "", 150, -1 },
+            { "ItemCompass", "", 150, -1 },
+            { "ItemWatch", "", 150, -1 },
 };
