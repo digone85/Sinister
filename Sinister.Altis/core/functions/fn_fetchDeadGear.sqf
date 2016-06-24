@@ -54,4 +54,4 @@ if(!(EQUAL(primaryWeapon _unit,""))) then {
  _unit selectWeapon (primaryWeapon _unit);
  
  if(isNil "_handgunItems") then {_handgunItems = ["","",""];};
- [_uniform,_vest,_backpack,_headgear,_goggles,_items,_uitems,_vitems,_bitems];
+ [_uniform,_vest,_backpack,_items,_primitems,_secitems,_handgunitems,_uitems,_vitems,_bitems,_headgear,_goggles];
