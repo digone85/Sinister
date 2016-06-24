@@ -103,7 +103,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "", 100, { "", "", -1 } },
-            { "H_HelmetB_black", "", 100, { "", "", -1 } },
+            { "H_HelmetB_plain_blk", "", 100, { "", "", -1 } },
             { "H_HelmetCrew_B", "", 100, { "", "", -1 } },
             { "H_PilotHelmetHeli_B", "", 100, { "", "", -1 } },
             { "H_HelmetSpecO_blk", "", 100, { "", "", -1 } },
