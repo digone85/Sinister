@@ -137,7 +137,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_FieldPack_blk", "", 1650, { "", "", -1 } },
+            { "B_Bergen_blk", "", 2000, { "", "", -1 } },
             { "B_UAV_01_backpack_F", "", 3500, { "", "", -1 } }
         };
     };
