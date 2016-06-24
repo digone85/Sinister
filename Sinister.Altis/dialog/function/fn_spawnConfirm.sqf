@@ -55,7 +55,7 @@ if(count life_spawn_point == 0) then {
 };
 
 if(life_firstSpawn) then {
-	player say2d "welcome";
+	player say3d "welcome";
 	life_firstSpawn = false;
 	[] call life_fnc_welcomeNotification;
 };
