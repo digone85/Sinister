@@ -30,3 +30,28 @@ _bitems = [];
 if(_uniform != "") then {{_uitems pushBack _x;} foreach (uniformItems _unit);};
 if(_vest != "") then {{_vitems pushBack _x;} foreach (vestItems _unit);};
 if(_backpack != "") then {{_bitems pushBack _x;} foreach (backPackItems _unit);};
+
+if(!(EQUAL(primaryWeapon _unit,""))) then {
+	_unit selectWeapon (primaryWeapon _unit);
+ 	if(!(EQUAL(currentMagazine _unit,""))) then {
+ 		_magazines pushBack currentMagazine _unit;
+ 	};
+ };
+ 		
+ if(!(EQUAL(secondaryWeapon _unit,""))) then {
+ 	_unit selectWeapon (secondaryWeapon _unit);
+ 	if(!(EQUAL(currentMagazine _unit,""))) then {
+ 		_magazines pushBack currentMagazine _unit;
+ 	};
+ };
+ 		
+ if(!(EQUAL(handgunWeapon _unit,""))) then {
+ 	_unit selectWeapon (handgunWeapon _unit);
+ 	if(!(EQUAL(currentMagazine _unit,""))) then {
+ 		_magazines pushBack currentMagazine _unit;
+ 	};
+ };
+ _unit selectWeapon (primaryWeapon _unit);
+ 
+ if(isNil "_handgunItems") then {_handgunItems = ["","",""];};
+ [_uniform,_vest,_backpack,_items,_primitems,_secitems,_handgunitems,_uitems,_vitems,_bitems,_headgear,_goggles];
