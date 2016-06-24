@@ -22,7 +22,7 @@ player addMagazine "16Rnd_9x21_Mag";
 player addMagazine "16Rnd_9x21_Mag";
 
 /* ITEMS */
-player forceaddUniform "U_Rangemaster";
+player forceaddUniform "U_B_CombatUniform_mcam";
 player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemCompass";
