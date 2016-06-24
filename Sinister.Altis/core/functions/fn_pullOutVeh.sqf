@@ -19,3 +19,4 @@ life_disable_getIn = true;
 player action ["Eject", vehicle player];
 titleText[localize "STR_NOTF_PulledOut","PLAIN"];
 titleFadeOut 4;
+};
