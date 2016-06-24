@@ -241,7 +241,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } }
+            { "B_AssaultPack_mcamo", "EMS Backpack", 3000, { "", "", -1 } }
         };
     };
 
@@ -497,7 +497,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_BandMask_blk", "Hat & Bandanna", 2200, { "", "", -1 } }
+            { "H_Booniehat_dgtl", "", 1400, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
