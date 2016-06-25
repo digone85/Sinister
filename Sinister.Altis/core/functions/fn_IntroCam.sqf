@@ -25,6 +25,16 @@
  waitUntil {camCommitted _camera};
  _camera camSetTarget vehicle player;
  _camera camSetRelPos [0,0,2];
+ 
+ //Introcam
+ 
+ 	if(life_firstSpawn) then {
+ 	life_firstSpawn = false;
+ [] call life_fnc_welcomeNotification;
+ [] spawn life_fnc_IntroCam;
+ };
+ 				
+ -[] call life_fnc_hudSetup;
  _camera camCommit _camTime;
  waitUntil {camCommitted _camera};
  _camera cameraEffect ["terminate","back"];
