@@ -207,7 +207,6 @@ class Life_Client_Core
 		class nearATM {};
 		class playerSkins {};
 		class nearestObjects {};
-		class introcam {};
 		class teleport {};
 		class searchPosEmpty {};
 		class fadeSound {};
@@ -395,4 +394,10 @@ class Life_Client_Core
 		class wireTransfer {};
 		class gangWithdraw {};
 	};
-};
+	
+	class Cam
+	{
+		file ="core";
+		class IntroCam {};
+		};
+	};
