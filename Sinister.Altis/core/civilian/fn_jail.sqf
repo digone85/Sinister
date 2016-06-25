@@ -46,6 +46,11 @@ life_is_arrested = true;
 
 removeAllWeapons player;
 {player removeMagazine _x} forEach (magazines player);
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeGoggles player;
+removeHeadGear player;
 
 if(life_HC_isActive) then {
 	[player,_bad] remoteExecCall ["HC_fnc_jailSys",HC_Life];
