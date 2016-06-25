@@ -43,8 +43,8 @@ player createDiarySubject ["controles","Controles"];
 				3. Ferro: 1.900<br/>
 				4. Cobre: 2.000<br/>
 				5. Pedra: 2.550<br/>
-				6. Sal: 3.000<br/><br/>
-				7. Petróleo: 3.150<br/><br/>
+				6. Sal: 3.000<br/>
+				7. Petróleo: 3.150<br/>
 				8. Areia: 3.200<br/><br/>
 			
 				Farms Ilegais<br/><br/>
