@@ -69,6 +69,7 @@ while {true} do {
  			_bp = backpack player;
  			life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,_bp,"maximumload") / 4);
  		};
+	};
 	
 	/* Check if the player's state changed? */
 	if(vehicle player != _lastState OR {!alive player}) then {
