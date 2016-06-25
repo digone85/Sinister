@@ -30,12 +30,3 @@
  _camera cameraEffect ["terminate","back"];
  camDestroy _camera;
  life_firstSpawn = false;
-
-	//Introcam
-	if(life_firstSpawn) then {
-	life_firstSpawn = false;
-[] call life_fnc_welcomeNotification;
-[] spawn life_fnc_IntroCam;
-};
-				
-[] call life_fnc_hudSetup;
