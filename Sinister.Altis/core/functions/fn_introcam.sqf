@@ -28,7 +28,8 @@
  _camera camCommit _camTime;
  waitUntil {camCommitted _camera};
  _camera cameraEffect ["terminate","back"];
- camDestroy _camera;life_firstSpawn = false;
+ camDestroy _camera;
+ life_firstSpawn = false;
 
 	//Introcam
 	if(life_firstSpawn) then {
