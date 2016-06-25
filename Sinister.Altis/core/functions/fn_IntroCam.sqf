@@ -34,9 +34,4 @@
  [] spawn life_fnc_IntroCam;
  };
  				
- -[] call life_fnc_hudSetup;
- _camera camCommit _camTime;
- waitUntil {camCommitted _camera};
- _camera cameraEffect ["terminate","back"];
- camDestroy _camera;
- life_firstSpawn = false;
+ [] call life_fnc_hudSetup;
