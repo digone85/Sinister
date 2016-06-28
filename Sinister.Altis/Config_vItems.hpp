@@ -18,7 +18,7 @@ class VirtualShops {
     
         class mercado_med {
         name = "Mercado";
-        side = "med";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "fuelFull", "peach", "storagesmall", "storagebig" };
