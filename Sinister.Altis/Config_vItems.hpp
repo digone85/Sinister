@@ -21,7 +21,7 @@ class VirtualShops {
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "fuelFull", "peach", "storagesmall", "storagebig" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "coffee", "donuts" };
     };
 
     class rebel {
