@@ -465,6 +465,7 @@ class WeaponShops {
             { "NVGoggles", "", 500, -1 },
             { "optic_Hamr", "", 9000, -1 },
             
+            { "hgun_Rook40_F", "", 30000, -1 },
             { "arifle_MX_Black_F", "", 220000, -1 },
             { "arifle_Katiba_F", "", 250000, -1 },
             { "arifle_Katiba_C_F", "", 250000, -1 }
