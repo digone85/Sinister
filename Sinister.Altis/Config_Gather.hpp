@@ -20,14 +20,14 @@ class CfgGather
 		class heroin_unprocessed
 		{
 			amount = 3;
-			zones[] = { "heroin_1" };
+			zones[] = { "heroin_1", "heroin_1_1" };
 			item = "";
 		};
 
 		class cocaine_unprocessed
 		{
 			amount = 3;
-			zones[] = { "cocaine_1" };
+			zones[] = { "cocaine_1", "cocaine_1_1" };
 			item = "";
 		};
 
