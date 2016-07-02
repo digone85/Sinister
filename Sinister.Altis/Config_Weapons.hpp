@@ -438,6 +438,7 @@ class WeaponShops {
             { "Binocular", "", 150, -1 },
             { "ToolKit", "", 500, -1 },
             { "FirstAidKit", "", 150, -1 },
+            { "Medikit", "", 1000, -1 },            
             { "NVGoggles", "", 500, -1 }
         };
         mags[] = {};
