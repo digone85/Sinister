@@ -13,5 +13,6 @@ StartProgress = false;
 [] execVM "scripts\safezone.sqf";
 [] execVM "scripts\time.sqf";
 [] execVM "scripts\fastrope.sqf";
+[] execVM "scripts\nosidechat.sqf";
 
 StartProgress = true;
