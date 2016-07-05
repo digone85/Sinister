@@ -156,7 +156,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Atirar em um jogador sem dar um tempo razoável para ele seguir suas ordens é considerado Anti roleplay - AntiRP - Banimento por 1 dia.<br/>
 				2. Atropelamento Proposital COM PRINT DO DENUNCIANTE - RDM - BANIMENTOS 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
 				3. Hack/Dup/Bugs/Glich/Exploits - /3dias e reset /permanente.<br/>
-				4. Deslogar/Desconectar Algemado, Rendido, durante o pvp; - 200k multa /BANIMENTO DE 5 HORAS /BANIMENTO 2 DIAS.<br/>
+				4. Deslogar/Desconectar Algemado, Rendido, durante o pvp; - 200k multa /BANIMENTO DE 3 HORAS /BANIMENTO 2 DIAS.<br/>
 				5. Matar em SAFEZONE ou RESPAWN - 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
 				6. Desrespeito (Com o servidor ou com Players) - BANIMENTO 5 HORAS.<br/>
 				7. SPAM em CHAT/CELULAR - 1 dia/ 3 dias/ 7 dias/ permanente.<br/>
