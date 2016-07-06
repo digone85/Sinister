@@ -229,30 +229,30 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["rescue",
 		[
-			"Preço dos Resgates",
+			"Resgates",
 				"
 				==============CARROS==============<br/>
-				Quadriciclo: R$ 4.200<br/>
-				Hatchback: R$ 16.000<br/>
-				Hatchback Sport: R$ 36.000<br/>
-				Offroad: R$ 7.800<br/>
-				SUV: R$ 21.000<br/>
-				Caminhão Baú: R$ 60.000<br/><br/>
+				Quadriciclo: 4.200<br/>
+				Hatchback: 16.000<br/>
+				Hatchback Sport: 36.000<br/>
+				Offroad: 7.800<br/>
+				SUV: 21.000<br/>
+				Caminhão Baú: 60.000<br/><br/>
 				==============CAMINHÕES==============<br/>
-				Transportador Zamak Aberto: R$ 90.000<br/>
-				Transportador Zamak Coberto: R$ 120.000<br/>
-				Transportador Tempest Aberto: R$ 150.000<br/>
-				Transportador Tempest Coberto: R$ 168.000<br/>
-				Transportador HEMTT Aberto: R$ 165.000<br/>
-				HEMTT Box: R$ 285.000<br/>
+				Transportador Zamak Aberto: 90.000<br/>
+				Transportador Zamak Coberto: 120.000<br/>
+				Transportador Tempest Aberto: 150.000<br/>
+				Transportador Tempest Coberto: 168.000<br/>
+				Transportador HEMTT Aberto: 165.000<br/>
+				HEMTT Box: 285.000<br/>
 				Strider: Sem Negociação.<br/><br/>
 				==============HELICÓPTEROS==============<br/>
-				M-H9 (HummingBird): R$ 1.200.000<br/>
-				M-H9 (HummingBird Striped): R$ 720.000<br/><br/>
+				M-H9 (HummingBird): 1.200.000<br/>
+				M-H9 (HummingBird Striped): 720.000<br/><br/>
 				==============VEÍCULOS DA COP===========<br/>
-				Terrestre (diversos): R$ 40.000<br/>
-				Strider: R$ 200.000<br/>
-				Helicóptero: R$ 200.000.<br/><br/>
+				Terrestre (diversos): 40.000<br/>
+				Strider: 200.000<br/>
+				Helicóptero: 200.000.<br/><br/>
 				"
 		]
 	];
