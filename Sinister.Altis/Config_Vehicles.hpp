@@ -70,6 +70,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", { "", "", -1 } },            
             { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
 	    { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
 	    { "I_MRAP_03_F",{ "", "strider_verde", -1 } },
@@ -85,6 +86,7 @@ class reb_car1 {
          side = "civ";
          vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", { "", "", -1 } },            
             { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
              
