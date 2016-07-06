@@ -99,8 +99,6 @@ class WeaponShops {
             { "ToolKit", "", 500, -1 },
             { "FirstAidKit", "", 150, -1 },
             { "NVGoggles", "", 500, -1 },
-            { "optic_AMS", "", 14000, -1 },
-            { "optic_Hamr", "", 9000, -1 },
             { "bipod_01_F_snd", "", 300, -1 },
             { "muzzle_snds_H", "", 2000, -1 },
             { "muzzle_snds_L", "", 2000, -1 },
@@ -463,6 +461,7 @@ class WeaponShops {
             { "arifle_Katiba_C_F", "", 250000, -1 }
         };
         mags[] = {
+            { "16Rnd_9x21_Mag", "", 200, -1 },        	
             { "30Rnd_65x39_caseless_mag", "", 1000, -1 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 1000, -1 },
             { "30Rnd_65x39_caseless_green", "", 1000, -1 },
