@@ -9,7 +9,7 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES [["safe_area_1", 300], ["safe_area_2", 300], ["safe_area_3", 300], ["safe_area_4", 300], ["safe_area_5", 85], ["safe_area_5_1", 50], ["safe_area_5_2", 70], ["safe_area_5_3", 50], ["safe_area_5_4", 50], ["safe_area_6", 140], ["safe_area_6_1", 140], ["safe_area_5_5", 100]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES [["safe_area_1", 300], ["safe_area_2", 300], ["safe_area_3", 300], ["safe_area_4", 300], ["safe_area_5", 85], ["safe_area_5_1", 50], ["safe_area_5_2", 70], ["safe_area_5_3", 50], ["safe_area_5_4", 50], ["safe_area_6", 140], ["safe_area_6_1", 140]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
 
 // Exemplo: [["marker1", radius1], ["marker2", radius2], ...]
 
