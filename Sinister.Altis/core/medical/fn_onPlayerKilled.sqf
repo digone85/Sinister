@@ -139,5 +139,3 @@ life_is_alive = false;
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
 [4] call SOCK_fnc_updatePartial;
-[1] call SOCK_fnc_syncData;
-hint localize "STR_Session_SyncData";
