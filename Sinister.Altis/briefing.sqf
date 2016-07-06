@@ -5,7 +5,7 @@ player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["farms","Preço dos farms"];
 player createDiarySubject ["serverrules","Regras"];
 player createDiarySubject ["recruitments","Recrutamentos"];
-player createDiarySubject ["rescues","Preço dos resgates"];
+//player createDiarySubject ["rescues","Preço dos resgates"];
 //player createDiarySubject ["civrules","Civilian Rules"];
 //player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
@@ -73,7 +73,37 @@ player createDiarySubject ["controles","Controles"];
 				"
 		]
 	];
-
+	
+	player createDiaryRecord ["serverrules",
+		[
+			"Resgates",
+				"
+				==============CARROS==============<br/>
+				Quadriciclo: 4.200<br/>
+				Hatchback: 16.000<br/>
+				Hatchback Sport: 36.000<br/>
+				Offroad: 7.800<br/>
+				SUV: 21.000<br/>
+				Caminhão Baú: 60.000<br/><br/>
+				==============CAMINHÕES==============<br/>
+				Transportador Zamak Aberto: 90.000<br/>
+				Transportador Zamak Coberto: 120.000<br/>
+				Transportador Tempest Aberto: 150.000<br/>
+				Transportador Tempest Coberto: 168.000<br/>
+				Transportador HEMTT Aberto: 165.000<br/>
+				HEMTT Box: 285.000<br/>
+				Strider: Sem Negociação.<br/><br/>
+				==============HELICÓPTEROS==============<br/>
+				M-H9 (HummingBird): 1.200.000<br/>
+				M-H9 (HummingBird Striped): 720.000<br/><br/>
+				==============VEÍCULOS DA COP===========<br/>
+				Terrestre (diversos): 40.000<br/>
+				Strider: 200.000<br/>
+				Helicóptero: 200.000.<br/><br/>
+				"
+		]
+	];
+	
 	player createDiaryRecord["serverrules",
 		[
 			"Regras Especificas",
@@ -223,36 +253,6 @@ player createDiarySubject ["controles","Controles"];
 				4. Para ser médico o player deve ter idade mínima de 15 anos, logar por no mínimo 1 hora diariamente, respeitar as regras de médicos, respeitar os players, realizar o roleplay.<br/>
 				5. É vetada a participação no recrutamento de médicos de qualquer civil que tenha sido advertido formalmente no servidor como civil.<br/>
 				6. É vetada a participação em qualquer recrutamento de players que já sejam médicos em outros servidores ou já tenha sido médicos expulsos da polícia em outros servidores.<br/><br/>
-				"
-		]
-	];
-
-	player createDiaryRecord ["rescue",
-		[
-			"Resgates",
-				"
-				==============CARROS==============<br/>
-				Quadriciclo: 4.200<br/>
-				Hatchback: 16.000<br/>
-				Hatchback Sport: 36.000<br/>
-				Offroad: 7.800<br/>
-				SUV: 21.000<br/>
-				Caminhão Baú: 60.000<br/><br/>
-				==============CAMINHÕES==============<br/>
-				Transportador Zamak Aberto: 90.000<br/>
-				Transportador Zamak Coberto: 120.000<br/>
-				Transportador Tempest Aberto: 150.000<br/>
-				Transportador Tempest Coberto: 168.000<br/>
-				Transportador HEMTT Aberto: 165.000<br/>
-				HEMTT Box: 285.000<br/>
-				Strider: Sem Negociação.<br/><br/>
-				==============HELICÓPTEROS==============<br/>
-				M-H9 (HummingBird): 1.200.000<br/>
-				M-H9 (HummingBird Striped): 720.000<br/><br/>
-				==============VEÍCULOS DA COP===========<br/>
-				Terrestre (diversos): 40.000<br/>
-				Strider: 200.000<br/>
-				Helicóptero: 200.000.<br/><br/>
 				"
 		]
 	];
