@@ -95402,7 +95402,7 @@ class Mission
 			name="ta";
 			text="Posto Avancado Rebelde";
 			type="mil_triangle";
-			colorName="ColorEAST";
+			colorName="ColorRed";
 		};
 		class Item203
 		{
