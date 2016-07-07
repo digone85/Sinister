@@ -117,7 +117,6 @@ class reb_car1 {
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "", "LittleBirdSamu", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "orca_med", -1 } }
         };
     };
@@ -681,7 +680,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 30;
+        vItemSpace = 10;
         licenses[] = { {"rebel" }, {"cAir"}, {"mAir"}, {""} };
         rentalprice[] = { -1, -1, 75000, -1 };
         textures[] = {
