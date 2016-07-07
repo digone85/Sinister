@@ -78,6 +78,11 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Resgates",
 				"
+				1. O rebelde que esteja praticando algum ato ilegal poderá ter seu veículo apreendido pela policia.<br/>
+				2. Após realizada a apreensão e o veículo estiver em uma área segura, poderá ser solicitado o resgate deste.<br/>
+				3. No caso de negativa do pagamento por parte do proprietário, o veículo será destruido.<br/>
+				4. O cop que tiver seu veículo roubado por um rebelde ou civil, deverá sempre realizar o pagamento do resgate.<br/>
+				5. Tabela de valores:<br/><br/>
 				==============CARROS==============<br/>
 				Quadriciclo: 4.200<br/>
 				Hatchback: 16.000<br/>
