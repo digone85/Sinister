@@ -5340,7 +5340,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=7206;
+		items=7212;
 		class Item0
 		{
 			position[]={8424.4277,49.670139,12769.305};
@@ -78426,7 +78426,7 @@ class Mission
 			vehicle="Land_CargoBox_V1_F";
 			skill=0.60000002;
 			text="fed_bank_1";
-			init="this allowDamage false; this enableSimulation false; this addAction[""Abrir Cofre"",life_fnc_safeOpen,"""",0,false,false,"""",' playerSide == civilian && {_target getVariable[""safe_Open"",false]} '];  this addAction[""Consertar Cofre"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide == west && {_target getVariable [""safe_open"",false]} ' ];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Abrir Cofre"",life_fnc_safeOpen,"""",0,false,false,"""",' playerSide == civilian && {_target getVariable[""safe_open"",false]} '];  this addAction[""Consertar Cofre"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide == west && {_target getVariable [""safe_open"",false]} ' ];";
 		};
 		class Item6836
 		{
@@ -82157,6 +82157,66 @@ class Mission
 			position[]={21141.354,28.348145,16821.834};
 			azimut=554.73456;
 			id=7504;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7206
+		{
+			position[]={21191.924,27.4641,16832.43};
+			azimut=465.49927;
+			id=7505;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7207
+		{
+			position[]={21184.867,27.540096,16825.998};
+			azimut=465.49927;
+			id=7506;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7208
+		{
+			position[]={21188.9,27.489874,16829.4};
+			azimut=465.49927;
+			id=7507;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7209
+		{
+			position[]={21187.154,27.212856,16818.283};
+			azimut=389.30463;
+			id=7508;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7210
+		{
+			position[]={21191.717,26.965776,16809.9};
+			azimut=389.30463;
+			id=7509;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false";
+		};
+		class Item7211
+		{
+			position[]={21189.377,27.086319,16814.619};
+			azimut=389.30463;
+			id=7510;
 			side="EMPTY";
 			vehicle="Land_ClutterCutter_large_F";
 			skill=0.60000002;
