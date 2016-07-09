@@ -51,7 +51,7 @@ player createDiarySubject ["controles","Controles"];
 				1.Heroina: 5.000<br/>
 				2.Maconha: 5.000<br/>
 				3.Cocaina: 5.400<br/>
-				4.Diamante: 6.300<br/><br/>
+				4.Diamante: 5.800<br/><br/>
 				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
 				Barra de Ouro: 95000<br/><br/>
 				"
@@ -125,6 +125,8 @@ player createDiarySubject ["controles","Controles"];
 				CIVIL<br/><br/>
 				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
 				2. Obrigatório logar no TS (TeamSpeak) do server durante o jogo ts3: *****.<br/>
+				3. Todos os civis devem portar suas armas dentro da mochila quando estiverem em uma safezone.<br/>
+				4. Os civis pegos portando arma fora da mochila estarão sujeito à multa e/ou prisão.<br/>
 				===================================================================<br/>
 				REBELDE<br/><br/>
 				1. REBELDE tem o direito de agir como achar melhor em relação a abordagem policial ou a outros rebeldes, mas atente-se ao tratar com civis, respeite as regras.<br/>
@@ -151,7 +153,9 @@ player createDiarySubject ["controles","Controles"];
 				13. SAMU não está autorizada a reviver ninguém nas imediações da reserva federal durante PVP de roubo a reserva.<br/>
 				14. A SAMU, ao reviver alguém em uma situação de risco, a prioridade de reviver é da policia.<br/>
 				15. A SAMU poderá ser desautorizada pela polícia a ressuscitar players durante PVP, bem como permanecer sobrevoando a área.<br/>
-				16. O POLICIAL que for ressuscitado após morrer em acidente terá o direito de escolher se quer ou não ser levado ao hospital.<br/><br/>
+				16. O POLICIAL que for ressuscitado após morrer em acidente terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
+				17. É proibido aos policiais ficar camperando em farms e processadores ilegais, bem como nos respectivos vendedores.<br/>
+				18. Camperar significa permanecer mais de dois minutos em um mesmo local sem uma ocorRência.<br/><br/>
 				"
 		]
 	];
