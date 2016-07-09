@@ -79,10 +79,10 @@ class Life_Settings {
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
 
     /* Vehicle Settings */
-    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
+    vehicleShop_rentalOnly[] = { "I_MRAP_03_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
     vehicleShop_BuyMultiplicator = 1.5;
     vehicleGarage_SellMultiplicator = 0.75;
-    vehicleGarage_StorFeeMultiplicator = 0.2;
+    vehicleGarage_StorFeeMultiplicator = 0.15;
     vehicleChopShop_Multiplicator = 0.5;
 
     /* Job-related stuff */
