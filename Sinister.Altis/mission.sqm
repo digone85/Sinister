@@ -78426,7 +78426,7 @@ class Mission
 			vehicle="Land_CargoBox_V1_F";
 			skill=0.60000002;
 			text="fed_bank_1";
-			init="this allowDamage false; this enableSimulation false; this addAction[""Abrir Cofre"",life_fnc_safeOpen,"""",0,false,false,"""",' playerSide == civilian && {_target getVariable[""safe_open"",false]} '];  this addAction[""Consertar Cofre"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide == west && {_target getVariable [""safe_open"",false]} ' ];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Abrir Cofre"",life_fnc_safeOpen,"""",0,false,false,"""",' playerSide == civilian && {_target getVariable[""safe_Open"",false]} '];  this addAction[""Consertar Cofre"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide == west && {_target getVariable [""safe_open"",false]} ' ];";
 		};
 		class Item6836
 		{
