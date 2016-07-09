@@ -28,7 +28,7 @@ _chance = random(100);
 if(_chance >= 40) then { hint "O caixa acionou o alarme silencioso, a polícia foi alertada!"; [[1,format["ALARME! - CASA DA MOEDA: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 _cops = (west countSide playableUnits);
-if(_cops < 0) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
+if(_cops < 6) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNameSpace getVariable "life_progress";
