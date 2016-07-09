@@ -21,11 +21,11 @@ if (currentWeapon _robber == "") exitWith { hint "Você não me ameaça! Saia da
 if (_kassa == 0) exitWith { hint "Não há dinheiro no caixa!" };
 
 _rip = true;
-_kassa = 100000 + round(random 10000);
+_kassa = 100000 + round(random 150000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
-if(_chance >= 85) then { hint "O caixa acionou o alarme silencioso, a polícia foi alertada!"; [[1,format["ALARME! - CASA DA MOEDA: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 40) then { hint "O caixa acionou o alarme silencioso, a polícia foi alertada!"; [[1,format["ALARME! - CASA DA MOEDA: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 _cops = (west countSide playableUnits);
 if(_cops < 0) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
@@ -42,7 +42,7 @@ if(_rip) then
 {
 while{true} do
 {
-sleep 0.85;
+sleep 3;
 _cP = _cP + 0.01;
 _progress progressSetPosition _cP;
 _pgText ctrlSetText format["Roubo em progresso, mantenha-se próximo (10m) (%1%2)...",round(_cP * 100),"%"];
