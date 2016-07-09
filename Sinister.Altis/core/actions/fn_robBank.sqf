@@ -65,6 +65,6 @@ if!(alive _robber) exitWith {};
 [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 [[_robber],"life_fnc_wantedFetchForCivilian",_robber,false] spawn life_fnc_MP;
 };
-sleep 300;
+sleep 18000;
 _action = _shop addAction["Roubar Caixa do Banco",life_fnc_robBank];
 _shop switchMove "";
