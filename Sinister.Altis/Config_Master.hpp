@@ -81,7 +81,7 @@ class Life_Settings {
     /* Vehicle Settings */
     vehicleShop_rentalOnly[] = { "I_MRAP_03_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
     vehicleShop_BuyMultiplicator = 1.5;
-    vehicleGarage_SellMultiplicator = 0.75;
+    vehicleGarage_SellMultiplicator = 0;
     vehicleGarage_StorFeeMultiplicator = 0.15;
     vehicleChopShop_Multiplicator = 0.5;
 
