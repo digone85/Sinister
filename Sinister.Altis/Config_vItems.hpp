@@ -406,7 +406,7 @@ class VirtualItems {
         displayName = "STR_Item_DiamondU";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 6300;
+        sellPrice = 5800;
         illegal = true;
         edible = -1;
         icon = "icons\ico_diamondUncut.paa";
