@@ -26,6 +26,17 @@ _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
 if(_chance >= 40) then { hint "O caixa acionou o alarme silencioso, a polícia foi alertada!"; [[1,format["ALARME! - CASA DA MOEDA: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+_kassa = 80000 + round(random 15000);
+_shop switchMove "AmovPercMstpSsurWnonDnon";
+_chance = random(100);
+if(_chance >= 40) then { hint "O frentista acionou o alarme, a polícia foi avisada!"; [[1,format["ALARM! - Posto de Gasolina: %1 está sendo roubada!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+[[1,format["%1 está roubando a casa da moeda!", profileName]],"life_fnc_broadcast",true,false] spawn BIS_fnc_MP;
+_marker = createMarker [format["Marker%1",_shop], _pos];
+_marker setMarkerColor "ColorRed";
+_marker setMarkerText "!ATENÇÃO! Tentativa de roubo!!!";
+_marker setMarkerType "mil_warning";
+
+[[getPlayerUID _robber,name _robber,"212"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 
 _cops = (west countSide playableUnits);
 if(_cops < 6) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
