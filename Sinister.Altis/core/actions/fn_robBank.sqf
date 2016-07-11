@@ -66,7 +66,7 @@ life_cash = life_cash + _kassa;
 
 _rip = false;
 life_use_atm = false;
-sleep (30 + random(180));
+sleep (50 + random(180));
 life_use_atm = true;
 if!(alive _robber) exitWith {};
 [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
