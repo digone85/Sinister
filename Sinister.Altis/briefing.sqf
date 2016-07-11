@@ -208,11 +208,11 @@ player createDiarySubject ["controles","Controles"];
 				11. Falar/colocar músicas/gritar, etc no SIDE CHANNEL - BANIMENTO 2 DIAS.<br/>
 				12. Matar SAMU propositalmente sendo denunciado pelo comandante da SAMU - BANIMENTO 2 DIAS.<br/>
 				13. Retornar ao local de sua morte antes de 15 minutos - BANIMENTO 5 HORAS.<br/>
-				14. Aproximar-se a menos de 1000mt do local de sua morte durante 15 minutos ou matar players dentro desta àrea -BANIMENTO 5 HORAS.<br/>
+				14. Aproximar-se a menos de 1500mt do local de sua morte durante 15 minutos ou matar players dentro desta àrea -BANIMENTO 5 HORAS.<br/>
 				15. Matar player algemado sendo levado pela polícia para não ser preso, mesmo por acidente - BANIMENTO 1 DIAS.<br/>
 				16. Matar Players em qualquer hospital após ser ressuscitado - BANIMENTO 1 DIAS.<br/>
 				17. Matar Players por vingança em nova vida- BANIMENTO 1 DIA.<br/>
-				18. Matar cops ou samu dentro de HQ's ou hospitais, por qualquer razão - BANIMENTO 2 DIAS.<br/>
+				18. Matar cops dentro de HQ's e SAMUS por qualquer razão - BANIMENTO 2 DIAS.<br/>
 				19. Ao morrer pressionar ALT+F4, retirar o cabo da internet, etc.- desconto de 500k na conta. - BANIMENTO 2 DIAS.<br/>
 				20. Ficar na cancela de qualquer local fechando ou abrindo cancelas para estragar veículos é considerado antiRP - BANIMENTO 1 DIA.<br/>
 				21. Entrar ou permanecer em zona de pvp como civil objetivando entregar posição dos jogadores - BANIMENTO DE 3 HORAS<br/>
