@@ -120,7 +120,8 @@ player createDiarySubject ["controles","Controles"];
 				4. Não existe vingança após a morte, MORREU E FOI RESSUSCITADO é NOVA VIDA.<br/>
 				5. Denunciar players que sejam suspeitos de hack/dupe/glichts.<br/>
 				6. Denunciar a presença de players já banidos anteriormente do servidor.<br/>
-				7. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos.<br/>
+				7. Policiais só podem utilizar o drone após confirmação de roubo à reserva ou casa da moeda. Antes disso, nenhum drone pode estar no ar<br/>
+				8. Cada Policial deve usar as Armas de sua Patente, precisam ficar satisfeitos com o que tem e saber jogar com seus devidos equipamentos.<br/>
 				===================================================================<br/>
 				CIVIL<br/><br/>
 				1. O civil que morrer e for ressuscitado e que estiver em farm, processador ou vendedor de farms legais será ressuscitado e terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
