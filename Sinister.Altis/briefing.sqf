@@ -66,7 +66,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Safezones: São consideradas Safezones todas as areas demarcadas com um circulo.<br/>
 				2. RDM: É considerado RDM matar sem motivo qualquer player que não tenha chance de se defender ou não souber a razão do dano. O player que relatar tal ato deverá apresentar printscreens.<br/>
 				3. Bullying e assédio não são aceitaveis em nosso servidor.<br/>
-				4. Printscreens: Éimportante tirar printscreens (F12) para provar que esta cumprindo as regras, caso contrário, não haverá como reportar.<br/>
+				4. Printscreens: É importante tirar printscreens (F12) para provar que esta cumprindo as regras, caso contrário, não haverá como reportar.<br/>
 				5. Ressarcimentos: Todo e qualquer tipo de ressarcimento só será dado a players no ts.<br/>
 				6. Prejuízos causados por ataques DDos: Nosso servidor possui proteção anti DDos, mas em caso de quedas relacionadas a isso todo e qualquer prejuízo será ressarcido, desde que comprovado.<br/>
 				7. O Objetivo da Polícia: Antes de mais nada, o objetivo da polícia é prender players, apreender veículos, mas em muitos casos haverá necessidade de ser utilizada força letal, fique esperto<br/><br/>
@@ -142,7 +142,7 @@ player createDiarySubject ["controles","Controles"];
 				2. Respeitar todos os players, agir cordialmente e educadamente respeitando as abordagens conforme orientado por seu superiores.<br/>
 				3. Após a morte em confronto de PvP contra rebeldes  o policial somente poderá voltar após 15 MINUTOS.<br/>
 				4. Os Blindados e Offroad armada .50, poderá somente ser utilizado durante assalto a reserva federal e sob comando de oficial superior com patente mínima de Tenente.<br/>
-				5. Apenas 2 aeronaves policiais no ar é permitido. 1 Helicóptero já é o suficiente, subir outro apenas com autorização do superior.<br/>
+				5. Apenas 2 aeronaves policiais no ar é permitido, subir outra apenas com autorização do superior.<br/>
 				6. Cada Policial pode carregar no máximo 4 granadas de luz (Flashbang) e usa-las sempre que for realmente necessário.<br/>
 				7. Ao capturar um criminoso, o policial deverá leva-lo imediatamente sem demora para a HQ - Delegacia mais próxima onde será explicado tudo e ao indivíduo preso, para evitar emboscadas e resgate do mesmo no local onde foi capturado, principalmente quando faz parte de uma Gangue.<br/>
 				8. Em casos de PvP, tiroteio onde os Policiais ficam sozinhos com risco de vida sem possibilidades de levar alguém preso, eles podem matar qualquer um que estiverem perto se não obedecerem a Ordem de se retirar<br/>
@@ -155,7 +155,9 @@ player createDiarySubject ["controles","Controles"];
 				15. A SAMU poderá ser desautorizada pela polícia a ressuscitar players durante PVP, bem como permanecer sobrevoando a área.<br/>
 				16. O POLICIAL que for ressuscitado após morrer em acidente terá o direito de escolher se quer ou não ser levado ao hospital.<br/>
 				17. É proibido aos policiais ficar camperando em farms e processadores ilegais, bem como nos respectivos vendedores.<br/>
-				18. Camperar significa permanecer mais de dois minutos em um mesmo local sem uma ocorRência.<br/><br/>
+				18. Camperar significa permanecer mais de dois minutos em um mesmo local sem uma ocorRência.<br/>
+				19. É proibido aos policiais utilizar-se do "impound" em suas viaturas ao chegarem em zona de PVP ou ocorrência<br/>
+				20. Os policiais não podem dar "impound" em seus veículos quando forem recuperá-los em zona de conflito. Este deve entrar no veículo e retirar-se do local<br/><br/>
 				"
 		]
 	];
@@ -205,14 +207,15 @@ player createDiarySubject ["controles","Controles"];
 				11. Falar/colocar músicas/gritar, etc no SIDE CHANNEL - BANIMENTO 2 DIAS.<br/>
 				12. Matar SAMU propositalmente sendo denunciado pelo comandante da SAMU - BANIMENTO 2 DIAS.<br/>
 				13. Retornar ao local de sua morte antes de 15 minutos - BANIMENTO 5 HORAS.<br/>
-				14. Aproximar-se a menos de 300mt do local de sua morte durante 15 minutos, -BANIMENTO 5 HORAS.<br/>
+				14. Aproximar-se a menos de 1000mt do local de sua morte durante 15 minutos ou matar players dentro desta àrea -BANIMENTO 5 HORAS.<br/>
 				15. Matar player algemado sendo levado pela polícia para não ser preso, mesmo por acidente - BANIMENTO 1 DIAS.<br/>
 				16. Matar Players em qualquer hospital após ser ressuscitado - BANIMENTO 1 DIAS.<br/>
 				17. Matar Players por vingança em nova vida- BANIMENTO 1 DIA.<br/>
 				18. Matar cops ou samu dentro de HQ's ou hospitais, por qualquer razão - BANIMENTO 2 DIAS.<br/>
-				19. Ao morrer pressionar ALT+F4, retirar o cabo da internet, etc. e -500k na conta. - BANIMENTO 2 DIAS.<br/>
+				19. Ao morrer pressionar ALT+F4, retirar o cabo da internet, etc.- desconto de 500k na conta. - BANIMENTO 2 DIAS.<br/>
 				20. Ficar na cancela de qualquer local fechando ou abrindo cancelas para estragar veículos é considerado antiRP - BANIMENTO 1 DIA.<br/>
-				21. Em toda a situação que ficar comprovado ou decidido pelo conselho do servidor que o player realizou RDM o mesmo será BANIDO por 5 dias do Servidor<br/><br/>
+				21. Entrar ou permanecer em zona de pvp como civil objetivando entregar posição dos jogadores - BANIMENTO DE 3 HORAS<br/>
+				22. Em toda a situação que ficar comprovado ou decidido pelo conselho do servidor que o player realizou RDM o mesmo será BANIDO por 5 dias do Servidor<br/><br/>
 				"
 		]
 	];
@@ -225,15 +228,18 @@ player createDiarySubject ["controles","Controles"];
 
 				1. PLAYER/GANGUE VIP será abordado conforme item 4 de REBELDES (Regras Específicas), e o procedimento de abordagem se dará conforme itens 2.2.4 ou 2.2.5, dependendo da postura do PLAYER/GANGUE VIP.<br/>
 				2. PLAYERS/GANGUE VIP deverão RESPEITAR todos os outros players, ACIMA DE TUDO os médicos e policiais do servidor, OFENDER, DENEGRIR, HUMILHAR, XINGAR cops ou samu, será motivo de banimento do servidor e do teamspeak sem aviso prévio e sem devolução do valor doado ao servidor, mesmo sendo vip, então saiba que isso não será tolerado ou admitido.<br/>
+				3. O civil que permanecer em uma zona de pvp e morrer não será ressarcido, também não é considerado RDM.<br/>
 				===================================================================<br/>
 				RELAÇÕES REBELDES X CIVIS<br/><br/>
 				
 				1. Durante um assalto, o player rebelde deverá seguir as regras descritas.<br/>
 				2. O Civil, deverá estar ciente de que poderá ser assaltado por REBELDES ou outro CIVIL seguindo os itens citados acima.<br/>
+				3. O civil que permanecer em uma zona de pvp e morrer não será ressarcido, também não é considerado RDM.<br/>
 				===================================================================<br/>
 				RELAÇÕES REBELDES X REBELDES<br/><br/>
 				1. Um Player REBELDE pode abordar, ASSALTAR, ALGEMAR, SEQUESTRAR qualquer player REBELDE, desde que esteja seguindo as REGRAS.<br/>
 				2. Rebeldes estão sujeitos a serem mortos por outros rebeldes sem a necessidade de aviso prévio.<br/>
+				3. O civil que permanecer em uma zona de pvp e morrer não será ressarcido, também não é considerado RDM.<br/>
 				===================================================================<br/>
 				MERCADO NEGRO E POSTO AVANÇADO REBELDE<br/><br/>
 				1. A zona do mercado negro e o posto avançado rebelde são considerados zona sem lei, ou seja, poderá ser morto sem aviso previo. esteja pronto para qualquer coisa.<br/><br/>
