@@ -8,20 +8,19 @@ _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param; //The object that has th
 _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alright, it's the player, or the "caller". The object is 0, the person activating the object is 1
 //_kassa = 1000; //The amount the shop has to rob, you could make this a parameter of the call (https://community.bistudio.com/wiki/addAction). Give it a try and post below ;)
 _action = [_this,2] call BIS_fnc_param;//Action name
-
+_pos = GetPos _shop;
 if(side _robber != civilian) exitWith { hint "Você não pode roubar este caixa!" };
 if(_robber distance _shop > 5) exitWith { hint "Você precisa estar dentro de 5m para roubá-lo!" };
-
 if !(_kassa) then { _kassa = 600; };
 if (_rip) exitWith { hint "O roubo já está em andamento!" };
 if (vehicle player != _robber) exitWith { hint "Saia do seu veículo!" };
-
 if !(alive _robber) exitWith {};
 if (currentWeapon _robber == "") exitWith { hint "Você não me ameaça! Saia daqui seu merda!" };
 if (_kassa == 0) exitWith { hint "Não há dinheiro no caixa!" };
 
-_rip = true;
-_kassa = 100000 + round(random 150000);
+_shop setVariable ["rip",true,true];
+
+_kassa = 160000 + round(random 150000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
@@ -49,7 +48,7 @@ if(_rip) then
 {
 while{true} do
 {
-sleep 2;
+sleep 2,3;
 _cP = _cP + 0.01;
 _progress progressSetPosition _cP;
 _pgText ctrlSetText format["Roubo em progresso, mantenha-se próximo (10m) (%1%2)...",round(_cP * 100),"%"];
@@ -58,8 +57,9 @@ if(_robber distance _shop > 10.5) exitWith { };
 if!(alive _robber) exitWith {};
 };
 if!(alive _robber) exitWith { _rip = false; };
-if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "Você precisa ficar dentro de 10m para registrar o roubo! - Agora o registro está bloqueado."; 5 cutText ["","PLAIN"]; _rip = false; };
+if(_robber distance _shop > 10) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "Você precisa ficar dentro de 10m para registrar o roubo! - Agora o registro está bloqueado."; 5 cutText ["","PLAIN"]; _rip = false; };
 5 cutText ["","PLAIN"];
+playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", player]; //loop that shit
 
 titleText[format["Você roubou R$%1, fuja antes que a polícia chegue!",[_kassa] call life_fnc_numberText],"PLAIN"];
 life_cash = life_cash + _kassa;
