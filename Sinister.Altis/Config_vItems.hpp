@@ -418,7 +418,7 @@ class VirtualItems {
         weight = 2;
         buyPrice = -1;
         sellPrice = 6500;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
     };
