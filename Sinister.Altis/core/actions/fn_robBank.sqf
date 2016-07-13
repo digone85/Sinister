@@ -35,7 +35,7 @@ _marker setMarkerType "mil_warning";
 [[getPlayerUID _robber,name _robber,"212"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 
 _cops = (west countSide playableUnits);
-if(_cops < 6) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
+if(_cops < 1) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Não há policiais suficientes para roubar o Banco Central!";};
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNameSpace getVariable "life_progress";
