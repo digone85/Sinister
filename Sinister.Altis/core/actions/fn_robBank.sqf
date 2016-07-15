@@ -20,7 +20,7 @@ if(_shop getVariable["rip",false]) exitWith {hint "Este estabelecimento já est�
 _shop setVariable ["rip",true,true];
 
 
-_kassa = 200000 + round(random 150000);
+_kassa = 250000 + round(random 150000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
 if(_chance >= 10) then { hint "O caixa acionou o alarme, a polícia foi avisada!"; [[1,format["ALARM! - Casa da moeda: %1 está sendo roubada!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
@@ -45,7 +45,7 @@ _cP = 0.01;
 
 while{true} do
 {
-	sleep 2.4; //5 = 15 minute robbery
+	sleep 3; //5 = 15 minute robbery
 	_cP = _cP + 0.01;
 	_progress progressSetPosition _cP;
 	_pgText ctrlSetText format["Roubo em progresso, mantenha-se em (10m) (%1%2)...",round(_cP * 100),"%"];
