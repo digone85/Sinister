@@ -59,13 +59,13 @@ class WeaponShops {
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
             { "arifle_TRG21_F", "", 70000, -1 },
             { "arifle_Mk20_F", "", 70000, -1 },
-            { "arifle_MX_F", "", 220000, -1 },
-            { "arifle_MX_SW_pointer_F", "", 210000, -1 },
-            { "LMG_Mk200_F", "", 300000, -1 },
-            { "srifle_DMR_01_F", "", 320000, -1 },
-            { "srifle_EBR_F", "", 340000, -1 },
-            { "srifle_DMR_06_camo_F", "", 400000, -1 },
-            { "srifle_DMR_02_camo_F", "", 700000, -1 }
+            { "arifle_MX_F", "", 180000, -1 },
+            { "arifle_MX_SW_pointer_F", "", 170000, -1 },
+            { "LMG_Mk200_F", "", 260000, -1 },
+            { "srifle_DMR_01_F", "", 280000, -1 },
+            { "srifle_EBR_F", "", 300000, -1 },
+            { "srifle_DMR_06_camo_F", "", 360000, -1 },
+            { "srifle_DMR_02_camo_F", "", 650000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 200, -1 },
@@ -117,18 +117,18 @@ class WeaponShops {
             { "hgun_PDW2000_F", "", 51000, -1 },
             { "arifle_TRG21_F", "", 59500, -1 },
             { "arifle_Mk20_F", "", 59500, -1 },
-            { "arifle_Katiba_F", "", 212500, -1 },
-            { "arifle_MX_F", "", 187000, -1 },
-            { "arifle_MX_SW_pointer_F", "", 178500, -1 },
-            { "LMG_Mk200_F", "", 255000, -1 },
-            { "srifle_DMR_01_F", "", 272000, -1 },
-            { "srifle_EBR_F", "", 289000, -1 },
-            { "srifle_DMR_03_woodland_F", "", 297500, -1 },
-            { "srifle_DMR_06_camo_F", "", 340000, -1 },
-            { "srifle_DMR_04_F", "", 255000, -1 },
-            { "LMG_Zafir_F", "", 365500, -1 },
-            { "srifle_DMR_02_camo_F", "", 595000, -1 },
-            { "srifle_DMR_05_hex_F", "", 680000, -1 }
+            { "arifle_Katiba_F", "", 159500, -1 },
+            { "arifle_MX_F", "", 147000, -1 },
+            { "arifle_MX_SW_pointer_F", "", 133500, -1 },
+            { "LMG_Mk200_F", "", 191250, -1 },
+            { "srifle_DMR_01_F", "", 204000, -1 },
+            { "srifle_EBR_F", "", 216750, -1 },
+            { "srifle_DMR_03_woodland_F", "", 223500, -1 },
+            { "srifle_DMR_06_camo_F", "", 255000, -1 },
+            { "srifle_DMR_04_F", "", 191000, -1 },
+            { "LMG_Zafir_F", "", 274000, -1 },
+            { "srifle_DMR_02_camo_F", "", 446000, -1 },
+            { "srifle_DMR_05_hex_F", "", 510000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 200, -1 },
