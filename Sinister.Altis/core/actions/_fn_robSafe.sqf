@@ -9,22 +9,22 @@ _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param; //The object that has th
 _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alright, it's the player, or the "caller". The object is 0, the person activating the object is 1
 _action = [_this,2] call BIS_fnc_param;//Action name
 _pos = GetPos _shop;
-if(playersNumber west < 6) exitWith { hint "Não há 6 policias online para roubar este estabelecimento!"};
-if(side _robber != civilian) exitWith { hint "Você não pode roubar a casa da moeda!" };
+if(playersNumber west < 6) exitWith { hint "Não há 6 policias online para roubar este cofre!"};
+if(side _robber != civilian) exitWith { hint "Você não pode roubar o cofre da casa da moeda!" };
 if (vehicle player != _robber) exitWith { hint "Você precisa sair do veículo!" };
 if !(alive _robber) exitWith {};
-if (currentWeapon _robber == "") exitWith { hint "Você nao pode roubar este estabelecimento sem uma arma!" };
+if (currentWeapon _robber == "") exitWith { hint "Você nao pode roubar o cofre sem uma arma!" };
 if(_shop getVariable ["coolDown",false]) exitWith {hint "Você só pode roubar este estabelecimento novamente depois de 3 horas!"};
-if(_shop getVariable["rip",false]) exitWith {hint "Este estabelecimento já está sendo roubado!"};
+if(_shop getVariable["rip",false]) exitWith {hint "Este cofre já está sendo roubado!"};
 
 _shop setVariable ["rip",true,true];
 
 
-_kassa = 800000 + round(random 150000);
+_kassa = 600000 + round(random 150000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
-if(_chance >= 10) then { hint "O caixa acionou o alarme, a polícia foi avisada!"; [[1,format["ALARM! - Casa da moeda: %1 está sendo roubada!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
-[[1,format["%1 está roubando a casa da moeda!", profileName]],"life_fnc_broadcast",true,false] spawn BIS_fnc_MP;
+if(_chance >= 10) then { hint "O caixa acionou o alarme, a polícia foi avisada!"; [[1,format["ALARM! - o Cofre da Casa da moeda: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+[[1,format["%1 está roubando o cofre da casa da moeda!", profileName]],"life_fnc_broadcast",true,false] spawn BIS_fnc_MP;
 _marker = createMarker [format["Marker%1",_shop], _pos];
 _marker setMarkerColor "ColorRed";
 _marker setMarkerText "!ATENÇÃO! Tentativa de roubo!!!";
@@ -45,7 +45,7 @@ _cP = 0.01;
 
 while{true} do
 {
-	sleep 2.4; //5 = 15 minute robbery
+	sleep 4; //5 = 15 minute robbery
 	_cP = _cP + 0.01;
 	_progress progressSetPosition _cP;
 	_pgText ctrlSetText format["Roubo em progresso, mantenha-se em (10m) (%1%2)...",round(_cP * 100),"%"];
@@ -72,7 +72,7 @@ if(!(alive _robber)) exitWith
 if(_robber distance _shop > 10) exitWith 
 { 
 	_shop switchMove ""; 
-	hint "Você precisa estar mais ou menos em 10m de distância para roubar a casa! - A caixa registrador está fechada!"; 
+	hint "Você precisa estar mais ou menos em 10m de distância para roubar o cofre! - O cofre está fechado!"; 
 	5 cutText ["","PLAIN"]; 
 	deletemarker _marker;
     _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];
@@ -115,7 +115,7 @@ deletemarker _marker;
 life_use_atm = false;
 sleep (60 + random(180));
 life_use_atm = true;
-[[1,format["MAFIA NEWS: A casa da moeda foi roubada em um total de $%1", [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
+[[1,format["MAFIA NEWS: O cofre da casa da moeda foi roubado em um total de $%1", [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
 
 [_shop] spawn
 {
