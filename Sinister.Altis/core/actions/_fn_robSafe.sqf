@@ -20,7 +20,7 @@ if(_shop getVariable["rip",false]) exitWith {hint "Este cofre já está sendo ro
 _shop setVariable ["rip",true,true];
 
 
-_kassa = 600000 + round(random 150000);
+_kassa = 600000 + round(random 300000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
 if(_chance >= 10) then { hint "O caixa acionou o alarme, a polícia foi avisada!"; [[1,format["ALARM! - o Cofre da Casa da moeda: %1 está sendo roubado!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
