@@ -22,9 +22,11 @@
 
 #define Btn5 37454
 
+#define Btn6 37455 
+
 #define Title 37401
 
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];
 
 if(!dialog) then {
 
@@ -53,6 +55,8 @@ _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 
 _Btn5 = _display displayCtrl Btn5;
+
+_Btn6 = _display displayCtrl Btn6;
 
 life_vInact_curTarget = _curTarget;
 
@@ -89,6 +93,14 @@ if(playerSide == west) then {
     _Btn5 ctrlSetText localize "STR_vInAct_Impound";
 
     _Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+    
+    
+    
+    _Btn6 ctrlSetText localize "STR_vInAct_FlipAction";
+    
+    _Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipAction;
+    closeDialog 0;";
+    
 
 } else {
 
@@ -96,10 +108,11 @@ if(playerSide == west) then {
 
     _Btn3 ctrlShow false;
 
-     _Btn4 ctrlShow true; //look this
+    _Btn4 ctrlShow true; //look this
 
     _Btn5 ctrlShow False;
-
+    
+    _Btn6 ctrlShow False;
 };
 
 
