@@ -1,4 +1,4 @@
-#include <script\macro.h>
+#include <scripts\macro.h>
 /*
 	File: fn_syncData.sqf
 	Author: Bryan "Tonic" Boardwine"
