@@ -125,6 +125,21 @@ switch (_code) do {
 			};
 		};
 	};
+	
+	// Shift + Z Key = Ziptie
+	case 44:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && playerSide isEqualTo civilian && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,west])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1} && ((animationState cursorObject) == "Incapacitated")) then
+		{
+			if([false,"ziptie",1] call life_fnc_handleInv) then
+			{
+				[] call life_fnc_zipTieAction;
+				[player,"ziptie"] remoteExec ["life_fnc_say3D",RANY];
+
+			};
+		};
+	};
 
 	//Map Key
 	case _mapKey: {
