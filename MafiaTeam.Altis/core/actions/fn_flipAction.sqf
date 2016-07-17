@@ -8,10 +8,6 @@ if({alive _x} count crew _veh > 0) exitWith {titleText["Tem alguém dentro do ca
 }; 
 if(damage _veh > 0.02) exitWith {titleText["Você não pode desvirar o veículo quando ele está danificado.","PLAIN"];
 };
-if (_vehicle in life_vehicles) then {		Do the flip		};
-} else {		
-hint "Você só pode desvirar seu veículo!!";
-};
 titleText["Fique longe. O veículo será desvirado em 4 segundos.","PLAIN"];
 sleep 4;
 _newPos = getPosASL _veh;
