@@ -59,13 +59,13 @@ class WeaponShops {
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
             { "arifle_TRG21_F", "", 70000, -1 },
             { "arifle_Mk20_F", "", 70000, -1 },
-            { "arifle_MX_F", "", 180000, -1 },
-            { "arifle_MX_SW_pointer_F", "", 170000, -1 },
-            { "LMG_Mk200_F", "", 260000, -1 },
-            { "srifle_DMR_01_F", "", 280000, -1 },
-            { "srifle_EBR_F", "", 300000, -1 },
-            { "srifle_DMR_06_camo_F", "", 360000, -1 },
-            { "srifle_DMR_02_camo_F", "", 650000, -1 }
+            { "arifle_MX_F", "", 1650000, -1 },
+            { "arifle_MX_SW_pointer_F", "", 155000, -1 },
+            { "LMG_Mk200_F", "", 245000, -1 },
+            { "srifle_DMR_01_F", "", 265000, -1 },
+            { "srifle_EBR_F", "", 285000, -1 },
+            { "srifle_DMR_06_camo_F", "", 345000, -1 },
+            { "srifle_DMR_02_camo_F", "", 635000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 200, -1 },
