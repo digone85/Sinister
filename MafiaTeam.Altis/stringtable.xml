@@ -5155,6 +5155,9 @@
       <Portuguese>Menu do Veículo</Portuguese>
       <Polish>Menu Interakcji pojazdu</Polish>
     </Key>
+    <Key ID="STR_vInAct_flipAction">
+      <Original>Desvirar</Original>
+    </Key>  
     <Key ID="STR_vInAct_Unflip">
       <Original>Unflip Vehicle</Original>
       <German>Fahrzeug umdrehen</German>
