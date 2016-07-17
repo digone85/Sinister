@@ -106,6 +106,7 @@ class Life_Client_Core
 		class gutAnimal {};
 		class removeContainer {};
 		class zipTieAction {};
+		class flipAction {};
 	};
 
 	class Housing
