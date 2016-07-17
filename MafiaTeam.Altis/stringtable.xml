@@ -505,6 +505,9 @@
       <Portuguese>Você está contido</Portuguese>
       <Polish>Ty skrępowaniem</Polish>
     </Key>
+    <Key ID="STR_NOTF_Ziptied">
+      <Original>%1 foi algemado por %2</Original>
+    </Key>  
     <Key ID="STR_NOTF_surrender">
       <Original>You can't do this while you surrender</Original>
       <German>Mit gehobenen Händen kannst du nichts sammeln!.</German>
@@ -4142,6 +4145,9 @@
       <Portuguese>Tapete de Espinhos</Portuguese>
       <Polish>Kolczatka drogowa</Polish>
     </Key>
+    <Key ID="STR_Item_Ziptie">
+      <Original>Algema</Original>
+    </Key>  
   </Package>
   <Package name="Life_License">
     <Key ID="STR_License_Driver">
