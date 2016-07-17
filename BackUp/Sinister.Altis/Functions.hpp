@@ -100,6 +100,7 @@ class Life_Client_Core
 		class robShops {}; //Rob Gas Station & Shops Script
 		class robAction {};
 		class robBank {};
+		class robSafe {};
 		class captureHideout {};
 		class gather {};
 		class gutAnimal {};
