@@ -68,6 +68,11 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 
 if("ToolKit" in (items player)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
+_Btn6 ctrlSetText localize "STR_vInAct_FlipAction";
+    
+_Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipAction;
+closeDialog 0;";
+
 if(playerSide == west) then {
 
     _Btn2 ctrlSetText localize "STR_vInAct_Registration";
@@ -96,12 +101,6 @@ if(playerSide == west) then {
     
     
     
-    _Btn6 ctrlSetText localize "STR_vInAct_FlipAction";
-    
-    _Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipAction;
-    closeDialog 0;";
-    
-
 } else {
 
     _Btn2 ctrlShow false;
