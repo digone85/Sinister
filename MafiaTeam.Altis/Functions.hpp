@@ -302,6 +302,8 @@ class Life_Client_Core
 		class wantedGrab {};
 		class copEnter {};
 		class copSearchPlayer {};
+		class backupCall {};
+		class callBackup {};
 		class sequestra {};
 		class sequestroCheck {};
 	};
