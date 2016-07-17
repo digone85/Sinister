@@ -29,7 +29,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "ziptie", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
     
     class mercado_negroM {
@@ -37,7 +37,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "ziptie", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
     class gang {
@@ -45,7 +45,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "ziptie", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
     class wongs {
@@ -222,6 +222,17 @@ class VirtualItems {
         illegal = true;
         edible = -1;
         icon = "icons\ico_lockpick.paa";
+    };
+    
+    class ziptie {
+        variable = "ziptie";
+        displayName = "STR_Item_Ziptie";
+        weight = 1;
+        buyPrice = 120;
+        sellPrice = 30;
+        illegal = true;
+        edible = -1;
+        icon = "icons\zipties.paa";
     };
 
     class goldbar {
