@@ -26,7 +26,7 @@ class playerSettings {
 			y = 0.236 * safezoneH + safezoneY;
 			w = 0.139219 * safezoneW;
 			h = 0.033 * safezoneH;
-			colorBackground[] = {0,0,0,0};
+			colorBackground[] = {0,28,100,18};
 		};
 		
 		class Title: Life_RscTitle
@@ -37,7 +37,7 @@ class playerSettings {
 			y = 0.225 * safezoneH + safezoneY;
 			w = 0.134062 * safezoneW;
 			h = 0.033 * safezoneH;
-			colorBackground[] = {0,0,0,0};
+			colorBackground[] = {0,28,100,18};
 		};
 		
 		class moneyStatusInfo: Life_RscStructuredText
@@ -48,7 +48,7 @@ class playerSettings {
 			w = 0.134062 * safezoneW;
 			h = 0.056 * safezoneH;
 			sizeEx = 0.020 * GUI_GRID_H;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 		};
 		
 		class PlayersName : Title 
@@ -69,7 +69,7 @@ class playerSettings {
 			y = 0.401 * safezoneH + safezoneY;
 			w = 0.134062 * safezoneW;
 			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 		};
 
 		class licenseHeader: Life_RscText
@@ -80,7 +80,7 @@ class playerSettings {
 			y = 0.28 * safezoneH + safezoneY;
 			w = 0.12 * safezoneW;
 			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 		};
 
 		class moneySHeader: Life_RscText
@@ -91,7 +91,7 @@ class playerSettings {
 			y = 0.28 * safezoneH + safezoneY;
 			w = 0.134062 * safezoneW;
 			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 		};
 	
 		class itemList: Life_RscListbox
@@ -102,7 +102,7 @@ class playerSettings {
 			y = 0.434 * safezoneH + safezoneY;
 			w = 0.134062 * safezoneW;
 			h = 0.22 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 		};
 
 		class moneyEdit: Life_RscEdit
@@ -113,9 +113,9 @@ class playerSettings {
 			y = 0.313 * safezoneH + safezoneY;
 			w = 0.061875 * safezoneW;
 			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
 		};
 		
 		class NearPlayers: Life_RscCombo
@@ -135,14 +135,14 @@ class playerSettings {
 			y = 0.379 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Dar";
 		};	
 	
@@ -154,9 +154,9 @@ class playerSettings {
 			y = 0.434 * safezoneH + safezoneY;
 			w = 0.061875 * safezoneW;
 			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
 		};
 
 		class iNearPlayers: Life_RscCombo
@@ -339,14 +339,14 @@ class playerSettings {
 			y = 0.5 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Dar";
 		};
 
@@ -358,14 +358,14 @@ class playerSettings {
 			y = 0.5 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Usar";
 		};
 
@@ -377,14 +377,14 @@ class playerSettings {
 			y = 0.555 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Descartar";
 		};
 		
@@ -399,14 +399,14 @@ class playerSettings {
 			y = 0.555 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Atualizar";
 		};
 		
@@ -418,14 +418,14 @@ class playerSettings {
 			y = 0.379 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Atualizar";
 		};
 
@@ -444,14 +444,14 @@ class playerSettings {
 			y = (6.5/30) * safezoneH + safezoneY;
 			w = 0.048 * safezoneW;
 			h = (17/30) * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Encerrar";
 		};
 
@@ -464,14 +464,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Configurações";
 		};
 
@@ -483,14 +483,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Smartphone";
 		};
 
@@ -501,7 +501,7 @@ class playerSettings {
 			y = 0.313 * safezoneH + safezoneY;
 			w = 0.12 * safezoneW;
 			h = 0.33 * safezoneH;
-			colorBackground[] = {0,0,0,0.3};
+			colorBackground[] = {0,28,100,18};
 			class controls
 			{
 				class Life_Licenses: Life_RscStructuredText
@@ -511,7 +511,7 @@ class playerSettings {
 					y = 8.19564e-009 * safezoneH;
 					w = 0.12 * safezoneW;
 					h = 0.33 * safezoneH;
-					colorBackground[] = {0,0,0,0.3};					
+					colorBackground[] = {0,28,100,18};					
 				};
 			};
 		};
@@ -524,14 +524,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Gangue";
 		};
 		/*
@@ -562,14 +562,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Chaves";
 		};
 		class ButtonWantedList: Life_RscButtonMenu
@@ -580,14 +580,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Procurados";
 		};
 		
@@ -599,14 +599,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Admin";
 		};
 		
@@ -618,14 +618,14 @@ class playerSettings {
 			y = 0.687 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.066 * safezoneH;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {-1,-1,-1,-1};
-			colorBackground2[] = {-1,-1,-1,-1};
-			color[] = {-1,-1,-1,-1};
-			colorFocused[] = {-1,-1,-1,-1};
-			color2[] = {-1,-1,-1,-1};
-			colorText[] = {-1,-1,-1,-1};
-			colorDisabled[] = {-1,-1,-1,-1};
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
 			tooltip = "Sincronizar";
 		};
 		/*
