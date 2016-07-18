@@ -25,16 +25,19 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 30000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
             { "hgun_Pistol_01_F", "", 45000, -1 },
+            { "hgun_P07_khk_F", "", 45000, -1 }, hgun_P07_khk_F
             { "SMG_01_F", "", 60000, -1 },
             { "SMG_02_F", "", 60000, -1 },
             { "SMG_05_F", "", 70000, -1 },
 	    { "hgun_PDW2000_F", "", 60000, -1 }
         };
         mags[] = {
+            { "16Rnd_9x21_yellow_Mag", "", 200, -1 },
             { "16Rnd_9x21_Mag", "", 200, -1 },
             { "30Rnd_9x21_Mag", "", 600, -1 },
             { "11Rnd_45ACP_Mag", "", 200, -1 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 }
+            { "30Rnd_45ACP_Mag_SMG_01", "", 600, -1 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 600, -1 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 5000, -1 },
