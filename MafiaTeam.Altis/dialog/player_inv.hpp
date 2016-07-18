@@ -76,7 +76,7 @@ class playerSettings {
 		{
 			idc = -1;
 			text = $STR_PM_Licenses;
-			x = 0.520625 * safezoneW + safezoneX;
+			x = 0.320625 * safezoneW + safezoneX;
 			y = 0.28 * safezoneH + safezoneY;
 			w = 0.12 * safezoneW;
 			h = 0.022 * safezoneH;
