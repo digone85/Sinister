@@ -234,7 +234,7 @@ class LifeCfgVehicles {
     
     class C_Plane_Civil_01_F {
         vItemSpace = 80;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
         rentalprice[] = { -1, -1, 100000, -1 };
         textures[] = {};
     };
@@ -248,7 +248,7 @@ class LifeCfgVehicles {
     
     class B_T_VTOL_01_infantry_F {
         vItemSpace = 800;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
         rentalprice[] = { -1, -1, 7000, -1 };
         textures[] = {};
     };
