@@ -88,7 +88,9 @@ class Clothing {
             { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
-            { "B_Carryall_oli", "", 7500, { "", "", -1 } }
+            { "B_Carryall_oli", "", 7500, { "", "", -1 } },
+            { "B_ViperHarness_oli_F", "", 15000, { "", "", -1 } },
+            { "B_ViperHarness_hex_F", "", 15000, { "", "", -1 } }
         };
     };
 
@@ -139,7 +141,9 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_Bergen_blk", "", 2000, { "", "", -1 } },
-            { "B_UAV_01_backpack_F", "", 3500, { "", "", -1 } }
+            { "B_UAV_01_backpack_F", "", 3500, { "", "", -1 } },
+            { "B_ViperLightHarness_blk_F", "", 9000, { "", "", -1 } }
+            
         };
     };
 
@@ -262,10 +266,10 @@ class Clothing {
             { "U_IG_Guerrilla_6_1", "", 5000, {"Guerilla Apparel", "", -1} },
             { "U_O_SpecopsUniform_ocamo", "", 5000, { "Recon Fatigues (Hex)", "", -1 } },
             { "U_O_PilotCoveralls", "", 5000, { "Pilot Coveralls [AAF]", "", -1 } },
-            { "U_O_GhillieSuit", "", 80000, { "Ghillie Suit [AAF]", "", -1 } },
-            { "U_O_FullGhillie_sard", "", 95000, {"Full Ghillie (Semi-Arid) (NATO)", "", -1} },
-            { "U_B_FullGhillie_ard", "", 95000, {"Full Ghillie (Arid) (NATO)", "", -1} },
-            { "U_B_FullGhillie_lsh", "", 95000, {"Full Ghillie (Lush) (NATO)", "", -1} }
+            { "U_O_GhillieSuit", "", 70000, { "Ghillie Suit [AAF]", "", -1 } },
+            { "U_O_FullGhillie_sard", "", 85000, {"Full Ghillie (Semi-Arid) (NATO)", "", -1} },
+            { "U_B_FullGhillie_ard", "", 85000, {"Full Ghillie (Arid) (NATO)", "", -1} },
+            { "U_B_FullGhillie_lsh", "", 85000, {"Full Ghillie (Lush) (NATO)", "", -1} }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -341,7 +345,9 @@ class Clothing {
             { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
-            { "B_Carryall_oli", "", 7500, { "", "", -1 } }
+            { "B_Carryall_oli", "", 7500, { "", "", -1 } },
+            { "B_ViperHarness_khk_F", "", 15000, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 15000, { "", "", -1 } }
         };
     };
 
@@ -441,7 +447,9 @@ class Clothing {
             { "B_Carryall_ocamo", "", 6375, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 6375, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 6375, { "", "", -1 } },
-            { "B_Carryall_oli", "", 6375, { "", "", -1 } }
+            { "B_Carryall_oli", "", 6375, { "", "", -1 } },
+            { "B_ViperHarness_khk_F", "", 11250, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 11250, { "", "", -1 } }
         };
     };
 
@@ -516,7 +524,9 @@ class Clothing {
             { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
-            { "B_Carryall_ocamo", "", 7500, { "", "", -1 } }
+            { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
+            { "B_ViperHarness_khk_F", "", 15000, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 15000, { "", "", -1 } }
         };
     };
 };
