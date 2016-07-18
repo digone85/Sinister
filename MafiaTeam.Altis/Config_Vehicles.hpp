@@ -235,21 +235,21 @@ class LifeCfgVehicles {
     class C_Plane_Civil_01_F {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, 100000, -1 };
+        rentalprice[] = { 100000, -1, -1, -1 };
         textures[] = {};
     };
     
     class C_Scooter_Transport_01_F {
         vItemSpace = 10;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, 7000, -1 };
+        rentalprice[] = { 7000, -1, -1, -1 };
         textures[] = {};
     };
     
     class B_T_VTOL_01_infantry_F {
         vItemSpace = 800;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, 7000, -1 };
+        rentalprice[] = { 7000, -1, -1, -1 };
         textures[] = {};
     };
 
