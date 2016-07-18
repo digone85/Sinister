@@ -56,6 +56,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
+            { "B_T_VTOL_01_infantry_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } }
         };
     };
@@ -237,8 +238,15 @@ class LifeCfgVehicles {
         textures[] = {};
     };
     
-    class C_Scooter_Transport_01_F {
+    class C_Scooter_Transport_01_F {B_T_VTOL_01_infantry_F
         vItemSpace = 10;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        rentalprice[] = { -1, -1, 7000, -1 };
+        textures[] = {};
+    };
+    
+    class B_T_VTOL_01_infantry_F {
+        vItemSpace = 800;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { -1, -1, 7000, -1 };
         textures[] = {};
