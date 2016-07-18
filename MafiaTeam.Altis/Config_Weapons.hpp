@@ -25,7 +25,7 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 30000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
             { "hgun_Pistol_01_F", "", 45000, -1 },
-            { "hgun_P07_khk_F", "", 45000, -1 }, hgun_P07_khk_F
+            { "hgun_P07_khk_F", "", 45000, -1 },
             { "SMG_01_F", "", 60000, -1 },
             { "SMG_02_F", "", 60000, -1 },
             { "SMG_05_F", "", 70000, -1 },
