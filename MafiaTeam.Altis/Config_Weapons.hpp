@@ -411,7 +411,7 @@ class WeaponShops {
             { "arifle_CTAR_blk_F", "", 28000, -1 },
             { "srifle_DMR_07_blk_F", "", 30000, -1 },
             { "arifle_ARX_blk_F", "", 27000, -1 },
-            { "arifle_SPAR_01_blk_F", 25000, 2, -1 }
+            { "arifle_SPAR_01_blk_F", "", 25000, -1 }
             
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 500, -1 },
