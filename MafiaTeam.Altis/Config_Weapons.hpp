@@ -138,6 +138,7 @@ class WeaponShops {
             { "arifle_CTAR_blk_F", "", 2, -1 },
             { "srifle_DMR_07_hex_F", "", 2, -1 },
             { "LMG_03_F", "", 2, -1 },
+            { "arifle_ARX_blk_F", "", 2, -1 },
             { "arifle_SPAR_01_snd_F", "", 2, -1 },
             { "arifle_SPAR_02_snd_F", "", 2, -1 },
             { "arifle_SPAR_03_snd_F", "", 2, -1 }
@@ -160,6 +161,7 @@ class WeaponShops {
             { "10Rnd_338_Mag", "", 3200, -1 },
             { "10Rnd_93x64_DMR_05_Mag", "", 3200, -1 },
             { "10Rnd_50BW_Mag_F", "", 1, -1 },
+            { "30Rnd_65x39_caseless_green", "", 1, -1 },
             { "20Rnd_650x39_Cased_Mag_F", "", 1, -1 },
             { "30Rnd_580x42_Mag_F", "", 1, -1 },
             { "30Rnd_762x39_Mag_F", "", 1, -1 },
