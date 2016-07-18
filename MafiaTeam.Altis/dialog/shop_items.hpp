@@ -3,16 +3,47 @@ class shops_menu {
 	name= "shops_menu";
 	movingEnable = 0;
 	enableSimulation = 1;
-
-class controlsBackground {
-		class RscPicture_1200: life_RscPicture
+	//onLoad = "['guns'] execVM 'gear\switch.sqf'";
+	
+	class controlsBackground {
+		class Life_RscTitleBackground:Life_RscText {
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+			idc = -1;
+			x = 0.1;
+			y = 0.2;
+			w = 0.8;
+			h = (1 / 25);
+		};
+		
+		class MainBackground:Life_RscText {
+			colorBackground[] = {0, 0, 0, 0.7};
+			idc = -1;
+			x = 0.1;
+			y = 0.2 + (11 / 250);
+			w = 0.8;
+			h = 0.6 - (22 / 250);
+		};
+		
+		class vasText : Life_RscText
 		{
-			idc = 1200;
-			text = "icons\phone\Shop.paa";
-			x = 0.288594 * safezoneW + safezoneX;
-			y = 0.203 * safezoneH + safezoneY;
-			w = 0.417656 * safezoneW;
-			h = 0.561 * safezoneH;
+			idc = -1;
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			text = "$STR_VS_SI";
+			sizeEx = 0.04;
+			
+			x = 0.12; y = 0.27;
+			w = 0.350; h = 0.04;
+		};
+		
+		class vasgText : Life_RscText
+		{
+			idc = -1;
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			text = "$STR_VS_PI";
+			sizeEx = 0.04;
+			
+			x = 0.53; y = 0.27;
+			w = 0.350; h = 0.04;
 		};
 	};
 	
@@ -24,10 +55,9 @@ class controlsBackground {
 			text = "";
 			sizeEx = 0.030;
 			//onLBSelChanged = "[] call fnc_selection";
-			x = 0.371094 * safezoneW + safezoneX;
-			y = 0.357 * safezoneH + safezoneY;
-			w = 0.114167 * safezoneW;
-			h = 0.237408 * safezoneH;
+			
+			x = 0.12; y = 0.31;
+			w = 0.350; h = 0.340;
 		};
 		
 		class pItemlist : Life_RscListBox 
@@ -36,20 +66,19 @@ class controlsBackground {
 			text = "";
 			sizeEx = 0.030;
 			//onLBSelChanged = "[2502] execVM 'gear\selection.sqf'";
-			x = 0.511041 * safezoneW + safezoneX;
-			y = 0.361556 * safezoneH + safezoneY;
-			w = 0.112448 * safezoneW;
-			h = 0.232852 * safezoneH;
+			
+			x = 0.53; y = 0.31;
+			w = 0.350; h = 0.340;
 		};
 			
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2403;
 			text = "";
-			x = 0 * safezoneW + safezoneX;
-			y = 0 * safezoneH + safezoneY;
-			w = 0 * safezoneW;
-			h = 0 * safezoneH;
+			x = 0.1;
+			y = 0.2;
+			w = 0.8;
+			h = (1 / 25);
 		};
 
 		class PlayersName : Title {
@@ -57,79 +86,61 @@ class controlsBackground {
 			style = 1;
 			text = "";
 		};
-		class quanityshop: life_RscFrame
-		{
-			idc = 1800;
-			x = 0.416667 * safezoneW + safezoneX;
-			y = 0.605556 * safezoneH + safezoneY;
-			w = 0.069375 * safezoneW;
-			h = 0.0235185 * safezoneH;
-		};
+		
 		class buyEdit : Life_RscEdit 
 		{
 			idc = 2404;
 			
 			text = "1";
 			sizeEx = 0.030;
-			x = 0.416667 * safezoneW + safezoneX;
-			y = 0.605556 * safezoneH + safezoneY;
-			w = 0.069375 * safezoneW;
-			h = 0.0235185 * safezoneH;
+			x = 0.12; y = 0.66;
+			w = 0.35; h = 0.03;
 		};
-	
-		class ButtonAddG : Life_RscButtonMenu
-		{
-			idc = -1;
-			text = "";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] spawn life_fnc_virt_buy;";
-			
-			x = 0.392761 * safezoneW + safezoneX;
-			y = 0.641148 * safezoneH + safezoneY;
-			w = 0.0803125 * safezoneW;
-			h = 0.0272222 * safezoneH;
-		};
-		class inventoryquanty: life_RscFrame
-		{
-			idc = 1801;
-			x = 0.554166 * safezoneW + safezoneX;
-			y = 0.60537 * safezoneH + safezoneY;
-			w = 0.069375 * safezoneW;
-			h = 0.0235185 * safezoneH;
-		};
+		
 		class sellEdit : Life_RscEdit 
 		{
 			idc = 2405;
 			
 			text = "1";
 			sizeEx = 0.030;
-			x = 0.554166 * safezoneW + safezoneX;
-			y = 0.60537 * safezoneH + safezoneY;
-			w = 0.069375 * safezoneW;
-			h = 0.0235185 * safezoneH;
+			x = 0.53; y = 0.66;
+			w = 0.35; h = 0.03;
 		};
+		
+		class ButtonAddG : Life_RscButtonMenu
+		{
+			idc = -1;
+			text = "$STR_VS_BuyItem";
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			onButtonClick = "[] spawn life_fnc_virt_buy;";
+			
+			x = 0.21;
+			y = 0.70;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
 		class ButtonRemoveG : Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "";
+			text = "$STR_VS_SellItem";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_virt_sell";
 			
-			x = 0.531979 * safezoneW + safezoneX;
-			y = 0.641148 * safezoneH + safezoneY;
-			w = 0.0803125 * safezoneW;
-			h = 0.0272222 * safezoneH;
+			x = 0.62;
+			y = 0.70;
+			w = (6.25 / 40);
+			h = (1 / 25);
 		};
 		
 		class ButtonClose : Life_RscButtonMenu {
 			idc = -1;
-			//shortcuts[] = {0x00050000 + 2};
 			text = "$STR_Global_Close";
 			onButtonClick = "closeDialog 0;";
-			x = 0 * safezoneW + safezoneX;
-			y = 0 * safezoneH + safezoneY;
-			w = 0 * safezoneW;
-			h = 0 * safezoneH;
+			x = 0.1;
+			y = 0.8 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
 		};
 	};
 };
