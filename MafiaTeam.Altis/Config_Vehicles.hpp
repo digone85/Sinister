@@ -57,7 +57,6 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
-            { "B_T_VTOL_01_infantry_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } }
         };
     };
