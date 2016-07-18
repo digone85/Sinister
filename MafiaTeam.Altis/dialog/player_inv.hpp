@@ -7,46 +7,52 @@ class playerSettings {
 	enableSimulation = 1;
 	
 	class controlsBackground {
-	
-	class life_RscTitleBackground:life_RscText {
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+		class pictureBackgrod: Life_RscPicture
+		{
 			idc = -1;
-			x = 0.1;
-			y = 0.2;
-			w = 0.8;
-			h = (1 / 25);
+			text = "icons\phone\ztablet.paa";
+			x = 0.185469 * safezoneW + safezoneX;
+			y = 0.165 * safezoneH + safezoneY;
+			w = 0.629062 * safezoneW;
+			//w = 0,7 * safezoneW;
+			//h = 0.759 * safezoneH;
+			h = 0.659 * safezoneH;
 		};
 		
-		class MainBackground:life_RscText {
-			colorBackground[] = {0, 0, 0, 0.7};
+		class life_RscTitleBackgorund: Life_RscText
+		{
 			idc = -1;
-			x = 0.1;
-			y = 0.2 + (11 / 250);
-			w = 0.8;
-			h = 0.6 - (22 / 250);
+			x = 0.298906 * safezoneW + safezoneX;
+			y = 0.236 * safezoneH + safezoneY;
+			w = 0.139219 * safezoneW;
+			h = 0.033 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
 		
-		class Title : life_RscTitle {
-			colorBackground[] = {0, 0, 0, 0};
-			idc = -1;
-			text = "$STR_PM_Title";
-			x = 0.1;
-			y = 0.2;
-			w = 0.8;
-			h = (1 / 25);
+		class Title: Life_RscTitle
+		{
+			idc = 1001;
+			text = "";
+			x = 0.5879 * safezoneW + safezoneX;
+			y = 0.225 * safezoneH + safezoneY;
+			w = 0.134062 * safezoneW;
+			h = 0.033 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
 		
-		class moneyStatusInfo : Life_RscStructuredText
+		class moneyStatusInfo: Life_RscStructuredText
 		{
 			idc = 2015;
-			sizeEx = 0.020;
-			text = "";
-			x = 0.105;
-			y = 0.30;
-			w = 0.3; h = 0.6;
+			x = 0.304062 * safezoneW + safezoneX;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.134062 * safezoneW;
+			h = 0.056 * safezoneH;
+			sizeEx = 0.020 * GUI_GRID_H;
+			colorBackground[] = {0,28,100,18};
 		};
 		
-		class PlayersName : Title {
+		class PlayersName : Title 
+		{
 			idc = carry_weight;
 			style = 1;
 			text = "";
@@ -55,259 +61,624 @@ class playerSettings {
 	
 	class controls {
 		
-		class itemHeader : Life_RscText
+		class itemHeader: Life_RscText
 		{
 			idc = -1;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "$STR_PM_cItems";
-			sizeEx = 0.04;
-			
-			x = 0.62; y = 0.26;
-			w = 0.275; h = 0.04;
+			text = $STR_PM_cItems;
+			x = 0.304062 * safezoneW + safezoneX;
+			y = 0.401 * safezoneH + safezoneY;
+			w = 0.134062 * safezoneW;
+			h = 0.022 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
-		
-		class licenseHeader : Life_RscText
+
+		class licenseHeader: Life_RscText
 		{
 			idc = -1;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "$STR_PM_Licenses";
-			sizeEx = 0.04;
-			
-			x = 0.336; y = 0.26;
-			w = 0.275; h = 0.04;
+			text = $STR_PM_Licenses;
+			x = 0.520625 * safezoneW + safezoneX;
+			y = 0.28 * safezoneH + safezoneY;
+			w = 0.12 * safezoneW;
+			h = 0.022 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
-		
-		class moneySHeader : Life_RscText
+
+		class moneySHeader: Life_RscText
 		{
 			idc = -1;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "$STR_PM_MoneyStats";
-			sizeEx = 0.04;
-			
-			x = 0.11; y = 0.26;
-			w = 0.219; h = 0.04;
+			text = $STR_PM_MoneyStats;
+			x = 0.304062 * safezoneW + safezoneX;
+			y = 0.28 * safezoneH + safezoneY;
+			w = 0.134062 * safezoneW;
+			h = 0.022 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
 	
-		class itemList : life_RscListBox 
+		class itemList: Life_RscListbox
 		{
 			idc = item_list;
 			sizeEx = 0.030;
-			
-			x = 0.62; y = 0.30;
-			w = 0.275; h = 0.3;
+			x = 0.304062 * safezoneW + safezoneX;
+			y = 0.434 * safezoneH + safezoneY;
+			w = 0.134062 * safezoneW;
+			h = 0.22 * safezoneH;
+			colorBackground[] = {0,28,100,18};
 		};
-		
-		class moneyEdit : Life_RscEdit 
+
+		class moneyEdit: Life_RscEdit
 		{
 			idc = 2018;
-			
-			text = "1";
-			sizeEx = 0.030;
-			x = 0.12; y = 0.42;
-			w = 0.18; h = 0.03;
+			text = "1"; //--- ToDo: Localize;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.061875 * safezoneW;
+			h = 0.022 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
 		};
 		
-		class NearPlayers : Life_RscCombo 
+		class NearPlayers: Life_RscCombo
 		{
 			idc = 2022;
-		
-			x = 0.12; y = 0.46;
-			w = 0.18; h = 0.03;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.061875 * safezoneW;
+			h = 0.022 * safezoneH;
 		};
 		
-		class moneyDrop : Life_RscButtonMenu
+		class moneyDrop: Life_RscButtonMenu
 		{
 			idc = 2001;
-			text = "$STR_Global_Give";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call life_fnc_giveMoney";
-			sizeEx = 0.025;
-			x = 0.135; y = 0.50;
-			w = 0.13; h = 0.036;
+			onButtonClick = "[] call life_fnc_giveMoney;";
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.379 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Dar";
+		};	
+	
+		class itemEdit: Life_RscEdit
+		{
+			idc = item_edit;
+			text = "1"; //--- ToDo: Localize;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.434 * safezoneH + safezoneY;
+			w = 0.061875 * safezoneW;
+			h = 0.022 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
 		};
-		
-		class itemEdit : Life_RscEdit {
-		
-		idc = item_edit;
-		
-		text = "1";
-		sizeEx = 0.030;
-		x = 0.62; y = 0.61;
-		w = 0.275; h = 0.03;
-		
-		};
-		class iNearPlayers : Life_RscCombo
+
+		class iNearPlayers: Life_RscCombo
 		{
 			idc = 2023;
-			
-			x = 0.62; y = 0.65;
-			w = 0.275; h = 0.03;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.467 * safezoneH + safezoneY;
+			w = 0.061875 * safezoneW;
+			h = 0.022 * safezoneH;
 		};
-		/*
-		Disabled till it can be redone
-		class moneyInput: life_RscCombo {
-			
-			idc = money_value;
-			
-			x  = 0.02; y = 0.402;
-			w = .1; h = .030;
-		};
-		*/
-		
-		class DropButton : life_RscButtonMenu {
-			
-			idc = 2002;
-			text = "$STR_Global_Give";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call life_fnc_giveItem;";
-			
-			x = 0.765;
-			y = 0.70;
-			w = (5.25 / 40);
-			h = (1 / 25);
-			
-		};
-		
-		class UseButton : life_RscButtonMenu {
-			
-			text = "$STR_Global_Use";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call life_fnc_useItem;";
-			
-			x = 0.62;
-			y = 0.70;
-			w = (5.25 / 40);
-			h = (1 / 25);
-			
-		};
-		
-		class RemoveButton : life_RscButtonMenu {
-			
-			text = "$STR_Global_Remove";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call life_fnc_removeItem;";
-			
-			x = 0.475;
-			y = 0.70;
-			w = (5.25 / 40);
-			h = (1 / 25);
-			
-		};
-		/*
-		Disabled till it can be redone
-		class DropcButton : life_RscButtonMenu {
 
-			text = "Drop Money";
-			onButtonClick = "[] execVM 'player_system\money_fnc.sqf'";
-			
-			x = 0.13; y = 0.4;
-			w = 0.135; h = 0.05;
-			
+		
+		//////////////// ICONS START /////////////////////////
+		class ButtonSyncData_icon: Life_RscPicture
+		{
+			idc = 1201;
+			text = "icons\phone\save.paa";
+			x = 0.3708 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+
+		class ButtonKeys_icon: Life_RscPicture
+		{
+			idc = 1202;
+			text = "icons\phone\key.paa";
+			x = 0.4808 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+
+		class ButtonSettings_icon: Life_RscPicture
+		{
+			idc = 1204;
+			text = "icons\phone\settings.paa";
+			x = 0.4258 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+
+		class ButtonCell_icon: Life_RscPicture
+		{
+			idc = 1206;
+			text = "icons\phone\smartphone.paa";
+			x = 0.5908 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class ButtonWantedList_icon: Life_RscPicture
+		{
+			idc = 20121;
+			text = "icons\phone\flist.paa";
+			x = 0.5358 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		/*
+		class ButtonMarkt_icon: Life_RscPicture
+		{
+			idc = 20213;
+			text = "icons\phone\markt.paa";
+			x = 0.5775 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};*/
+		class ButtonMyGang_icon: Life_RscPicture
+		{
+			idc = 20111;
+			text = "icons\phone\gang.paa";
+			x = 0.5358 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		
+		/*class ButtonCraftList_icon: Life_RscPicture
+		{
+			idc = 20251;
+			text = "icons\phone\craft.paa";
+			x = 0.5275 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+		};*/
+		
+		/*
+		class ButtonWantedAdd_icon: Life_RscPicture
+		{
+			idc = 98001;
+			text = "icons\phone\wadd.paa";
+			x = 0.6458 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
 		};
 		*/
-		
-		class ButtonClose : life_RscButtonMenu {
-			idc = -1;
-			//shortcuts[] = {0x00050000 + 2};
-			text = "$STR_Global_Close";
-			onButtonClick = "closeDialog 0;";
-			x = 0.1;
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
+		class ButtonAdminMenu_icon: Life_RscPicture
+		{
+			idc = 20211;
+			text = "icons\phone\admin.paa";
+			x = 0.3158 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
 		};
 		
-		class ButtonSettings : life_RscButtonMenu {
-			idc = -1;
-			text = "$STR_Global_Settings";
-			onButtonClick = "[] call life_fnc_settingsMenu;";
-			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
-		
-		class ButtonMyGang : Life_RscButtonMenu {
-			idc = 2011;
-			text = "$STR_PM_MyGang";
-			onButtonClick = "if(isNil ""life_action_gangInUse"") then {if(isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
-			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
-		
-		class Licenses_Menu : Life_RscControlsGroup
+		class UseButton_icon: Life_RscPicture
 		{
 			idc = -1;
-			w = 0.28;
-			h = 0.38;
-			x = 0.34;
-			y = 0.30;
-			
-			class Controls
+			text = "icons\phone\use.paa";
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.5 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
+
+		class DropButton_icon: Life_RscPicture
+		{
+			idc = -1;
+			text = "icons\phone\give.paa";
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.5 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
+
+		class RemoveButton_icon: Life_RscPicture
+		{
+			idc = -1;
+			text = "icons\phone\deleteGang.paa";
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.555 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
+
+		class moneyDrop_icon: Life_RscPicture
+		{
+			idc = -1;
+			text = "icons\phone\give.paa";
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.379 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			tooltip = "Dar";
+		};
+		
+		class RefreshI_icon: Life_RscPicture
+		{
+			idc = -1;
+			text = "icons\phone\refresh.paa";
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.555 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
+
+		class RefreshM_icon: Life_RscPicture
+		{
+			idc = -1;
+			text = "icons\phone\refresh.paa";
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.379 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
+
+		///////////// ICONS  ENDE ///////////////////////////
+		class DropButton: Life_RscButtonMenu
+		{
+			idc = 2002;
+			onButtonClick = "[] call life_fnc_giveItem;";
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.5 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Dar";
+		};
+
+		class UseButton: Life_RscButtonMenu
+		{
+			onButtonClick = "closeDialog 0; [] call life_fnc_useItem;";
+			idc = 2402;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.5 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Usar";
+		};
+
+		class RemoveButton: Life_RscButtonMenu
+		{
+			onButtonClick = "[] call life_fnc_removeItem;";
+			idc = 2403;
+			x = 0.448438 * safezoneW + safezoneX;
+			y = 0.555 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Descartar";
+		};
+		
+		
+		
+		
+		class RefreshIButton: Life_RscButtonMenu
+		{
+			onButtonClick = "[1] call life_fnc_refreshNear;";
+			idc = 2403;
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.555 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Atualizar";
+		};
+		
+		class RefreshMButton: Life_RscButtonMenu
+		{
+			onButtonClick = "[1] call life_fnc_refreshNear;";
+			idc = 2403;
+			x = 0.4845313 * safezoneW + safezoneX;
+			y = 0.379 * safezoneH + safezoneY;
+			w = 0.0257812 * safezoneW;
+			h = 0.044 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Atualizar";
+		};
+
+		class ButtonClose: Life_RscButtonMenu
+		{
+			idc = -1;
+			onButtonClick = "closeDialog 0;";
+			text = " "; //--- ToDo: Localize;
+			/*
+			x = 0.484531 * safezoneW + safezoneX;
+			y = 0.786 * safezoneH + safezoneY;
+			w = 0.0309375 * safezoneW;
+			h = 0.055 * safezoneH;
+			*/
+			x = (38.53/52) * safezoneW + safezoneX;
+			y = (6.5/30) * safezoneH + safezoneY;
+			w = 0.048 * safezoneW;
+			h = (17/30) * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Encerrar";
+		};
+
+		class ButtonSettings: Life_RscButtonMenu
+		{
+			idc = -1;
+			onButtonClick = "[] call life_fnc_settingsMenu;";
+			// colorBackgroundFocused[] = {0,0,0,0};
+			x = 0.4258 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Configurações";
+		};
+
+		class ButtonCell: Life_RscButtonMenu
+		{
+			idc = 20144;
+			onButtonClick = "createDialog ""Life_cell_phone"";";
+			x = 0.5908 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Smartphone";
+		};
+
+		class Licenses_menu: Life_RscControlsGroup
+		{
+			idc = -1;
+			x = 0.520625 * safezoneW + safezoneX;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.12 * safezoneW;
+			h = 0.33 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			class controls
 			{
-				class Life_Licenses : Life_RscStructuredText
+				class Life_Licenses: Life_RscStructuredText
 				{
 					idc = 2014;
-					sizeEx = 0.020;
-					text = "";
-					x = 0;
-					y = 0;
-					w = 0.27; h = 0.65;
+					x = -2.45869e-008 * safezoneW;
+					y = 8.19564e-009 * safezoneH;
+					w = 0.12 * safezoneW;
+					h = 0.33 * safezoneH;
+					colorBackground[] = {0,28,100,18};					
 				};
 			};
 		};
 		
-		class ButtonGangList : Life_RscButtonMenu {
-			idc = 2012;
-			text = "$STR_PM_WantedList";
-			onButtonClick = "[] call life_fnc_wantedMenu";
-			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
+		class ButtonMyGang: Life_RscButtonMenu
+		{
+			idc = 2011;
+			onButtonClick = "if(isNil ""life_action_gangInUse"") then {if(isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
+			x = 0.5358 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Gangue";
 		};
-	
-		class ButtonKeys : Life_RscButtonMenu {
+		/*
+		class ButtonCraftList: Life_RscButtonMenu
+		{
+			idc = 2025;
+			onButtonClick = "createDialog ""life_craft"";";
+			x = 0.5275 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {-1,-1,-1,-1};
+			colorBackground2[] = {-1,-1,-1,-1};
+			color[] = {-1,-1,-1,-1};
+			colorFocused[] = {-1,-1,-1,-1};
+			color2[] = {-1,-1,-1,-1};
+			colorText[] = {-1,-1,-1,-1};
+			colorDisabled[] = {-1,-1,-1,-1};
+			tooltip = "Bau Menü";
+		};
+		*/
+		class ButtonKeys: Life_RscButtonMenu
+		{
 			idc = 2013;
-			text = "$STR_PM_KeyChain";
 			onButtonClick = "createDialog ""Life_key_management"";";
-			x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
+			x = 0.4808 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Chaves";
+		};
+		class ButtonWantedList: Life_RscButtonMenu
+		{
+			idc = 2012;
+			onButtonClick = "[] spawn life_fnc_wantedMenu";
+			x = 0.5358 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Procurados";
 		};
 		
-		class ButtonCell : Life_RscButtonMenu {
-			idc = 2014;
-			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
-			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
-		
-		class ButtonAdminMenu : Life_RscButtonMenu {
+		class ButtonAdminMenu: Life_RscButtonMenu
+		{
 			idc = 2021;
-			text = "$STR_PM_AdminMenu";
 			onButtonClick = "createDialog ""life_admin_menu"";";
-			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.805;
-			w = (6.25 / 40);
-			h = (1 / 25);
+			x = 0.3158 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Admin";
 		};
 		
-		class ButtonSyncData : life_RscButtonMenu {
+		class ButtonSyncData: Life_RscButtonMenu
+		{
 			idc = -1;
-			//shortcuts[] = {0x00050000 + 2};
-			text = "$STR_PM_SyncData";
-			onButtonClick = "[] call SOCK_fnc_syncData;";
-			x = 0.1;
+			onButtonClick = "[] call SOCK_fnc_syncData; [] call life_fnc_clothing;";
+			x = 0.3708 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {0,28,100,18};
+			colorBackgroundFocused[] = {0,28,100,18};
+			colorBackground2[] = {0,28,100,18};
+			color[] = {0,28,100,18};
+			colorFocused[] = {0,28,100,18};
+			color2[] = {0,28,100,18};
+			colorText[] = {0,28,100,18};
+			colorDisabled[] = {0,28,100,18};
+			tooltip = "Sincronizar";
+		};
+		/*
+		class ButtonMarkt: Life_RscButtonMenu
+		{
+			idc = 201213;
+			onButtonClick = "createDialog ""life_dynmarket_prices"";";
+			x = 0.5775 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {-1,-1,-1,-1};
+			colorBackground2[] = {-1,-1,-1,-1};
+			color[] = {-1,-1,-1,-1};
+			colorFocused[] = {-1,-1,-1,-1};
+			color2[] = {-1,-1,-1,-1};
+			colorText[] = {-1,-1,-1,-1};
+			colorDisabled[] = {-1,-1,-1,-1};
+			tooltip = "Wirtschaft Preislisten";
+		};
+		*/
+		/*
+		class ButtonFinances2 : Life_RscButtonMenu {
+			idc = 5024;
+			text = "Notice";
+			onButtonClick = "[] spawn life_fnc_openNotice;";
+			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.805;
 			w = (6.25 / 40);
 			h = (1 / 25);
+		};*/
+		
+		/*
+		class ButtonWantedAdd: Life_RscButtonMenu
+		{
+			idc = 9800;
+			onButtonClick = "createDialog ""life_wantedadd2"";";
+			x = 0.6458 * safezoneW + safezoneX;
+			y = 0.687 * safezoneH + safezoneY;
+			w = 0.04125 * safezoneW;
+			h = 0.066 * safezoneH;
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {-1,-1,-1,-1};
+			colorBackground2[] = {-1,-1,-1,-1};
+			color[] = {-1,-1,-1,-1};
+			colorFocused[] = {-1,-1,-1,-1};
+			color2[] = {-1,-1,-1,-1};
+			colorText[] = {-1,-1,-1,-1};
+			colorDisabled[] = {-1,-1,-1,-1};
+			tooltip = "Wanted Add";
 		};
+		*/
+////////////////////////////////////////////	
 	};
 };
