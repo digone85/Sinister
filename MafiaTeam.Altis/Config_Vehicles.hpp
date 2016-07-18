@@ -21,6 +21,7 @@ class CarShops {
             { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
         };
     };
