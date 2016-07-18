@@ -169,8 +169,8 @@ class WeaponShops {
             { "10Rnd_338_Mag", "", 1, -1 },
             { "10Rnd_338_Mag", "", 1, -1 },
             { "10Rnd_338_Mag", "", 1, -1 }
-            
         };
+        
         accs[] = {
             { "optic_ACO_grn", "", 5000, -1 },
             { "optic_Holosight", "", 7500, -1 },
