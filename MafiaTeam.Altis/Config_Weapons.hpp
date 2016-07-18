@@ -24,8 +24,10 @@ class WeaponShops {
         items[] = {
             { "hgun_Rook40_F", "", 30000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 40000, -1 },
-            { "SMG_01_F", "", 70000, -1 },
-            { "SMG_02_F", "", 70000, -1 },
+            { "hgun_Pistol_01_F", "", 45000, -1 },
+            { "SMG_01_F", "", 60000, -1 },
+            { "SMG_02_F", "", 60000, -1 },
+            { "SMG_05_F", "", 70000, -1 },
 	    { "hgun_PDW2000_F", "", 60000, -1 }
         };
         mags[] = {
@@ -128,8 +130,19 @@ class WeaponShops {
             { "srifle_DMR_04_F", "", 191000, -1 },
             { "LMG_Zafir_F", "", 274000, -1 },
             { "srifle_DMR_02_camo_F", "", 446000, -1 },
-            { "srifle_DMR_05_hex_F", "", 510000, -1 }
+            { "srifle_DMR_05_hex_F", "", 510000, -1 },
+            { "arifle_AKS_F", "", 2, -1 },
+            { "arifle_AKM_F", "", 2, -1 },
+            { "arifle_AK12_F", "", 2, -1 },
+            { "arifle_SDAR_F", "", 2, -1 },
+            { "arifle_CTAR_blk_F", "", 2, -1 },
+            { "srifle_DMR_07_hex_F", "", 2, -1 },
+            { "LMG_03_F", "", 2, -1 },
+            { "arifle_SPAR_01_snd_F", "", 2, -1 },
+            { "arifle_SPAR_02_snd_F", "", 2, -1 },
+            { "arifle_SPAR_03_snd_F", "", 2, -1 }
         };
+        
         mags[] = {
             { "16Rnd_9x21_Mag", "", 200, -1 },
             { "30Rnd_9x21_Mag", "", 200, -1 },
@@ -146,6 +159,17 @@ class WeaponShops {
             { "150Rnd_762x54_Box", "", 3000, -1 },
             { "10Rnd_338_Mag", "", 3200, -1 },
             { "10Rnd_93x64_DMR_05_Mag", "", 3200, -1 }
+            { "10Rnd_50BW_Mag_F", "", 1, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "", 1, -1 },
+            { "30Rnd_580x42_Mag_F", "", 1, -1 },
+            { "30Rnd_762x39_Mag_F", "", 1, -1 },
+            { "20Rnd_556x45_UW_mag", "", 1, -1 },
+            { "30Rnd_545x39_Mag_F", "", 1, -1 },
+            { "10Rnd_338_Mag", "", 1, -1 },
+            { "10Rnd_338_Mag", "", 1, -1 },
+            { "10Rnd_338_Mag", "", 1, -1 },
+            { "10Rnd_338_Mag", "", 1, -1 },
+            
         };
         accs[] = {
             { "optic_ACO_grn", "", 5000, -1 },
