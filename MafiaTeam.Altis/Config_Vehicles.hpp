@@ -343,6 +343,27 @@ class LifeCfgVehicles {
         rentalprice[] = { 475000, -1, -1, -1 };
         textures[] = { };
     };
+    
+     class O_T_LSV_02_unarmed_F {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        rentalprice[] = { 50000, -1, -1, -1 };
+        textures[] = { };
+    };
+    
+    class B_T_LSV_01_unarmed_F {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        rentalprice[] = { 60000, -1, -1, -1 };
+        textures[] = { };
+    };
+    
+    class C_Offroad_02_unarmed_F {
+        vItemSpace = 65;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        rentalprice[] = { 40000, -1, -1, -1 };
+        textures[] = { };
+    };
 
     class B_Truck_01_transport_F {
         vItemSpace = 325;
