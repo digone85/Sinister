@@ -373,14 +373,14 @@ class LifeCfgVehicles {
      class O_T_LSV_02_unarmed_F {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 50000, -1, -1, -1 };
+        rentalprice[] = { 50000, 35000, -1, -1 };
         textures[] = { };
     };
     
     class B_T_LSV_01_unarmed_F {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 60000, -1, -1, -1 };
+        rentalprice[] = { 60000, 40000, -1, -1 };
         textures[] = { };
     };
     
