@@ -138,9 +138,9 @@ class WeaponShops {
             { "arifle_CTAR_blk_F", "", 160000, -1 },
             { "srifle_DMR_07_hex_F", "", 230000, -1 },
             { "arifle_ARX_hex_F", "", 205000, -1 },
-            { "arifle_SPAR_01_snd_F", 180000, 2, -1 },
+            { "arifle_SPAR_01_snd_F", "", 180000, -1 },
             { "arifle_SPAR_02_snd_F", "", 210500, -1 },
-            { "arifle_SPAR_03_snd_F", 270000, 2, -1 }
+            { "arifle_SPAR_03_snd_F", "", 270000, -1 }
         };
         
         mags[] = {
@@ -453,6 +453,7 @@ class WeaponShops {
             { "30Rnd_762x39_Mag_F", "", 150, -1 },
             { "20Rnd_556x45_UW_mag", "", 150, -1 },
             { "30Rnd_545x39_Mag_F", "", 150, -1 },
+            { "30Rnd_556x45_Stanag", "", 150, -1 },
             { "150Rnd_556x45_Drum_Mag_F", "", 150, -1 }
         };
         accs[] = {
