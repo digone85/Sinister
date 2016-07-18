@@ -55,6 +55,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } }
         };
     };
@@ -63,6 +64,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Rubberboat", { "", "", -1 } },
+            { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } }
         };
     };
@@ -80,6 +82,7 @@ class CarShops {
 	    //Helis
 	    
 	    { "B_Heli_Light_01_F", { "", "", -1 } },
+	    { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
         };
     };
@@ -108,6 +111,7 @@ class reb_car1 {
 			//Helis
             
             { "B_Heli_Light_01_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
         };
     };
@@ -223,6 +227,20 @@ class LifeCfgVehicles {
         vItemSpace = 250;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { -1, -1, 60000, -1 };
+        textures[] = {};
+    };
+    
+    class C_Plane_Civil_01_F {
+        vItemSpace = 80;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        rentalprice[] = { -1, -1, 100000, -1 };
+        textures[] = {};
+    };
+    
+    class C_Scooter_Transport_01_F {
+        vItemSpace = 10;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        rentalprice[] = { -1, -1, 7000, -1 };
         textures[] = {};
     };
 
