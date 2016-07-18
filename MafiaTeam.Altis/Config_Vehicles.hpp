@@ -239,7 +239,7 @@ class LifeCfgVehicles {
         textures[] = {};
     };
     
-    class C_Scooter_Transport_01_F {B_T_VTOL_01_infantry_F
+    class C_Scooter_Transport_01_F {
         vItemSpace = 10;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { -1, -1, 7000, -1 };
