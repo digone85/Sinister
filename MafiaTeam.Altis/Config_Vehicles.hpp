@@ -18,6 +18,7 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
@@ -73,6 +74,7 @@ class CarShops {
             { "C_Hatchback_01_sport_F", { "", "", -1 } },            
             { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
 	    { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
+	    { "C_Offroad_02_unarmed_F", { "", "", -1 } },
 	    { "I_MRAP_03_F",{ "", "strider_verde", -1 } },
 	    
 	    //Helis
@@ -89,6 +91,10 @@ class reb_car1 {
             { "C_Hatchback_01_sport_F", { "", "", -1 } },            
             { "B_G_Offroad_01_F", { "", "Civ_offroad_reb", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "Civ_offroad_reb", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
+            { "B_T_LSV_01_unarmed_F", { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
+            
              
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
@@ -128,6 +134,8 @@ class reb_car1 {
             { "C_SUV_01_F", { "", "SuvPM", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "HatchPM", -1 } },
             { "I_MRAP_03_F", { "life_coplevel", "", -1 } },
+            { "B_T_LSV_01_unarmed_F", { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "OffroadPM", -1 } }
         };
     };
