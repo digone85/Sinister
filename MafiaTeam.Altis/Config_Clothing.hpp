@@ -89,8 +89,10 @@ class Clothing {
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
-            { "B_ViperHarness_oli_F", "", 15000, { "", "", -1 } },
-            { "B_ViperHarness_hex_F", "", 15000, { "", "", -1 } }
+            { "B_ViperHarness_oli_F", "", 10000, { "", "", -1 } },
+            { "B_ViperHarness_hex_F", "", 10000, { "", "", -1 } },
+            { "B_Bergen_tna_F", "", 15000, { "", "", -1 } },
+            { "B_Bergen_hex_F", "", 15000, { "", "", -1 } }
         };
     };
 
@@ -346,8 +348,10 @@ class Clothing {
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
-            { "B_ViperHarness_khk_F", "", 15000, { "", "", -1 } },
-            { "B_ViperHarness_ghex_F", "", 15000, { "", "", -1 } }
+            { "B_ViperHarness_khk_F", "", 10000, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 10000, { "", "", -1 } },
+            { "B_Bergen_mcamo_F", "", 15000, { "", "", -1 } },
+            { "B_Bergen_dgtl_F", "", 15000, { "", "", -1 } }
         };
     };
 
@@ -448,8 +452,10 @@ class Clothing {
             { "B_Carryall_oucamo", "", 6375, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 6375, { "", "", -1 } },
             { "B_Carryall_oli", "", 6375, { "", "", -1 } },
-            { "B_ViperHarness_khk_F", "", 11250, { "", "", -1 } },
-            { "B_ViperHarness_ghex_F", "", 11250, { "", "", -1 } }
+            { "B_ViperHarness_khk_F", "", 9250, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 9250, { "", "", -1 } },
+            { "B_Bergen_mcamo_F", "", 13500, { "", "", -1 } },
+            { "B_Bergen_dgtl_F", "", 13500, { "", "", -1 } }
         };
     };
 
@@ -525,8 +531,10 @@ class Clothing {
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
-            { "B_ViperHarness_khk_F", "", 15000, { "", "", -1 } },
-            { "B_ViperHarness_ghex_F", "", 15000, { "", "", -1 } }
+            { "B_ViperHarness_khk_F", "", 10000, { "", "", -1 } },
+            { "B_ViperHarness_ghex_F", "", 10000, { "", "", -1 } },
+            { "B_Bergen_mcamo_F", "", 15000, { "", "", -1 } },
+            { "B_Bergen_dgtl_F", "", 15000, { "", "", -1 } }
         };
     };
 };
