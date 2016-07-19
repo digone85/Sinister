@@ -374,6 +374,7 @@ class Life_Client_Core
 		class placestorageBig {};
 		class placestorageSmall {};
 		class placedefinestorage {};
+		class zipTieSound {};
 	};
 
 	class Dialog_Controls
