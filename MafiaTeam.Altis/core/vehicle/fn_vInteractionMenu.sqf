@@ -81,11 +81,12 @@ _Btn1 ctrlEnable false;
 
 };
 
-if(playerSide == west) then {
-
  _Btn2 ctrlSetText localize "STR_vInAct_FlipAction";
  
  _Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipAction;closeDialog 0;";
+
+if(playerSide == west) then {
+
  
  _Btn3 ctrlSetText localize "STR_vInAct_Registration";
  
@@ -111,8 +112,7 @@ if(playerSide == west) then {
  _Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;closeDialog 0;";
     
     } else {
-
-    _Btn2 ctrlShow false;
+    
 
     _Btn3 ctrlShow false;
 
