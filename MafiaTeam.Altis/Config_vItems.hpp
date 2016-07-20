@@ -29,7 +29,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "ziptie", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
     
     class mercado_negroM {
@@ -37,7 +37,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "ziptie", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
     class gang {
