@@ -490,7 +490,7 @@ class WeaponShops {
             { "arifle_AK12_F", "", 40000, -1 },
             { "srifle_DMR_07_blk_F", "", 30000, -1 },
             { "srifle_EBR_F", "", 45000, -1 },
-            { "srifle_DMR_02_camo_F", "", 60000, -1 },
+            { "srifle_DMR_02_blk_F", "", 60000, -1 },
 
             
             { "Binocular", "", 150, -1 },
