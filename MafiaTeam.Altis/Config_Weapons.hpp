@@ -133,7 +133,7 @@ class WeaponShops {
             { "srifle_EBR_F", "", 216750, -1 },
             { "srifle_DMR_03_woodland_F", "", 223500, -1 },
             { "srifle_DMR_06_camo_F", "", 255000, -1 },
-            { "srifle_DMR_02_camo_F", "", 446000, -1 },
+            { "srifle_DMR_02_camo_F", "", 550000, -1 },
             { "arifle_AKS_F", "", 195000, -1 },
             { "arifle_AKM_F", "", 225000, -1 },
             { "arifle_AK12_F", "", 260000, -1 },
@@ -490,6 +490,8 @@ class WeaponShops {
             { "arifle_AK12_F", "", 40000, -1 },
             { "srifle_DMR_07_blk_F", "", 30000, -1 },
             { "srifle_EBR_F", "", 45000, -1 },
+            { "srifle_DMR_02_camo_F", "", 60000, -1 },
+
             
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 500, -1 },
